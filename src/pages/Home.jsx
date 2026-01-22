@@ -7,12 +7,12 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <div className="hero-text">
-              <h1>Muhammad Sobri Maulana</h1>
+            <div className="hero-text animate-fadeInLeft">
+              <h1 className="animate-glowText">Muhammad Sobri Maulana</h1>
               <h2 className="hero-subtitle">
                 Dokter Berdedikasi untuk Menjadi Spesialis Onkologi Radiasi yang Membawa Dampak bagi Indonesia
               </h2>
-              <p className="hero-description">
+              <p className="hero-description animate-fadeInUp">
                 Saya Muhammad Sobri Maulana, seorang dokter umum dengan dedikasi mendalam terhadap pelayanan kanker di Indonesia. 
                 Dengan pengalaman [X TAHUN] dalam pelayanan medis di [NAMA RUMAH SAKIT/LOKASI], saya berkomitmen untuk 
                 melanjutkan pendidikan Spesialis Onkologi Radiasi melalui beasiswa LPDP.
@@ -22,7 +22,7 @@ function Home() {
                 Kanker adalah masalah kesehatan global yang membutuhkan SDM berkualitas dan akses terapi yang merata. 
                 Saya siap menjadi bagian dari solusi tersebut.
               </p>
-              <div className="hero-cta">
+              <div className="hero-cta animate-stagger">
                 <Link to="/lpdp-package" className="btn btn-primary">
                   Lihat LPDP Package
                 </Link>
@@ -31,8 +31,8 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="hero-image">
-              <div className="profile-placeholder">
+            <div className="hero-image animate-fadeInRight">
+              <div className="profile-placeholder animate-pulseShadow">
                 <div className="profile-icon">👨‍⚕️</div>
                 <p className="image-note">
                   *Ganti dengan foto profesional Anda<br/>
@@ -46,20 +46,20 @@ function Home() {
 
       <section className="section quick-stats">
         <div className="container">
-          <div className="stats-grid">
-            <div className="stat-card">
+          <div className="stats-grid animate-stagger">
+            <div className="stat-card animate-scaleIn">
               <div className="stat-number">[X]</div>
               <div className="stat-label">Tahun Pengalaman</div>
             </div>
-            <div className="stat-card">
+            <div className="stat-card animate-scaleIn">
               <div className="stat-number">[X]</div>
               <div className="stat-label">Publikasi Ilmiah</div>
             </div>
-            <div className="stat-card">
+            <div className="stat-card animate-scaleIn">
               <div className="stat-number">[X]</div>
               <div className="stat-label">Sertifikat Pelatihan</div>
             </div>
-            <div className="stat-card">
+            <div className="stat-card animate-scaleIn">
               <div className="stat-number">[X]</div>
               <div className="stat-label">Proyek Kesehatan</div>
             </div>

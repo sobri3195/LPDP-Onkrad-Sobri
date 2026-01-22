@@ -1,0 +1,59 @@
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  animation: logoPulse 3s ease-in-out infinite;
+}
+
+.logo svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  transition: transform 0.3s ease;
+}
+
+.logo:hover svg {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.logo-circle {
+  animation: breathingGlow 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes logoPulse {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(1.05) translateY(-2px);
+  }
+}
+
+@keyframes breathingGlow {
+  0%, 100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  50% {
+    opacity: 0.9;
+    filter: brightness(1.05);
+  }
+}
+
+@keyframes rotateEmblem {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.75rem;
+  }
+}

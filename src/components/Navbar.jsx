@@ -1,10 +1,21 @@
 import { Link, useLocation } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './Navbar.css'
+import Logo from './Logo'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const navLinks = [
     { path: '/', label: 'Home' },
@@ -17,15 +28,18 @@ function Navbar() {
   ]
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
-        <Link to="/" className="navbar-brand">
-          <h3>Muhammad Sobri Maulana</h3>
-          <span className="navbar-subtitle">dr. | Kandidat Sp.Onk.Rad</span>
+        <Link to="/" className="navbar-brand animate-fadeInDown">
+          <Logo />
+          <div className="brand-text">
+            <h3>Muhammad Sobri Maulana</h3>
+            <span className="navbar-subtitle">dr. | Kandidat Sp.Onk.Rad</span>
+          </div>
         </Link>
 
         <button 
-          className="navbar-toggle"
+          className={`navbar-toggle ${isMenuOpen ? 'open' : ''}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
@@ -34,12 +48,12 @@ function Navbar() {
           <span></span>
         </button>
 
-        <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
-          {navLinks.map((link) => (
-            <li key={link.path}>
+        <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''} animate-stagger`}>
+          {navLinks.map((link, index) => (
+            <li key={link.path} className="animate-fadeInUp">
               <Link 
                 to={link.path}
-                className={location.pathname === link.path ? 'active' : ''}
+                className={`smooth-transition ${location.pathname === link.path ? 'active' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
