@@ -1,0 +1,19 @@
+[
+  {
+    "title": "[NAMA PROYEK KESEHATAN]",
+    "category": "health",
+    "period": "[TAHUN/PERIODE]",
+    "description": "Deskripsi proyek: tujuan, aktivitas, target populasi, dan dampak yang dicapai.",
+    "tags": ["[Tag 1]", "[Tag 2]"],
+    "icon": "🏥"
+  },
+  {
+    "title": "[NAMA INOVASI/TEKNOLOGI]",
+    "category": "innovation",
+    "period": "[TAHUN]",
+    "description": "Deskripsi inovasi: masalah yang diselesaikan, teknologi/tools yang digunakan, dan dampak.",
+    "tags": ["[Teknologi]", "[Platform]"],
+    "icon": "💡",
+    "link": "[URL bila ada]"
+  }
+]
