@@ -1,0 +1,25 @@
+[
+  {
+    "year": "[TAHUN MULAI] - Present",
+    "title": "Dokter Umum",
+    "subtitle": "[NAMA RUMAH SAKIT/PUSKESMAS], [KOTA]",
+    "description": "Memberikan pelayanan medis komprehensif kepada pasien dengan berbagai kondisi kesehatan.",
+    "highlights": [
+      "Pelayanan rawat jalan dan rawat inap",
+      "Penanganan kegawatdaruratan",
+      "Kolaborasi dengan tim multidisiplin",
+      "Pengalaman menangani [X] pasien per bulan"
+    ]
+  },
+  {
+    "year": "[TAHUN]",
+    "title": "Dokter Internship",
+    "subtitle": "[NAMA RUMAH SAKIT], [KOTA]",
+    "description": "Program internship dokter dengan rotasi di berbagai departemen untuk mengasah keterampilan klinis.",
+    "highlights": [
+      "Rotasi: [DEPARTEMEN-DEPARTEMEN yang dilalui]",
+      "Penanganan pasien under supervision",
+      "Pembelajaran protokol klinis rumah sakit"
+    ]
+  }
+]

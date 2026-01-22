@@ -1,0 +1,11 @@
+[
+  {
+    "title": "[JUDUL PUBLIKASI]",
+    "journal": "[NAMA JURNAL]",
+    "year": "[TAHUN]",
+    "description": "Ringkasan singkat publikasi: tujuan riset, metodologi, dan hasil utama.",
+    "tags": ["[Topik 1]", "[Topik 2]", "[Metodologi]"],
+    "doi": "https://doi.org/[DOI_NUMBER]",
+    "status": "Published"
+  }
+]

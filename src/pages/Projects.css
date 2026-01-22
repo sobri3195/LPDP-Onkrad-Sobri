@@ -1,0 +1,150 @@
+.projects-intro {
+  background: linear-gradient(135deg, #1e3a8a 0%, #0891b2 100%);
+  color: white;
+  padding: 4rem 0 3rem;
+}
+
+.projects-intro .section-title h1 {
+  color: white;
+}
+
+.projects-intro .section-title p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.1rem;
+}
+
+.projects-list {
+  background: var(--bg-light);
+}
+
+.projects-list h2 {
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.innovation-section {
+  background: white;
+}
+
+.innovation-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.placeholder-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.placeholder-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.project-period {
+  color: var(--secondary-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.volunteer-section {
+  background: var(--bg-light);
+}
+
+.volunteer-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.volunteer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.volunteer-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.volunteer-header h3 {
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.volunteer-role {
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+}
+
+.volunteer-description {
+  color: var(--text-gray);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.portfolio-download {
+  background: white;
+}
+
+.download-box {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.download-box h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.download-box p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.note {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #fef3c7;
+  border-left: 4px solid var(--accent-gold);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--text-gray);
+}
+
+@media (max-width: 768px) {
+  .volunteer-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .download-box {
+    padding: 2rem;
+  }
+}
