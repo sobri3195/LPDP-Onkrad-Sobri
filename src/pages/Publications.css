@@ -167,6 +167,7 @@
   .conference-item {
     flex-direction: column;
     gap: 1rem;
+    padding: 1.25rem;
   }
 
   .conference-date {
@@ -174,7 +175,41 @@
     width: fit-content;
   }
 
+  .research-card {
+    padding: 1.5rem;
+  }
+
   .download-box {
     padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .publications-intro {
+    padding: 3rem 0 2rem;
+  }
+
+  .empty-state {
+    padding: 2rem;
+  }
+
+  .research-card {
+    padding: 1.25rem;
+  }
+
+  .research-card h3 {
+    font-size: 1rem;
+  }
+
+  .conference-item {
+    padding: 1rem;
+  }
+
+  .conference-content h3 {
+    font-size: 1rem;
+  }
+
+  .download-box {
+    padding: 1.5rem 1rem;
   }
 }

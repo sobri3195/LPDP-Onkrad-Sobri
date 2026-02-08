@@ -55,11 +55,28 @@
   font-weight: 500;
   display: block;
   margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+  color: var(--primary-color);
 }
 
 .contact-details p {
   margin: 0;
   color: var(--text-dark);
+}
+
+.donation-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .contact-note {
@@ -156,6 +173,11 @@
   .contact-item {
     flex-direction: column;
     gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .contact-icon {
+    align-self: flex-start;
   }
 
   .contact-form-container {
@@ -168,5 +190,27 @@
 
   .cta-buttons {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-intro {
+    padding: 3rem 0 2rem;
+  }
+
+  .contact-item {
+    padding: 1rem;
+  }
+
+  .contact-details h3 {
+    font-size: 1rem;
+  }
+
+  .availability-box {
+    padding: 1.25rem;
+  }
+
+  .cta-box {
+    padding: 1.5rem 1rem;
   }
 }

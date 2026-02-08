@@ -115,9 +115,41 @@
   .achievement-item {
     flex-direction: column;
     gap: 1rem;
+    padding: 1.25rem;
   }
 
   .achievement-icon {
     font-size: 2rem;
+  }
+
+  .cert-card {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-summary {
+    padding: 1.25rem;
+  }
+
+  .profile-summary p {
+    font-size: 1rem;
+  }
+
+  .achievement-item {
+    padding: 1rem;
+  }
+
+  .cert-card {
+    padding: 1rem;
+  }
+
+  .cert-card h3 {
+    font-size: 1rem;
+  }
+
+  .note {
+    font-size: 0.85rem;
+    padding: 0.875rem;
   }
 }

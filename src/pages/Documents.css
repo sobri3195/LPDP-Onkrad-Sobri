@@ -175,11 +175,13 @@
   .security-notice {
     flex-direction: column;
     gap: 1rem;
+    padding: 1.25rem;
   }
 
   .document-card {
     flex-direction: column;
     text-align: center;
+    padding: 1.25rem;
   }
 
   .document-card .btn {
@@ -188,5 +190,43 @@
 
   .document-meta {
     justify-content: center;
+  }
+
+  .document-instructions {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .documents-intro {
+    padding: 3rem 0 2rem;
+  }
+
+  .document-category h2 {
+    font-size: 1.5rem;
+  }
+
+  .document-card {
+    padding: 1rem;
+  }
+
+  .document-icon {
+    font-size: 2rem;
+  }
+
+  .document-info h3 {
+    font-size: 1rem;
+  }
+
+  .document-description {
+    font-size: 0.9rem;
+  }
+
+  .document-instructions {
+    padding: 1.25rem;
+  }
+
+  .instructions-box h3 {
+    font-size: 1rem;
   }
 }
