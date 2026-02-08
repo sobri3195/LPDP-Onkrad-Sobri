@@ -1,25 +1,25 @@
 [
   {
-    "year": "[TAHUN MULAI] - Present",
+    "year": "2023 - Present",
     "title": "Dokter Umum",
-    "subtitle": "[NAMA RUMAH SAKIT/PUSKESMAS], [KOTA]",
-    "description": "Memberikan pelayanan medis komprehensif kepada pasien dengan berbagai kondisi kesehatan.",
+    "subtitle": "Rumah Sakit Kanker Dharmais, Jakarta",
+    "description": "Memberikan pelayanan medis di rumah sakit kanker tersier dengan fokus pada edukasi kanker dan pembelajaran onkologi radiasi.",
     "highlights": [
-      "Pelayanan rawat jalan dan rawat inap",
-      "Penanganan kegawatdaruratan",
-      "Kolaborasi dengan tim multidisiplin",
-      "Pengalaman menangani [X] pasien per bulan"
+      "Pelayanan rawat jalan onkologi",
+      "Observasi proses radioterapi pasien",
+      "Edukasi pasien dan keluarga tentang manajemen kanker",
+      "Kolaborasi dengan tim multidisiplin onkologi"
     ]
   },
   {
-    "year": "[TAHUN]",
+    "year": "2022",
     "title": "Dokter Internship",
-    "subtitle": "[NAMA RUMAH SAKIT], [KOTA]",
-    "description": "Program internship dokter dengan rotasi di berbagai departemen untuk mengasah keterampilan klinis.",
+    "subtitle": "Rumah Sakit Kanker Dharmais, Jakarta",
+    "description": "Program internship dokter dengan rotasi di berbagai departemen untuk mengasah keterampilan klinis, dengan fokus pada onkologi.",
     "highlights": [
-      "Rotasi: [DEPARTEMEN-DEPARTEMEN yang dilalui]",
+      "Rotasi: Onkologi Radiasi, Onkologi Medik, Bedah Onkologi",
       "Penanganan pasien under supervision",
-      "Pembelajaran protokol klinis rumah sakit"
+      "Pembelajaran protokol kemoterapi dan radioterapi"
     ]
   }
 ]

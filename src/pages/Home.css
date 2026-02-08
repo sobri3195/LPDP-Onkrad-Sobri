@@ -47,6 +47,22 @@
   align-items: center;
 }
 
+.profile-image-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .profile-placeholder {
   width: 300px;
   height: 300px;
@@ -258,6 +274,7 @@
     font-size: 1rem;
   }
 
+  .profile-image-container,
   .profile-placeholder {
     width: 200px;
     height: 200px;

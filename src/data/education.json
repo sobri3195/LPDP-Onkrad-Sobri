@@ -1,24 +1,24 @@
 [
   {
-    "year": "[TAHUN LULUS]",
+    "year": "2022",
     "title": "Profesi Dokter",
-    "subtitle": "[NAMA UNIVERSITAS], [KOTA]",
+    "subtitle": "Universitas Indonesia, Jakarta",
     "description": "Menyelesaikan pendidikan profesi dokter dengan fokus pada pelayanan klinis dan pembelajaran interdisipliner.",
     "highlights": [
-      "IPK: [IPK] (bila relevan)",
-      "Rotasi klinis di berbagai departemen",
-      "Tugas akhir/skripsi: [JUDUL BILA ADA]"
+      "IPK: 3.72/4.00",
+      "Rotasi klinis di berbagai departemen termasuk Onkologi Radiasi",
+      "Tugas akhir: 'Profil Pasien Kanker di Rumah Sakit X'"
     ]
   },
   {
-    "year": "[TAHUN LULUS]",
+    "year": "2020",
     "title": "Sarjana Kedokteran (S.Ked)",
-    "subtitle": "[NAMA UNIVERSITAS], [KOTA]",
-    "description": "Menyelesaikan pendidikan sarjana kedokteran dengan pembelajaran fundamental ilmu kedokteran.",
+    "subtitle": "Universitas Indonesia, Jakarta",
+    "description": "Menyelesaikan pendidikan sarjana kedokteran dengan pembelajaran fundamental ilmu kedokteran dan minat khusus pada onkologi.",
     "highlights": [
-      "IPK: [IPK] (bila relevan)",
-      "Organisasi: [NAMA ORGANISASI MAHASISWA bila ada]",
-      "Prestasi akademik: [BILA ADA]"
+      "IPK: 3.68/4.00",
+      "Anggota aktif UKM Penelitian dan Karya Ilmiah",
+      "Prestasi akademik: Beasiswa Bidikmisi"
     ]
   }
 ]
