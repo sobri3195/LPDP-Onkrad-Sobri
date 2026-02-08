@@ -1,11 +1,110 @@
 [
   {
-    "title": "[JUDUL PUBLIKASI]",
-    "journal": "[NAMA JURNAL]",
-    "year": "[TAHUN]",
-    "description": "Ringkasan singkat publikasi: tujuan riset, metodologi, dan hasil utama.",
-    "tags": ["[Topik 1]", "[Topik 2]", "[Metodologi]"],
-    "doi": "https://doi.org/[DOI_NUMBER]",
+    "title": "When Genes Meet Environmental Shocks: A Spatiotemporal Cohort Linking Pathogen Phylogenetics, Metagenomic Ecology, and Triage Algorithm Fairness Drift to Predict Incident Cardiometabolic and Infectious Outcomes",
+    "journal": "Article (Full-text available)",
+    "year": "2026",
+    "description": "Riset kohort spatiotemporal yang menghubungkan filogenetik patogen, ekologi metagenomik, dan fairness drift pada algoritma triase untuk memprediksi kejadian luaran kardiometabolik dan infeksi.",
+    "tags": ["Spatiotemporal Cohort", "Pathogen Phylogenetics", "Algorithm Fairness"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Sequence Matters in Real-World Pharmacotherapy: Medication Switching Trajectories, Genomic/Transcriptomic Assembly Signatures, and AI-Driven Drug Discovery for Predicting Adverse Outcomes in a Digital Cohort",
+    "journal": "Journal of Innovation & Knowledge",
+    "year": "2026",
+    "description": "Menganalisis trajektori switching obat di dunia nyata dengan integrasi sinyal genomik/transkriptomik dan pendekatan AI drug discovery untuk prediksi luaran merugikan.",
+    "tags": ["Pharmacotherapy", "Genomics", "AI Drug Discovery"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Digital Nudges to Improve ERAS Compliance and Surgical Outcomes: A Systematic Review and Meta-Analysis",
+    "journal": "Direct Science Open Journal",
+    "year": "2026",
+    "description": "Tinjauan sistematis dan meta-analisis tentang efektivitas digital nudges dalam meningkatkan kepatuhan protokol ERAS serta perbaikan luaran bedah.",
+    "tags": ["Systematic Review", "Meta-analysis", "ERAS"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Beyond Thresholds to Pre-Flare Prediction: A Multimodal Digital Cohort Integrating Longitudinal Laboratory Drift, Wearable Signatures, and Metagenomic Ecological Volatility with Transcriptome-Assisted Risk Modeling",
+    "journal": "Direct Science Open Journal",
+    "year": "2026",
+    "description": "Kohort digital multimodal untuk prediksi pre-flare berbasis drift laboratorium longitudinal, sinyal wearable, volatilitas metagenomik, dan pemodelan risiko berbantuan transkriptom.",
+    "tags": ["Multimodal Cohort", "Wearables", "Risk Modeling"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Radiotherapy Outcomes in Stage III NSCLC by Age: A Systematic Review and Meta-Analysis",
+    "journal": "Conference Paper",
+    "year": "2026",
+    "description": "Analisis komparatif luaran radioterapi pada NSCLC stadium III berdasarkan kelompok usia melalui pendekatan systematic review dan meta-analysis.",
+    "tags": ["NSCLC", "Radiotherapy", "Age-stratified Analysis"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Di Balik Citra PET/CT: Validasi Meta-Analitis Radiomik sebagai Panduan Presisi dan Prediktor Outcome pada NSCLC Potensi Radiomik dalam Meningkatkan Akurasi dan Konsistensi Penentuan Volume Target",
+    "journal": "Conference Paper",
+    "year": "2026",
+    "description": "Validasi meta-analitis radiomik PET/CT untuk panduan terapi presisi dan prediksi outcome NSCLC, termasuk konsistensi dalam penentuan volume target.",
+    "tags": ["PET/CT", "Radiomics", "NSCLC"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "The Safety Imperative: A Deep Dive into Lithium-Ion Power Bank Regulations and Hazard Mitigation in Air Travel The Escalating Threat: Quantifying the Risk of Lithium Battery Incidents in Aviation",
+    "journal": "Experiment Findings",
+    "year": "2025",
+    "description": "Evaluasi regulasi dan mitigasi bahaya baterai lithium-ion pada perjalanan udara, termasuk kuantifikasi risiko insiden baterai dalam aviasi.",
+    "tags": ["Aviation Safety", "Lithium-ion", "Regulation"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Meta-Analisis Faktor Prognostik (Metilasi MGMT, Mutasi IDH, dan Volume Tumor) terhadap Respons Radioterapi pada Glioblastoma: Tinjauan Sistematis Bukti 10 Tahun Terakhir",
+    "journal": "Conference Paper",
+    "year": "2025",
+    "description": "Meta-analisis faktor prognostik molekuler dan klinis untuk menilai respons radioterapi pada glioblastoma berdasarkan bukti satu dekade terakhir.",
+    "tags": ["Glioblastoma", "MGMT", "IDH"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Tinjauan Sistematik Hasil Neurokognitif Jangka Panjang pada Anak dan Remaja dengan Tumor Otak: Perbandingan Radioterapi Proton dan Foton",
+    "journal": "Conference Paper",
+    "year": "2025",
+    "description": "Tinjauan sistematik dampak neurokognitif jangka panjang pada populasi pediatrik dengan tumor otak setelah radioterapi proton versus foton.",
+    "tags": ["Pediatric Oncology", "Proton Therapy", "Neurocognitive Outcomes"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "Analisis Komprehensif Efektivitas Radiosurgery Stereotaktik (SRS/SBRT) vs. Radiotherapy Seluruh Otak (WBRT) pada Metastasis Otak Terbatas Berdasarkan Kelompok Usia",
+    "journal": "Conference Paper",
+    "year": "2025",
+    "description": "Perbandingan efektivitas SRS/SBRT terhadap WBRT pada metastasis otak terbatas dengan stratifikasi berdasarkan usia pasien.",
+    "tags": ["SRS/SBRT", "WBRT", "Brain Metastasis"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "A Systematic Review and Meta-Analysis Comparing Volumetric Modulated Arc Therapy (VMAT) and Intensity-Modulated Radiotherapy (IMRT) for Locally Advanced Prostate Cancer Background and Rationale",
+    "journal": "Article (Full-text available)",
+    "year": "2025",
+    "description": "Tinjauan sistematis dan meta-analisis yang membandingkan VMAT dan IMRT pada kanker prostat lokal lanjut/berisiko tinggi.",
+    "tags": ["VMAT", "IMRT", "Prostate Cancer"],
+    "doi": "",
+    "status": "Published"
+  },
+  {
+    "title": "A Systematic Review and Meta-Analysis of Zero-Trust Architecture Adoption: Quantifying Reduction in Lateral Movement Attacks and Mean Time to Detection Across Enterprise Networks",
+    "journal": "Article",
+    "year": "2025",
+    "description": "Meta-analisis adopsi arsitektur zero-trust dalam menurunkan serangan lateral movement serta mempercepat mean time to detection pada jaringan enterprise.",
+    "tags": ["Zero Trust", "Cybersecurity", "Enterprise Networks"],
+    "doi": "",
     "status": "Published"
   }
 ]
