@@ -23,7 +23,7 @@ function Contact() {
                 <div className="contact-icon">📧</div>
                 <div className="contact-details">
                   <h3>Email</h3>
-                  <a href="mailto:sobrimaulana@example.com">sobrimaulana@example.com</a>
+                  <a href="mailto:muhammadsobrimaulana31@gmail.com">muhammadsobrimaulana31@gmail.com</a>
                   <p className="contact-note">Email utama untuk korespondensi profesional</p>
                 </div>
               </div>
@@ -31,22 +31,36 @@ function Contact() {
               <div className="contact-item">
                 <div className="contact-icon">🔗</div>
                 <div className="contact-details">
-                  <h3>LinkedIn</h3>
-                  <a href="https://linkedin.com/in/sobrimaulana" target="_blank" rel="noopener noreferrer">
-                    linkedin.com/in/sobrimaulana
+                  <h3>GitHub</h3>
+                  <a href="https://github.com/sobri3195" target="_blank" rel="noopener noreferrer">
+                    github.com/sobri3195
                   </a>
-                  <p className="contact-note">Profil profesional dan networking</p>
+                  <p className="contact-note">Repositori proyek dan kode sumber</p>
                 </div>
               </div>
 
               <div className="contact-item">
-                <div className="contact-icon">🆔</div>
+                <div className="contact-icon">💰</div>
                 <div className="contact-details">
-                  <h3>ORCID</h3>
-                  <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener noreferrer">
-                    0000-0000-0000-0000
-                  </a>
-                  <p className="contact-note">Identitas peneliti dan publikasi ilmiah</p>
+                  <h3>Donasi & Dukungan</h3>
+                  <div className="donation-links">
+                    <a href="https://lynk.id/muhsobrimaulana" target="_blank" rel="noopener noreferrer">Lynk.id</a> | 
+                    <a href="https://trakteer.id/g9mkave5gauns962u07t" target="_blank" rel="noopener noreferrer"> Trakteer</a> | 
+                    <a href="https://nyawer.co/MuhammadSobriMaulana" target="_blank" rel="noopener noreferrer"> Nyawer</a>
+                  </div>
+                  <p className="contact-note">Dukung saya dalam mengembangkan proyek bermanfaat</p>
+                </div>
+              </div>
+
+              <div className="contact-item">
+                <div className="contact-icon">📱</div>
+                <div className="contact-details">
+                  <h3>Media Sosial</h3>
+                  <div className="social-grid">
+                    <a href="https://www.youtube.com/@muhammadsobrimaulana6013" target="_blank" rel="noopener noreferrer">YouTube</a>
+                    <a href="https://t.me/winlin_exploit" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    <a href="https://www.tiktok.com/@dr.sobri" target="_blank" rel="noopener noreferrer">TikTok</a>
+                  </div>
                 </div>
               </div>
 

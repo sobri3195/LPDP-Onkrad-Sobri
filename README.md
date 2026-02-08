@@ -1,6 +1,36 @@
-# Website Portofolio LPDP - Muhammad Sobri Maulana
+# Website Portofolio LPDP - dr. Muhammad Sobri Maulana
 
 Website portofolio profesional untuk aplikasi beasiswa LPDP Program Spesialis Onkologi Radiasi.
+
+## 👤 Author
+
+**dr. Muhammad Sobri Maulana**
+- **GitHub:** [sobri3195](https://github.com/sobri3195)
+- **Email:** [muhammadsobrimaulana31@gmail.com](mailto:muhammadsobrimaulana31@gmail.com)
+- **Website Utama:** [muhammadsobrimaulana.netlify.app](https://muhammadsobrimaulana.netlify.app)
+- **Website Alternatif:** [muhammad-sobri-maulana-kvr6a.sevalla.page](https://muhammad-sobri-maulana-kvr6a.sevalla.page/)
+
+## 🔗 Sosial Media & Komunitas
+
+- **YouTube:** [@muhammadsobrimaulana6013](https://www.youtube.com/@muhammadsobrimaulana6013)
+- **Telegram:** [@winlin_exploit](https://t.me/winlin_exploit)
+- **TikTok:** [@dr.sobri](https://www.tiktok.com/@dr.sobri)
+- **Grup WhatsApp:** [Join Group](https://chat.whatsapp.com/B8nwRZOBMo64GjTwdXV8Bl)
+
+## 💰 Dukung Saya (Donasi)
+
+Jika Anda merasa terbantu dengan proyek ini, Anda dapat memberikan dukungan melalui:
+- **Lynk.id:** [lynk.id/muhsobrimaulana](https://lynk.id/muhsobrimaulana)
+- **Trakteer:** [trakteer.id/g9mkave5gauns962u07t](https://trakteer.id/g9mkave5gauns962u07t)
+- **Nyawer:** [nyawer.co/MuhammadSobriMaulana](https://nyawer.co/MuhammadSobriMaulana)
+- **Karyakarsa:** [karyakarsa.com/muhammadsobrimaulana](https://karyakarsa.com/muhammadsobrimaulana)
+
+## 🛒 Produk & Lainnya
+
+- **Gumroad:** [maulanasobri.gumroad.com](https://maulanasobri.gumroad.com/)
+- **Toko Online Sobri:** [pegasus-shop.netlify.app](https://pegasus-shop.netlify.app)
+
+---
 
 ## 🚀 Teknologi
 
@@ -151,14 +181,8 @@ netlify deploy --prod
 - [ ] Custom domain/subdomain di Netlify (opsional)
 - [ ] SSL/HTTPS aktif
 
-## 📧 Contact
-
-Muhammad Sobri Maulana
-- Email: sobrimaulana@example.com
-- LinkedIn: linkedin.com/in/sobrimaulana
-
 ---
 
-**© 2025 Muhammad Sobri Maulana. All rights reserved.**
+**© 2025 dr. Muhammad Sobri Maulana. All rights reserved.**
 
 Website ini dibuat untuk keperluan aplikasi beasiswa LPDP.
