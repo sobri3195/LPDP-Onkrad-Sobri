@@ -1,1 +1,187 @@
-[]
+[
+  {
+    "title": "When Genes Meet Environmental Shocks: A Spatiotemporal Cohort Linking Pathogen Phylogenetics, Metagenomic Ecology, and Triage Algorithm Fairness Drift to Predict Incident Cardiometabolic and Infectious Outcomes",
+    "journal": "Research Article",
+    "year": "2026",
+    "date": "February 2026",
+    "type": "journal",
+    "description": "Spatiotemporal cohort study integrating pathogen phylogenetics, metagenomic ecology, and AI triage algorithms to predict cardiometabolic and infectious disease outcomes.",
+    "tags": ["Genomics", "Metagenomics", "AI", "Public Health"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Sequence Matters in Real-World Pharmacotherapy: Medication Switching Trajectories, Genomic/Transcriptomic Assembly Signatures, and AI-Driven Drug Discovery for Predicting Adverse Outcomes in a Digital Cohort",
+    "journal": "Journal of Innovation & Knowledge",
+    "year": "2026",
+    "date": "February 2026",
+    "type": "journal",
+    "description": "Analysis of medication switching patterns combined with genomic signatures and AI-driven approaches for adverse outcome prediction in digital cohorts.",
+    "tags": ["Pharmacotherapy", "Genomics", "AI", "Drug Discovery"],
+    "authors": ["Muhammad Sobri Maulana", "Dwitia Pratiwi Rsau"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Digital Nudges to Improve ERAS Compliance and Surgical Outcomes: A Systematic Review and Meta-Analysis",
+    "journal": "Direct Science Open Journal",
+    "year": "2026",
+    "date": "February 2026",
+    "type": "journal",
+    "description": "Systematic review and meta-analysis examining the effectiveness of digital interventions in improving Enhanced Recovery After Surgery (ERAS) protocol compliance.",
+    "tags": ["ERAS", "Digital Health", "Surgery", "Meta-Analysis"],
+    "authors": ["Muhammad Sobri Maulana", "Dwitia Pratiwi"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Beyond Thresholds to Pre-Flare Prediction: A Multimodal Digital Cohort Integrating Longitudinal Laboratory Drift, Wearable Signatures, and Metagenomic Ecological Volatility with Transcriptome-Assisted Risk Modeling",
+    "journal": "Direct Science Open Journal",
+    "year": "2026",
+    "date": "February 2026",
+    "type": "journal",
+    "description": "Multimodal prediction framework combining laboratory data, wearable sensors, metagenomics, and transcriptomics for disease flare prediction.",
+    "tags": ["Digital Health", "Wearables", "Metagenomics", "Prediction"],
+    "authors": ["Muhammad Sobri Maulana", "Dwitia Pratiwi"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Radiotherapy Outcomes in Stage III NSCLC by Age: A Systematic Review and Meta-Analysis",
+    "journal": "Research Article",
+    "year": "2026",
+    "date": "January 2026",
+    "type": "journal",
+    "description": "Meta-analysis evaluating radiotherapy outcomes in Stage III Non-Small Cell Lung Cancer across different age groups.",
+    "tags": ["Radiotherapy", "NSCLC", "Meta-Analysis", "Oncology"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Di Balik Citra PET/CT: Validasi Meta-Analitis Radiomik sebagai Panduan Presisi dan Prediktor Outcome pada NSCLC - Potensi Radiomik dalam Meningkatkan Akurasi dan Konsistensi Penentuan Volume Target",
+    "journal": "Conference Proceedings",
+    "year": "2026",
+    "date": "January 2026",
+    "type": "conference",
+    "description": "Meta-analytic validation of radiomics from PET/CT imaging as precision guide and outcome predictor in NSCLC treatment planning.",
+    "tags": ["Radiomics", "PET/CT", "NSCLC", "Precision Medicine"],
+    "authors": ["Muhammad Sobri Maulana"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "The Safety Imperative: A Deep Dive into Lithium-Ion Power Bank Regulations and Hazard Mitigation in Air Travel - The Escalating Threat: Quantifying the Risk of Lithium Battery Incidents in Aviation",
+    "journal": "Experiment Findings",
+    "year": "2025",
+    "date": "December 2025",
+    "type": "other",
+    "description": "Safety analysis of lithium-ion power bank regulations and risk quantification of battery incidents in aviation settings.",
+    "tags": ["Safety", "Aviation", "Risk Analysis", "Regulation"],
+    "authors": ["Muhammad Sobri Maulana"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Meta-Analisis Faktor Prognostik (Metilasi MGMT, Mutasi IDH, dan Volume Tumor) terhadap Respons Radioterapi pada Glioblastoma: Tinjauan Sistematis Bukti 10 Tahun Terakhir",
+    "journal": "Research Article",
+    "year": "2025",
+    "date": "December 2025",
+    "type": "journal",
+    "description": "Systematic review and meta-analysis of prognostic factors (MGMT methylation, IDH mutation, tumor volume) affecting radiotherapy response in glioblastoma.",
+    "tags": ["Glioblastoma", "Radiotherapy", "Meta-Analysis", "Prognostic Factors"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Tinjauan Sistematik Hasil Neurokognitif Jangka Panjang pada Anak dan Remaja dengan Tumor Otak: Perbandingan Radioterapi Proton dan Foton",
+    "journal": "Research Article",
+    "year": "2025",
+    "date": "December 2025",
+    "type": "journal",
+    "description": "Systematic review of long-term neurocognitive outcomes in pediatric brain tumor patients comparing proton versus photon radiotherapy.",
+    "tags": ["Pediatric Oncology", "Proton Therapy", "Neurocognition", "Systematic Review"],
+    "authors": ["Muhammad Sobri Maulana"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Analisis Komprehensif Efektivitas Radiosurgery Stereotaktik (SRS/SBRT) vs. Radiotherapy Seluruh Otak (WBRT) pada Metastasis Otak Terbatas Berdasarkan Kelompok Usia",
+    "journal": "Conference Proceedings",
+    "year": "2025",
+    "date": "December 2025",
+    "type": "conference",
+    "description": "Comprehensive analysis of SRS/SBRT versus WBRT effectiveness in limited brain metastases across different age groups.",
+    "tags": ["SRS", "SBRT", "WBRT", "Brain Metastases", "Age Groups"],
+    "authors": ["Muhammad Sobri Maulana"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Perbandingan Staged SRS dan Fraksionasi SRS pada Metastasis Otak Besar - Tinjauan Sistematis Efektivitas terhadap Kontrol Tumor Lokal dan Survival",
+    "journal": "Research Article",
+    "year": "2025",
+    "date": "December 2025",
+    "type": "journal",
+    "description": "Systematic review comparing staged SRS versus fractionated SRS in large brain metastases for local tumor control and survival outcomes.",
+    "tags": ["SRS", "Brain Metastases", "Fractionation", "Systematic Review"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Analisis Komparatif Terapi Proton versus Foton (IMRT/VMAT) pada Glioma Dewasa: Evaluasi Survival, Toksisitas, dan Segmentasi Berbasis Genetik",
+    "journal": "Research Article",
+    "year": "2025",
+    "date": "December 2025",
+    "type": "journal",
+    "description": "Comparative analysis of proton versus photon therapy (IMRT/VMAT) in adult gliomas, evaluating survival, toxicity, and genetic-based segmentation.",
+    "tags": ["Proton Therapy", "Glioma", "IMRT", "VMAT", "Genetic Segmentation"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Hubungan Lama Fraksinasi, Volume Radiasi, dan Terapi Konkomitan terhadap Penurunan Jumlah Limfosit pada Pasien Kanker Kepala-Leher: Analisis Studi Kohort Prospektif",
+    "journal": "Research Article",
+    "year": "2025",
+    "date": "December 2025",
+    "type": "journal",
+    "description": "Prospective cohort study examining the relationship between fractionation duration, radiation volume, and concomitant therapy on lymphocyte decline in head-neck cancer patients.",
+    "tags": ["Head-Neck Cancer", "Lymphocyte Decline", "Cohort Study", "Radiation Biology"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "Comparative Studies of VMAT vs. IMRT in Locally Advanced/High-Risk Prostate Cancer",
+    "journal": "Raw Data Publication",
+    "year": "2025",
+    "date": "October 2025",
+    "type": "other",
+    "description": "Comparative research data on VMAT versus IMRT treatment outcomes in locally advanced and high-risk prostate cancer.",
+    "tags": ["VMAT", "IMRT", "Prostate Cancer", "Comparative Study"],
+    "authors": ["Muhammad Sobri Maulana"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "A Systematic Review and Meta-Analysis Comparing Volumetric Modulated Arc Therapy (VMAT) and Intensity-Modulated Radiotherapy (IMRT) for Locally Advanced Prostate Cancer: Background and Rationale",
+    "journal": "Research Article",
+    "year": "2025",
+    "date": "October 2025",
+    "type": "journal",
+    "description": "Systematic review and meta-analysis comparing VMAT and IMRT techniques for locally advanced prostate cancer treatment.",
+    "tags": ["VMAT", "IMRT", "Prostate Cancer", "Meta-Analysis"],
+    "authors": ["Muhammad Sobri Maulana"],
+    "doi": null,
+    "fullTextAvailable": true
+  },
+  {
+    "title": "A Systematic Review and Meta-Analysis of Zero-Trust Architecture Adoption: Quantifying Reduction in Lateral Movement Attacks and Mean Time to Detection Across Enterprise Networks",
+    "journal": "Research Article",
+    "year": "2025",
+    "date": "2025",
+    "type": "journal",
+    "description": "Systematic review analyzing zero-trust architecture adoption and its impact on cybersecurity metrics including lateral movement attacks and detection time.",
+    "tags": ["Cybersecurity", "Zero-Trust", "Enterprise Networks", "Meta-Analysis"],
+    "doi": null,
+    "fullTextAvailable": true
+  }
+]
