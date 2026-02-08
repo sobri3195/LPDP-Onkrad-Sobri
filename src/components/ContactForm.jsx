@@ -18,24 +18,22 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
+
+    const emailTo = 'sobrimaulana@example.com'
+    const subject = formData.subject?.trim() || 'Pesan dari Website Portofolio LPDP'
+    const body = [
+      `Nama: ${formData.name}`,
+      `Email: ${formData.email}`,
+      '',
+      'Pesan:',
+      formData.message
+    ].join('\n')
+
+    window.location.href = `mailto:${emailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
   }
 
   return (
-    <form 
-      name="contact" 
-      method="POST" 
-      data-netlify="true" 
-      netlify-honeypot="bot-field"
-      onSubmit={handleSubmit}
-      className="contact-form"
-    >
-      <input type="hidden" name="form-name" value="contact" />
-      <p style={{ display: 'none' }}>
-        <label>
-          Don't fill this out: <input name="bot-field" />
-        </label>
-      </p>
+    <form onSubmit={handleSubmit} className="contact-form">
 
       <div className="form-group">
         <label htmlFor="name">Nama Lengkap *</label>

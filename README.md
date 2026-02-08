@@ -38,14 +38,14 @@ Jika Anda merasa terbantu dengan proyek ini, Anda dapat memberikan dukungan mela
 - **Build Tool:** Vite
 - **Routing:** React Router DOM v7
 - **Styling:** CSS (Custom)
-- **Deployment:** Netlify
+- **Deployment:** Vercel (recommended), Netlify (optional)
 
 ## 📋 Fitur
 
 - ✅ Responsive design (mobile-first)
 - ✅ Multi-page dengan React Router
 - ✅ Download PDF documents
-- ✅ Contact form dengan Netlify Forms
+- ✅ Contact form via `mailto:` (kompatibel static hosting seperti Vercel)
 - ✅ SEO optimized
 - ✅ Accessibility compliant
 
@@ -74,7 +74,7 @@ npm run preview
 
 ## 📁 Struktur Folder
 
-```
+```text
 src/
 ├── assets/          # Gambar dan aset statis
 ├── components/      # Komponen reusable
@@ -87,6 +87,8 @@ src/
 public/
 ├── documents/       # File PDF untuk download
 └── _redirects       # Netlify redirects
+
+vercel.json          # Rewrite SPA untuk Vercel
 ```
 
 ## 📝 Cara Mengisi Konten
@@ -120,34 +122,29 @@ Ganti placeholder dengan foto profesional Anda:
 Edit di:
 - `src/components/Footer.jsx`
 - `src/pages/Contact.jsx`
+- `src/components/ContactForm.jsx` (alamat email tujuan form)
 
-## 🌐 Deploy ke Netlify
+## 🌐 Deploy ke Vercel (Recommended)
 
-### Opsi 1: Netlify CLI
+### Opsi 1: Vercel Dashboard + GitHub
+
+1. Push code ke GitHub.
+2. Buka [Vercel](https://vercel.com).
+3. Import repository.
+4. Framework akan terdeteksi sebagai **Vite**.
+5. Build command: `npm run build`.
+6. Output directory: `dist`.
+7. Deploy.
+
+> File `vercel.json` sudah disiapkan untuk rewrite semua route ke `index.html`, sehingga React Router tetap berjalan saat refresh halaman.
+
+### Opsi 2: Vercel CLI
 
 ```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Login
-netlify login
-
-# Deploy
-netlify deploy --prod
+npm i -g vercel
+vercel
+vercel --prod
 ```
-
-### Opsi 2: GitHub Integration
-
-1. Push code ke GitHub
-2. Buka [Netlify](https://netlify.com)
-3. Import repository
-4. Netlify akan auto-detect Vite settings
-5. Deploy!
-
-### Opsi 3: Drag & Drop
-
-1. Build project: `npm run build`
-2. Drag folder `dist` ke Netlify drop zone
 
 ## ✅ Checklist Sebelum Deploy
 
@@ -178,7 +175,7 @@ netlify deploy --prod
 - [ ] File dapat dibuka dan dibaca
 
 ### Domain
-- [ ] Custom domain/subdomain di Netlify (opsional)
+- [ ] Custom domain/subdomain di Vercel (opsional)
 - [ ] SSL/HTTPS aktif
 
 ---
