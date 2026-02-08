@@ -10,25 +10,24 @@ function Home() {
             <div className="hero-text animate-fadeInLeft">
               <h1 className="animate-glowText">dr. Muhammad Sobri Maulana</h1>
               <h2 className="hero-subtitle">
-                Dokter Berdedikasi untuk Menjadi Spesialis Onkologi Radiasi yang Membawa Dampak bagi Indonesia
+                Portofolio LPDP (informasi publik terbatas)
               </h2>
               <p className="hero-description animate-fadeInUp">
-                Saya dr. Muhammad Sobri Maulana, seorang dokter umum dengan dedikasi mendalam terhadap pelayanan kanker di Indonesia. 
-                Dengan pengalaman dalam pelayanan medis, saya berkomitmen untuk 
-                melanjutkan pendidikan Spesialis Onkologi Radiasi melalui beasiswa LPDP.
+                Halaman ini disusun berdasarkan informasi yang dapat diverifikasi dari sumber publik. Saat ini, 
+                rincian pendidikan, pengalaman klinis, publikasi, serta dokumen pendukung resmi belum ditemukan 
+                sehingga beberapa bagian masih menunggu pembaruan.
               </p>
               <p className="hero-description">
-                Website ini merangkum perjalanan, motivasi, rencana karir, dan kontribusi saya untuk Indonesia pasca-pendidikan. 
-                Kanker adalah masalah kesehatan global yang membutuhkan SDM berkualitas dan akses terapi yang merata. 
-                Saya siap menjadi bagian dari solusi tersebut.
+                Jika dokumen atau profil profesional resmi tersedia, konten akan diperbarui agar mencerminkan 
+                rekam jejak akademik dan klinis yang terverifikasi.
               </p>
               <div className="hero-cta animate-stagger">
                 <Link to="/lpdp-package" className="btn btn-primary">
                   Lihat LPDP Package
                 </Link>
-                <a href="/documents/CV_Muhammad_Sobri_Maulana.pdf" className="btn btn-outline" download>
-                  Unduh CV
-                </a>
+                <Link to="/documents" className="btn btn-outline">
+                  Lihat Dokumen
+                </Link>
               </div>
             </div>
             <div className="hero-image animate-fadeInRight">
@@ -48,20 +47,20 @@ function Home() {
         <div className="container">
           <div className="stats-grid animate-stagger">
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">2+</div>
-              <div className="stat-label">Tahun Pengalaman</div>
+              <div className="stat-number">—</div>
+              <div className="stat-label">Pengalaman Klinis (Belum tersedia)</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">16</div>
-              <div className="stat-label">Publikasi Ilmiah</div>
+              <div className="stat-number">—</div>
+              <div className="stat-label">Publikasi Ilmiah (Belum tersedia)</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">4</div>
-              <div className="stat-label">Sertifikat Pelatihan</div>
+              <div className="stat-number">—</div>
+              <div className="stat-label">Sertifikasi (Belum tersedia)</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">10</div>
-              <div className="stat-label">Proyek Kesehatan</div>
+              <div className="stat-number">—</div>
+              <div className="stat-label">Proyek/Inovasi (Belum tersedia)</div>
             </div>
           </div>
         </div>
@@ -77,8 +76,8 @@ function Home() {
               <div className="highlight-icon">💡</div>
               <h3>Motivation Letter</h3>
               <p>
-                Motivasi mendalam untuk menjadi Spesialis Onkologi Radiasi didasari kesadaran urgensi nasional, 
-                pengalaman klinis, dan visi jangka panjang untuk berkontribusi bagi Indonesia.
+                Dokumen motivation letter publik belum ditemukan. Bagian ini akan diperbarui setelah 
+                tersedia sumber resmi yang dapat diverifikasi.
               </p>
               <Link to="/lpdp-package" className="highlight-link">
                 Baca Selengkapnya →
@@ -89,8 +88,8 @@ function Home() {
               <div className="highlight-icon">🎯</div>
               <h3>Career Plan</h3>
               <p>
-                Rencana karir terstruktur untuk 5-10 tahun ke depan, mencakup pendidikan, praktik klinis, 
-                riset, dan kontribusi sistemik untuk meningkatkan layanan onkologi di Indonesia.
+                Rencana karir dan target akademik belum tersedia dalam sumber publik. Timeline akan 
+                ditambahkan berdasarkan dokumen resmi.
               </p>
               <Link to="/lpdp-package" className="highlight-link">
                 Lihat Timeline →
@@ -101,8 +100,8 @@ function Home() {
               <div className="highlight-icon">📚</div>
               <h3>Publikasi & Riset</h3>
               <p>
-                Pengalaman riset dan publikasi ilmiah di bidang kesehatan yang menunjukkan komitmen 
-                terhadap evidence-based medicine dan pengembangan ilmu pengetahuan.
+                Belum ditemukan publikasi ilmiah terverifikasi yang mencantumkan dr. Muhammad Sobri Maulana 
+                sebagai penulis. Bagian ini akan diperbarui saat data tersedia.
               </p>
               <Link to="/publications" className="highlight-link">
                 Lihat Publikasi →
@@ -115,33 +114,33 @@ function Home() {
       <section className="section value-propositions">
         <div className="container">
           <div className="section-title">
-            <h2>Mengapa Saya Kandidat yang Tepat</h2>
+            <h2>Ringkasan Ketersediaan Data</h2>
           </div>
           <div className="value-grid">
             <div className="value-item">
               <div className="value-number">01</div>
-              <h3>Komitmen Klinis & Akademis</h3>
+              <h3>Profil Akademik</h3>
               <p>
-                Track record pelayanan medis yang kuat dengan pengalaman riset dan publikasi di bidang 
-                onkologi/kesehatan yang menunjukkan dedikasi terhadap pembelajaran berkelanjutan.
+                Data pendidikan formal dan capaian akademik belum ditemukan pada sumber publik yang dapat 
+                diverifikasi.
               </p>
             </div>
 
             <div className="value-item">
               <div className="value-number">02</div>
-              <h3>Visi Pembangunan Nasional</h3>
+              <h3>Pengalaman Klinis</h3>
               <p>
-                Rencana karir dan kontribusi yang jelas untuk mengatasi kesenjangan akses terapi radiasi 
-                di Indonesia, dengan fokus pada pemerataan layanan kesehatan.
+                Informasi pengalaman klinis atau tempat kerja belum tersedia secara publik. Bagian ini akan 
+                diperbarui ketika data resmi tersedia.
               </p>
             </div>
 
             <div className="value-item">
               <div className="value-number">03</div>
-              <h3>Kesiapan Eksekusi</h3>
+              <h3>Dokumen Pendukung</h3>
               <p>
-                Persiapan matang dengan motivasi terukur, career plan realistis, dan contribution plan 
-                yang berkelanjutan untuk memberikan dampak jangka panjang bagi Indonesia.
+                Dokumen LPDP, CV, serta rencana karir belum ditemukan di sumber publik. Silakan rujuk dokumen 
+                resmi untuk melengkapi portofolio ini.
               </p>
             </div>
           </div>
@@ -153,8 +152,8 @@ function Home() {
           <div className="cta-box">
             <h2>Siap Menjelajahi Lebih Lanjut?</h2>
             <p>
-              Pelajari lebih detail tentang motivasi, rencana karir, publikasi, dan kontribusi saya 
-              untuk Indonesia melalui halaman-halaman berikut.
+              Lihat halaman profil, publikasi, dan dokumen untuk memahami bagian yang sudah terisi serta 
+              area yang masih membutuhkan data terverifikasi.
             </p>
             <div className="cta-buttons">
               <Link to="/profile" className="btn btn-primary">

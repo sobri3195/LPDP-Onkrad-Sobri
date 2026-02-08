@@ -32,7 +32,7 @@ function Publications() {
           </div>
           {publicationsData.length === 0 && (
             <p className="empty-state">
-              Belum ada publikasi yang ditambahkan.
+              Belum ditemukan publikasi yang dapat diverifikasi dari sumber publik.
             </p>
           )}
         </div>
@@ -54,7 +54,7 @@ function Publications() {
               </div>
             ))}
             {publicationsData.filter(pub => pub.type === 'conference').length === 0 && (
-               <p>Belum ada presentasi konferensi.</p>
+               <p>Belum ditemukan presentasi konferensi yang dapat diverifikasi.</p>
             )}
           </div>
         </div>
@@ -64,10 +64,7 @@ function Publications() {
         <div className="container">
           <div className="download-box">
             <h2>📄 Full Publication List</h2>
-            <p>Unduh daftar lengkap publikasi dan riset dalam format PDF</p>
-            <a href="/documents/Publication_List.pdf" className="btn btn-primary" download>
-              Unduh Publication List (PDF)
-            </a>
+            <p>Daftar publikasi dalam format PDF belum tersedia secara publik.</p>
           </div>
         </div>
       </section>

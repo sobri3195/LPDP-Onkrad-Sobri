@@ -7,27 +7,27 @@ function Documents() {
       documents: [
         {
           name: 'Motivation Letter',
-          filename: 'Motivation_Letter.pdf',
-          description: 'Surat motivasi lengkap untuk aplikasi LPDP',
-          size: '~500 KB'
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         },
         {
           name: 'Career Plan',
-          filename: 'Career_Plan.pdf',
-          description: 'Rencana karir 5-10 tahun pasca-pendidikan',
-          size: '~400 KB'
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         },
         {
           name: 'Contribution Plan',
-          filename: 'Contribution_Plan.pdf',
-          description: 'Rencana kontribusi untuk Indonesia',
-          size: '~450 KB'
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         },
         {
           name: 'Full LPDP Package',
-          filename: 'LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf',
-          description: 'Paket lengkap semua dokumen LPDP',
-          size: '~2 MB'
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         }
       ]
     },
@@ -36,21 +36,21 @@ function Documents() {
       documents: [
         {
           name: 'Curriculum Vitae',
-          filename: 'CV_Muhammad_Sobri_Maulana.pdf',
-          description: 'CV lengkap dengan pengalaman dan pendidikan',
-          size: '~300 KB'
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         },
         {
           name: 'Publication List',
-          filename: 'Publication_List.pdf',
-          description: 'Daftar publikasi ilmiah lengkap',
-          size: '~250 KB'
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         },
         {
           name: 'Project Portfolio',
-          filename: 'Project_Portfolio.pdf',
-          description: 'Portfolio proyek kesehatan dan inovasi',
-          size: '~1 MB'
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         }
       ]
     },
@@ -58,16 +58,10 @@ function Documents() {
       title: 'Sertifikat (Opsional)',
       documents: [
         {
-          name: 'ACLS Certificate',
-          filename: 'ACLS_Certificate.pdf',
-          description: 'Sertifikat ACLS',
-          size: '~200 KB'
-        },
-        {
-          name: 'ATLS Certificate',
-          filename: 'ATLS_Certificate.pdf',
-          description: 'Sertifikat ATLS',
-          size: '~200 KB'
+          name: 'Sertifikat Pelatihan',
+          description: 'Dokumen publik belum ditemukan.',
+          size: '—',
+          available: false
         }
       ]
     }
@@ -79,7 +73,7 @@ function Documents() {
         <div className="container">
           <div className="section-title">
             <h1>Dokumen</h1>
-            <p>Akses dan unduh semua dokumen pendukung aplikasi LPDP</p>
+            <p>Akses dokumen pendukung aplikasi LPDP (jika tersedia)</p>
           </div>
         </div>
       </section>
@@ -91,8 +85,8 @@ function Documents() {
             <div className="notice-content">
               <h3>Catatan Keamanan Data</h3>
               <p>
-                Semua dokumen di halaman ini adalah untuk keperluan reviewer LPDP. 
-                Data sensitif seperti NIK, STR, dan alamat lengkap tidak dicantumkan di dokumen publik ini.
+                Jika dokumen dipublikasikan, data sensitif seperti NIK, STR, dan alamat lengkap harus 
+                disamarkan.
               </p>
             </div>
           </div>
@@ -112,13 +106,17 @@ function Documents() {
                         <span className="document-size">{doc.size}</span>
                       </p>
                     </div>
-                    <a 
-                      href={`/documents/${doc.filename}`} 
-                      className="btn btn-primary"
-                      download
-                    >
-                      Unduh
-                    </a>
+                    {doc.available ? (
+                      <a 
+                        href={`/documents/${doc.filename}`} 
+                        className="btn btn-primary"
+                        download
+                      >
+                        Unduh
+                      </a>
+                    ) : (
+                      <span className="btn btn-outline">Tidak tersedia</span>
+                    )}
                   </div>
                 ))}
               </div>
@@ -126,36 +124,16 @@ function Documents() {
           ))}
 
           <div className="document-instructions">
-            <h2>📌 Instruksi untuk Mengisi Dokumen</h2>
+            <h2>📌 Status Dokumen</h2>
             <div className="instructions-box">
-              <h3>1. Placeholder Files</h3>
               <p>
-                Saat ini, tombol unduh akan mengarah ke file placeholder. Anda perlu membuat dokumen PDF 
-                sebenarnya dan menempatkannya di folder <code>public/documents/</code>
+                Hingga saat ini belum ditemukan dokumen LPDP atau CV yang dipublikasikan secara resmi. 
+                Silakan tambahkan dokumen yang dapat diverifikasi jika tersedia.
               </p>
-
-              <h3>2. Format Penamaan File</h3>
-              <ul>
-                <li>Gunakan format: <code>[Tipe_Dokumen]_[Nama_Anda].pdf</code></li>
-                <li>Contoh: <code>CV_Muhammad_Sobri_Maulana.pdf</code></li>
-                <li>Hindari spasi, gunakan underscore (_)</li>
-              </ul>
-
-              <h3>3. Optimasi File</h3>
-              <ul>
-                <li>Compress PDF untuk ukuran maksimal 5MB per file</li>
-                <li>Gunakan tools seperti iLovePDF, Smallpdf, atau Adobe Acrobat</li>
-                <li>Pastikan teks dapat dicopy (bukan scan gambar)</li>
-              </ul>
-
-              <h3>4. Checklist Sebelum Upload</h3>
-              <ul>
-                <li>✓ Nama dan gelar benar di semua dokumen</li>
-                <li>✓ Tidak ada typo atau kesalahan ketik</li>
-                <li>✓ Data sensitif sudah dihapus/disamarkan</li>
-                <li>✓ Format PDF, bukan Word atau format lain</li>
-                <li>✓ File dapat dibuka dan dibaca dengan jelas</li>
-              </ul>
+              <p>
+                Pastikan dokumen yang dipublikasikan telah melalui proses penyamaran data sensitif dan 
+                berasal dari sumber resmi.
+              </p>
             </div>
           </div>
         </div>
