@@ -15,9 +15,8 @@ function Profile() {
             <div className="profile-summary">
               <h2>Tentang Saya</h2>
               <p>
-                Saya adalah dokter umum yang telah menyelesaikan pendidikan profesi di [NAMA UNIVERSITAS] 
-                pada tahun [TAHUN]. Sejak lulus, saya aktif memberikan pelayanan klinis di [NAMA RUMAH SAKIT/PUSKESMAS] 
-                dengan fokus pada [BIDANG PELAYANAN, misal: pelayanan rawat inap, kegawatdaruratan, atau paliatif].
+                Saya adalah dr. Muhammad Sobri Maulana, seorang dokter umum yang memiliki dedikasi tinggi 
+                untuk mengembangkan layanan kesehatan di Indonesia, khususnya dalam bidang Onkologi Radiasi.
               </p>
               <p>
                 Ketertarikan saya pada onkologi radiasi dimulai dari [PENGALAMAN SPESIFIK, misal: pengalaman 

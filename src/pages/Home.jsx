@@ -8,13 +8,13 @@ function Home() {
         <div className="container">
           <div className="hero-content">
             <div className="hero-text animate-fadeInLeft">
-              <h1 className="animate-glowText">Muhammad Sobri Maulana</h1>
+              <h1 className="animate-glowText">dr. Muhammad Sobri Maulana</h1>
               <h2 className="hero-subtitle">
                 Dokter Berdedikasi untuk Menjadi Spesialis Onkologi Radiasi yang Membawa Dampak bagi Indonesia
               </h2>
               <p className="hero-description animate-fadeInUp">
-                Saya Muhammad Sobri Maulana, seorang dokter umum dengan dedikasi mendalam terhadap pelayanan kanker di Indonesia. 
-                Dengan pengalaman [X TAHUN] dalam pelayanan medis di [NAMA RUMAH SAKIT/LOKASI], saya berkomitmen untuk 
+                Saya dr. Muhammad Sobri Maulana, seorang dokter umum dengan dedikasi mendalam terhadap pelayanan kanker di Indonesia. 
+                Dengan pengalaman dalam pelayanan medis, saya berkomitmen untuk 
                 melanjutkan pendidikan Spesialis Onkologi Radiasi melalui beasiswa LPDP.
               </p>
               <p className="hero-description">
