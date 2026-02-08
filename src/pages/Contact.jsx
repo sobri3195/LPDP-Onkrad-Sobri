@@ -44,9 +44,11 @@ function Contact() {
                 <div className="contact-details">
                   <h3>Donasi & Dukungan</h3>
                   <div className="donation-links">
-                    <a href="https://lynk.id/muhsobrimaulana" target="_blank" rel="noopener noreferrer">Lynk.id</a> | 
-                    <a href="https://trakteer.id/g9mkave5gauns962u07t" target="_blank" rel="noopener noreferrer"> Trakteer</a> | 
-                    <a href="https://nyawer.co/MuhammadSobriMaulana" target="_blank" rel="noopener noreferrer"> Nyawer</a>
+                    <a href="https://lynk.id/muhsobrimaulana" target="_blank" rel="noopener noreferrer">Lynk.id</a>
+                    <a href="https://trakteer.id/g9mkave5gauns962u07t" target="_blank" rel="noopener noreferrer">Trakteer</a>
+                    <a href="https://maulanasobri.gumroad.com/" target="_blank" rel="noopener noreferrer">Gumroad</a>
+                    <a href="https://karyakarsa.com/muhammadsobrimaulana" target="_blank" rel="noopener noreferrer">Karyakarsa</a>
+                    <a href="https://nyawer.co/MuhammadSobriMaulana" target="_blank" rel="noopener noreferrer">Nyawer</a>
                   </div>
                   <p className="contact-note">Dukung saya dalam mengembangkan proyek bermanfaat</p>
                 </div>
@@ -61,6 +63,27 @@ function Contact() {
                     <a href="https://t.me/winlin_exploit" target="_blank" rel="noopener noreferrer">Telegram</a>
                     <a href="https://www.tiktok.com/@dr.sobri" target="_blank" rel="noopener noreferrer">TikTok</a>
                   </div>
+                </div>
+              </div>
+
+              <div className="contact-item">
+                <div className="contact-icon">🌐</div>
+                <div className="contact-details">
+                  <h3>Website & Toko Online</h3>
+                  <div className="social-grid">
+                    <a href="https://muhammadsobrimaulana.netlify.app" target="_blank" rel="noopener noreferrer">Website Utama</a>
+                    <a href="https://pegasus-shop.netlify.app" target="_blank" rel="noopener noreferrer">Toko Online</a>
+                    <a href="https://muhammad-sobri-maulana-kvr6a.sevalla.page/" target="_blank" rel="noopener noreferrer">Sevalla</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="contact-item">
+                <div className="contact-icon">👥</div>
+                <div className="contact-details">
+                  <h3>Komunitas</h3>
+                  <a href="https://chat.whatsapp.com/B8nwRZOBMo64GjTwdXV8Bl" target="_blank" rel="noopener noreferrer">WhatsApp Group</a>
+                  <p className="contact-note">Bergabunglah dengan komunitas untuk diskusi dan berbagi informasi</p>
                 </div>
               </div>
 

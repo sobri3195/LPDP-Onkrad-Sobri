@@ -144,7 +144,29 @@
     align-items: flex-start;
   }
 
+  .volunteer-card {
+    padding: 1.5rem;
+  }
+
   .download-box {
     padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-intro {
+    padding: 3rem 0 2rem;
+  }
+
+  .placeholder-card {
+    padding: 1.25rem;
+  }
+
+  .volunteer-card {
+    padding: 1.25rem;
+  }
+
+  .download-box {
+    padding: 1.5rem 1rem;
   }
 }
