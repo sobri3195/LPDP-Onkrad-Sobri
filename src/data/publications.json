@@ -1,11 +1,164 @@
 [
   {
-    "title": "[JUDUL PUBLIKASI]",
-    "journal": "[NAMA JURNAL]",
-    "year": "[TAHUN]",
-    "description": "Ringkasan singkat publikasi: tujuan riset, metodologi, dan hasil utama.",
-    "tags": ["[Topik 1]", "[Topik 2]", "[Metodologi]"],
-    "doi": "https://doi.org/[DOI_NUMBER]",
+    "type": "journal",
+    "title": "When Genes Meet Environmental Shocks: A Spatiotemporal Cohort Linking Pathogen Phylogenetics, Metagenomic Ecology, and Triage Algorithm Fairness Drift to Predict Incident Cardiometabolic and Infectious Outcomes",
+    "journal": "Scientific Publication",
+    "year": "2026",
+    "description": "Penelitian kohort spasiotemporal yang menghubungkan filogenetika patogen, ekologi metagenomik, dan pergeseran keadilan algoritma triase untuk memprediksi hasil kardiometabolik dan infeksi.",
+    "tags": ["Genomics", "Metagenomics", "AI Fairness", "Infectious Disease"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Sequence Matters in Real-World Pharmacotherapy: Medication Switching Trajectories, Genomic/Transcriptomic Assembly Signatures, and AI-Driven Drug Discovery for Predicting Adverse Outcomes in a Digital Cohort",
+    "journal": "Journal of Innovation & Knowledge",
+    "year": "2026",
+    "description": "Studi tentang lintasan penggantian obat, tanda tangan perakitan genomik/transkriptomik, dan penemuan obat berbasis AI untuk memprediksi hasil buruk dalam kohort digital.",
+    "tags": ["Pharmacotherapy", "Genomics", "AI", "Drug Discovery"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Digital Nudges to Improve ERAS Compliance and Surgical Outcomes: A Systematic Review and Meta-Analysis",
+    "journal": "Direct Science Open Journal",
+    "year": "2026",
+    "description": "Tinjauan sistematis dan meta-analisis tentang penggunaan dorongan digital (digital nudges) untuk meningkatkan kepatuhan ERAS dan hasil pembedahan.",
+    "tags": ["Digital Nudges", "ERAS", "Surgical Outcomes", "Meta-Analysis"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Beyond Thresholds to Pre-Flare Prediction: A Multimodal Digital Cohort Integrating Longitudinal Laboratory Drift, Wearable Signatures, and Metagenomic Ecological Volatility with Transcriptome-Assisted Risk Modeling",
+    "journal": "Direct Science Open Journal",
+    "year": "2026",
+    "description": "Integrasi data laboratorium longitudinal, tanda tangan perangkat wearable, dan volatilitas ekologi metagenomik dengan pemodelan risiko berbantuan transkriptom untuk prediksi pre-flare.",
+    "tags": ["Pre-Flare Prediction", "Wearables", "Metagenomics", "Risk Modeling"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Radiotherapy Outcomes in Stage III NSCLC by Age: A Systematic Review and Meta-Analysis",
+    "journal": "Scientific Publication",
+    "year": "2026",
+    "description": "Tinjauan sistematis dan meta-analisis mengenai hasil radioterapi pada pasien NSCLC stadium III berdasarkan kelompok usia.",
+    "tags": ["Radiotherapy", "NSCLC", "Age Factor", "Meta-Analysis"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "conference",
+    "title": "Di Balik Citra PET/CT: Validasi Meta- Analitis Radiomik sebagai Panduan Presisi dan Prediktor Outcome pada NSCLC Potensi Radiomik dalam Meningkatkan Akurasi dan Konsistensi Penentuan Volume Target",
+    "journal": "Conference Paper",
+    "year": "2026",
+    "date": "Januari 2026",
+    "description": "Validasi meta-analitis radiomik sebagai panduan presisi dan prediktor hasil pada NSCLC serta potensinya dalam penentuan volume target.",
+    "tags": ["PET/CT", "Radiomics", "NSCLC", "Target Volume"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "other",
+    "title": "The Safety Imperative: A Deep Dive into Lithium-Ion Power Bank Regulations and Hazard Mitigation in Air Travel",
+    "journal": "Experiment Findings",
+    "year": "2025",
+    "description": "Analisis mendalam mengenai regulasi power bank lithium-ion dan mitigasi bahaya dalam perjalanan udara.",
+    "tags": ["Safety", "Lithium-Ion", "Aviation", "Hazard Mitigation"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Meta-Analisis Faktor Prognostik (Metilasi MGMT, Mutasi IDH, dan Volume Tumor) terhadap Respons Radioterapi pada Glioblastoma: Tinjauan Sistematis Bukti 10 Tahun Terakhir",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Tinjauan sistematis faktor prognostik seperti metilasi MGMT, mutasi IDH, dan volume tumor terhadap respons radioterapi pada glioblastoma.",
+    "tags": ["Glioblastoma", "MGMT", "IDH", "Radiotherapy", "Prognostic Factors"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Tinjauan Sistematik Hasil Neurokognitif Jangka Panjang pada Anak dan Remaja dengan Tumor Otak: Perbandingan Radioterapi Proton dan Foton",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Perbandingan hasil neurokognitif jangka panjang antara radioterapi proton dan foton pada pasien anak dan remaja dengan tumor otak.",
+    "tags": ["Neurocognitive", "Pediatric Oncology", "Proton Therapy", "Photon Therapy"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "conference",
+    "title": "Analisis Komprehensif Efektivitas Radiosurgery Stereotaktik (SRS/SBRT) vs. Radiotherapy Seluruh Otak (WBRT) pada Metastasis Otak Terbatas Berdasarkan Kelompok Usia",
+    "journal": "Conference Paper",
+    "year": "2025",
+    "date": "Desember 2025",
+    "description": "Studi komparatif efektivitas SRS/SBRT dibandingkan WBRT pada pasien dengan metastasis otak terbatas.",
+    "tags": ["SRS", "SBRT", "WBRT", "Brain Metastasis"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Perbandingan Staged SRS dan Fraksionasi SRS pada Metastasis Otak Besar: Tinjauan Sistematis Efektivitas terhadap Kontrol Tumor Lokal dan Survival",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Tinjauan sistematis mengenai efektivitas staged SRS dibandingkan fraksionasi SRS untuk metastasis otak besar.",
+    "tags": ["Staged SRS", "Fractionated SRS", "Brain Metastasis", "Local Control"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Analisis Komparatif Terapi Proton versus Foton (IMRT/VMAT) pada Glioma Dewasa: Evaluasi Survival, Toksisitas, dan Segmentasi Berbasis Genetik",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Evaluasi survival dan toksisitas pada terapi proton vs foton untuk glioma dewasa dengan mempertimbangkan segmentasi genetik.",
+    "tags": ["Proton Therapy", "IMRT", "VMAT", "Glioma", "Genetics"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "Hubungan Lama Fraksinasi, Volume Radiasi, dan Terapi Konkomitan terhadap Penurunan Jumlah Limfosit pada Pasien Kanker Kepala-Leher: Analisis Studi Kohort Prospektif",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Studi kohort prospektif yang menganalisis dampak parameter radioterapi terhadap penurunan limfosit pada kanker kepala-leher.",
+    "tags": ["Radiotherapy", "Lymphocytes", "Head and Neck Cancer", "Prospective Study"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "other",
+    "title": "Comparative Studies of VMAT vs. IMRT in Locally Advanced/High-Risk Prostate Cancer",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Studi komparatif antara teknik VMAT dan IMRT pada kasus kanker prostat risiko tinggi.",
+    "tags": ["VMAT", "IMRT", "Prostate Cancer"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "A Systematic Review and Meta-Analysis Comparing Volumetric Modulated Arc Therapy (VMAT) and Intensity-Modulated Radiotherapy (IMRT) for Locally Advanced Prostate Cancer",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Meta-analisis membandingkan efektivitas dan toksisitas VMAT vs IMRT pada kanker prostat stadium lanjut.",
+    "tags": ["VMAT", "IMRT", "Prostate Cancer", "Meta-Analysis"],
+    "doi": "#",
+    "status": "Published"
+  },
+  {
+    "type": "journal",
+    "title": "A Systematic Review and Meta-Analysis of Zero-Trust Architecture Adoption: Quantifying Reduction in Lateral Movement Attacks and Mean Time to Detection Across Enterprise Networks",
+    "journal": "Scientific Publication",
+    "year": "2025",
+    "description": "Analisis kuantitatif dampak adopsi arsitektur Zero-Trust terhadap pengurangan serangan lateral dan waktu deteksi.",
+    "tags": ["Zero-Trust", "Cybersecurity", "Network Security", "Meta-Analysis"],
+    "doi": "#",
     "status": "Published"
   }
 ]
