@@ -52,7 +52,7 @@ function Home() {
               <div className="stat-label">Tahun Pengalaman</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">[X]</div>
+              <div className="stat-number">16</div>
               <div className="stat-label">Publikasi Ilmiah</div>
             </div>
             <div className="stat-card animate-scaleIn">
@@ -60,7 +60,7 @@ function Home() {
               <div className="stat-label">Sertifikat Pelatihan</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">[X]</div>
+              <div className="stat-number">10</div>
               <div className="stat-label">Proyek Kesehatan</div>
             </div>
           </div>
