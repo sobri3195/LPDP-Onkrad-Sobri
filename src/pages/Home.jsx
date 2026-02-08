@@ -10,16 +10,16 @@ function Home() {
             <div className="hero-text animate-fadeInLeft">
               <h1 className="animate-glowText">dr. Muhammad Sobri Maulana</h1>
               <h2 className="hero-subtitle">
-                Portofolio LPDP (informasi publik terbatas)
+                Calon Peserta Program Pendidikan Dokter Spesialis Onkologi Radiasi
               </h2>
               <p className="hero-description animate-fadeInUp">
-                Halaman ini disusun berdasarkan informasi yang dapat diverifikasi dari sumber publik. Saat ini, 
-                rincian pendidikan, pengalaman klinis, publikasi, serta dokumen pendukung resmi belum ditemukan 
-                sehingga beberapa bagian masih menunggu pembaruan.
+                Dokter umum dengan dedikasi tinggi dalam bidang kesehatan dan komitmen untuk berkontribusi 
+                dalam pelayanan onkologi radiasi di Indonesia. Portofolio ini disusun sebagai bagian dari 
+                persyaratan beasiswa LPDP untuk melanjutkan pendidikan spesialis Onkologi Radiasi.
               </p>
               <p className="hero-description">
-                Jika dokumen atau profil profesional resmi tersedia, konten akan diperbarui agar mencerminkan 
-                rekam jejak akademik dan klinis yang terverifikasi.
+                Website ini menyajikan visi, rencana karir, kontribusi yang direncanakan, serta dokumentasi 
+                pendukung yang relevan dengan aplikasi beasiswa LPDP dan program pendidikan spesialis.
               </p>
               <div className="hero-cta animate-stagger">
                 <Link to="/lpdp-package" className="btn btn-primary">
@@ -47,20 +47,20 @@ function Home() {
         <div className="container">
           <div className="stats-grid animate-stagger">
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">—</div>
-              <div className="stat-label">Pengalaman Klinis (Belum tersedia)</div>
+              <div className="stat-number">S1</div>
+              <div className="stat-label">Pendidikan Kedokteran</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">—</div>
-              <div className="stat-label">Publikasi Ilmiah (Belum tersedia)</div>
+              <div className="stat-number">SpOnkRad</div>
+              <div className="stat-label">Program Spesialis yang Dituju</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">—</div>
-              <div className="stat-label">Sertifikasi (Belum tersedia)</div>
+              <div className="stat-number">LPDP</div>
+              <div className="stat-label">Beasiswa yang Dilamar</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">—</div>
-              <div className="stat-label">Proyek/Inovasi (Belum tersedia)</div>
+              <div className="stat-number">5-10</div>
+              <div className="stat-label">Rencana Karir (Tahun)</div>
             </div>
           </div>
         </div>
@@ -76,8 +76,8 @@ function Home() {
               <div className="highlight-icon">💡</div>
               <h3>Motivation Letter</h3>
               <p>
-                Dokumen motivation letter publik belum ditemukan. Bagian ini akan diperbarui setelah 
-                tersedia sumber resmi yang dapat diverifikasi.
+                Motivasi kuat untuk berkontribusi dalam peningkatan akses dan kualitas pelayanan 
+                onkologi radiasi di Indonesia, khususnya di wilayah yang masih terbatas fasilitasnya.
               </p>
               <Link to="/lpdp-package" className="highlight-link">
                 Baca Selengkapnya →
@@ -88,8 +88,8 @@ function Home() {
               <div className="highlight-icon">🎯</div>
               <h3>Career Plan</h3>
               <p>
-                Rencana karir dan target akademik belum tersedia dalam sumber publik. Timeline akan 
-                ditambahkan berdasarkan dokumen resmi.
+                Rencana karir terstruktur untuk 5-10 tahun ke depan, mencakup pendidikan spesialis, 
+                praktik klinis, pengembangan kompetensi, hingga kontribusi akademik dan pelayanan masyarakat.
               </p>
               <Link to="/lpdp-package" className="highlight-link">
                 Lihat Timeline →
@@ -98,13 +98,13 @@ function Home() {
 
             <div className="highlight-card">
               <div className="highlight-icon">📚</div>
-              <h3>Publikasi & Riset</h3>
+              <h3>Contribution Plan</h3>
               <p>
-                Belum ditemukan publikasi ilmiah terverifikasi yang mencantumkan dr. Muhammad Sobri Maulana 
-                sebagai penulis. Bagian ini akan diperbarui saat data tersedia.
+                Rencana kontribusi konkret untuk Indonesia pasca studi, meliputi pelayanan kesehatan, 
+                edukasi masyarakat, penelitian, dan pengembangan kapasitas SDM kesehatan.
               </p>
-              <Link to="/publications" className="highlight-link">
-                Lihat Publikasi →
+              <Link to="/lpdp-package" className="highlight-link">
+                Lihat Rencana →
               </Link>
             </div>
           </div>
@@ -114,33 +114,36 @@ function Home() {
       <section className="section value-propositions">
         <div className="container">
           <div className="section-title">
-            <h2>Ringkasan Ketersediaan Data</h2>
+            <h2>Mengapa Onkologi Radiasi?</h2>
           </div>
           <div className="value-grid">
             <div className="value-item">
               <div className="value-number">01</div>
-              <h3>Profil Akademik</h3>
+              <h3>Kebutuhan Nasional</h3>
               <p>
-                Data pendidikan formal dan capaian akademik belum ditemukan pada sumber publik yang dapat 
-                diverifikasi.
+                Indonesia menghadapi peningkatan kasus kanker yang signifikan, namun jumlah spesialis 
+                onkologi radiasi masih sangat terbatas. Hal ini menciptakan kesenjangan akses pelayanan 
+                yang perlu segera ditangani.
               </p>
             </div>
 
             <div className="value-item">
               <div className="value-number">02</div>
-              <h3>Pengalaman Klinis</h3>
+              <h3>Komitmen Pelayanan</h3>
               <p>
-                Informasi pengalaman klinis atau tempat kerja belum tersedia secara publik. Bagian ini akan 
-                diperbarui ketika data resmi tersedia.
+                Dengan latar belakang sebagai dokter umum, saya memiliki pemahaman mendalam tentang kebutuhan 
+                pasien dan sistem kesehatan Indonesia. Pendidikan spesialis ini akan memperkuat kapasitas untuk 
+                memberikan pelayanan terbaik.
               </p>
             </div>
 
             <div className="value-item">
               <div className="value-number">03</div>
-              <h3>Dokumen Pendukung</h3>
+              <h3>Visi Jangka Panjang</h3>
               <p>
-                Dokumen LPDP, CV, serta rencana karir belum ditemukan di sumber publik. Silakan rujuk dokumen 
-                resmi untuk melengkapi portofolio ini.
+                Tidak hanya fokus pada praktik klinis, tetapi juga berkomitmen untuk mengembangkan 
+                penelitian, edukasi masyarakat, dan pembangunan kapasitas SDM kesehatan dalam bidang 
+                onkologi radiasi di Indonesia.
               </p>
             </div>
           </div>
@@ -150,10 +153,11 @@ function Home() {
       <section className="section cta-section">
         <div className="container">
           <div className="cta-box">
-            <h2>Siap Menjelajahi Lebih Lanjut?</h2>
+            <h2>Jelajahi Portofolio LPDP</h2>
             <p>
-              Lihat halaman profil, publikasi, dan dokumen untuk memahami bagian yang sudah terisi serta 
-              area yang masih membutuhkan data terverifikasi.
+              Pelajari lebih lanjut tentang latar belakang pendidikan, pengalaman, rencana karir, 
+              dan dokumentasi lengkap yang mendukung aplikasi beasiswa LPDP untuk program spesialis 
+              Onkologi Radiasi.
             </p>
             <div className="cta-buttons">
               <Link to="/profile" className="btn btn-primary">
