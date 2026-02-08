@@ -1,11 +1,82 @@
 [
   {
-    "title": "[JUDUL PUBLIKASI]",
-    "journal": "[NAMA JURNAL]",
-    "year": "[TAHUN]",
-    "description": "Ringkasan singkat publikasi: tujuan riset, metodologi, dan hasil utama.",
-    "tags": ["[Topik 1]", "[Topik 2]", "[Metodologi]"],
-    "doi": "https://doi.org/[DOI_NUMBER]",
-    "status": "Published"
+    "title": "AutoContour-One: AI Auto-segmentation Target dan OAR untuk Mempercepat Proses Konturing",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi pasien kepala-leher/prostat/paru untuk IMRT/VMAT; intervensi auto-contouring AI untuk GTV/CTV/PTV dan OAR dibanding konturing manual dokter. Outcome utama: waktu konturing, variabilitas antar-penilai, kebutuhan revisi, dan dampak terhadap metrik DVH rencana akhir.",
+    "tags": ["AI", "Auto-segmentation", "IMRT/VMAT", "DVH"],
+    "status": "Proposed"
+  },
+  {
+    "title": "Dose-Drift Detector: AI Berbasis CBCT Harian untuk Deteksi Perubahan Anatomi dan Pemicu Adaptive Replanning",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi radioterapi fraksinasi panjang (kepala-leher/serviks) dengan CBCT serial; intervensi AI untuk mendeteksi drift anatomi dan memicu replanning adaptif dibanding evaluasi manual periodik. Outcome: ketepatan waktu replanning, coverage target (D95), overdosis OAR, serta toksisitas akut/subakut.",
+    "tags": ["CBCT", "Adaptive RT", "Replanning", "D95"],
+    "status": "Proposed"
+  },
+  {
+    "title": "Mucositis-Cam: Prediksi Mukositis Berat Menggunakan Foto Intraoral Serial dan Informasi Distribusi Dosis",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi pasien radioterapi kepala-leher; intervensi model AI yang menggabungkan foto intraoral serial berbasis smartphone dan parameter dosis dibanding pemantauan klinis standar tanpa AI. Outcome: mukositis grade ≥3, kebutuhan feeding tube, interupsi radioterapi, dan kualitas hidup.",
+    "tags": ["Head & Neck", "Toksisitas", "Smartphone", "QoL"],
+    "status": "Proposed"
+  },
+  {
+    "title": "PneumoShield: Prediksi Pneumonitis Radiasi pada Kanker Paru Menggunakan CT Radiomics dan Parameter Dose-Volume",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi NSCLC yang menjalani radioterapi toraks; intervensi AI radiomics CT dengan integrasi V20/MLD dibanding pendekatan konvensional berbasis constraint DVH saja. Outcome: pneumonitis grade ≥2, AUROC/kalibrasi model, rawat inap, dan perubahan strategi perencanaan.",
+    "tags": ["NSCLC", "Radiomics", "V20/MLD", "Prediksi Risiko"],
+    "status": "Proposed"
+  },
+  {
+    "title": "PlanPilot-VMAT: Perencanaan VMAT Berbasis AI vs Perencanaan Manual (Studi Non-inferiority)",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi pasien multi-site IMRT/VMAT; intervensi AI plan generation/knowledge-based planning dibanding workflow planning manual dosimetrist. Outcome: kualitas rencana (CI/HI), sparing OAR berdasarkan endpoint DVH, waktu planning, dan jumlah iterasi revisi.",
+    "tags": ["VMAT", "Knowledge-based Planning", "Non-inferiority", "CI/HI"],
+    "status": "Proposed"
+  },
+  {
+    "title": "Setup-Error Zero: AI Deteksi dan Rekomendasi Koreksi Setup Real-time dari Portal Imaging/CBCT",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi pasien IGRT dengan portal imaging/CBCT; intervensi AI untuk deteksi translasi-rotasi dan rekomendasi koreksi real-time dibanding review manual RTT/dokter. Outcome: residual setup error, kebutuhan repeat imaging, waktu di mesin, dan insiden near-miss setup.",
+    "tags": ["IGRT", "Setup Correction", "Real-time AI", "Patient Safety"],
+    "status": "Proposed"
+  },
+  {
+    "title": "RT-DocWatch: Audit Konsistensi Dokumen Radioterapi Menggunakan LLM untuk Pencegahan Error Laterality/Dose/Fraction",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi seluruh kasus radioterapi di pusat layanan; intervensi LLM untuk audit konsistensi dokumen simulasi, kontur, resep dosis, plan, dan delivery record dibanding QA manual. Outcome: jumlah error/near-miss terdeteksi, waktu QA, escape rate, dan beban kerja tim.",
+    "tags": ["LLM", "QA Radioterapi", "Patient Safety", "Workflow"],
+    "status": "Proposed"
+  },
+  {
+    "title": "Hippocampus-Saver AI: Prediksi Penurunan Fungsi Kognitif Pasca WBRT Berbasis MRI Radiomics dan Dosis ke Hippocampus",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi pasien metastasis otak kandidat WBRT; intervensi AI radiomics MRI ditambah parameter dosis hippocampus dibanding evaluasi konvensional klinis + DVH constraints. Outcome: skor kognitif 3–12 bulan, kualitas hidup, dan dampak keputusan hippocampal sparing/adaptasi rencana.",
+    "tags": ["WBRT", "Hippocampus", "MRI Radiomics", "Neurocognition"],
+    "status": "Proposed"
+  },
+  {
+    "title": "WaitList-Fair: Prioritisasi Jadwal Radioterapi Berbasis AI untuk Meminimalkan Risiko Progresi Saat Menunggu",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi pasien onkologi yang menunggu slot radioterapi; intervensi AI estimasi risiko progression-while-waiting untuk prioritas jadwal dibanding prioritisasi manual kebijakan/judgement klinis. Outcome: waktu tunggu kelompok high-risk, outcome klinis, dan metrik fairness antar kelompok.",
+    "tags": ["Scheduling", "Fairness", "Triage", "Health Services"],
+    "status": "Proposed"
+  },
+  {
+    "title": "LiverRILD-Guard: Prediksi Radiation-Induced Liver Disease pada SBRT Hati Menggunakan Cadangan Fungsi Hati dan Heterogenitas Dosis",
+    "journal": "Ide Riset Onkologi Radiasi (PICO)",
+    "year": "2026",
+    "description": "Populasi pasien SBRT hati (HCC/metastasis) dengan variasi Child-Pugh/ALBI; intervensi AI yang menggabungkan fungsi hati dan heterogenitas distribusi dosis dibanding constraint DVH standar. Outcome: kejadian RILD, dekompensasi hati, overall survival, dan rekomendasi mitigasi pada perencanaan.",
+    "tags": ["SBRT Hati", "RILD", "ALBI/Child-Pugh", "Risk Stratification"],
+    "status": "Proposed"
   }
 ]
