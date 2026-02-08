@@ -34,7 +34,7 @@ function Navbar() {
           <Logo />
           <div className="brand-text">
             <h3>Muhammad Sobri Maulana</h3>
-            <span className="navbar-subtitle">dr. | Kandidat Sp.Onk.Rad</span>
+            <span className="navbar-subtitle">Portofolio LPDP</span>
           </div>
         </Link>
 
