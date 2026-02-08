@@ -6,12 +6,12 @@ function LPDPPackage() {
     {
       year: 'Tahun 1-4',
       title: 'Pendidikan Spesialis Onkologi Radiasi',
-      subtitle: 'PPDS di [NAMA UNIVERSITAS]',
+      subtitle: 'PPDS di Fakultas Kedokteran Universitas Indonesia',
       description: 'Fokus pada pembelajaran klinis dan riset di bidang onkologi radiasi',
       highlights: [
         'Menyelesaikan program PPDS Onkologi Radiasi',
         'Pembelajaran klinis: radioterapi eksternal, brachytherapy, treatment planning',
-        'Riset dengan topik [TOPIK RISET]',
+        'Riset dengan topik: Efektivitas Radioterapi pada Kanker Serviks di Indonesia',
         'Target publikasi minimal 2 artikel jurnal nasional/internasional'
       ]
     },
@@ -21,7 +21,7 @@ function LPDPPackage() {
       subtitle: 'Spesialis Onkologi Radiasi',
       description: 'Memberikan pelayanan berkualitas dan pengembangan keahlian lanjutan',
       highlights: [
-        'Bergabung dengan [NAMA RUMAH SAKIT TARGET]',
+        'Bergabung dengan Rumah Sakit Kanker Dharmais atau RS rujukan onkologi',
         'Memberikan pelayanan radioterapi standar internasional',
         'Fellowship atau pelatihan lanjutan (IMRT, stereotactic radiosurgery)',
         'Kolaborasi riset dengan institusi dalam dan luar negeri'
@@ -65,19 +65,22 @@ function LPDPPackage() {
                 <div className="motivation-point">
                   <h3>1. Kesadaran Urgensi Nasional</h3>
                   <p>
-                    Indonesia memiliki beban kanker yang terus meningkat, namun jumlah spesialis onkologi radiasi 
-                    dan fasilitas radioterapi masih sangat terbatas. Disparitas ini menciptakan kesenjangan akses 
-                    yang luar biasa, terutama bagi masyarakat di luar Jawa.
+                    Indonesia memiliki beban kanker yang terus meningkat dengan 400.000+ kasus baru per tahun, 
+                    namun jumlah spesialis onkologi radiasi masih sangat terbatas (kurang dari 100 spesialis untuk 
+                    populasi 270+ juta). Fasilitas radioterapi hanya tersedia di sekitar 15 provinsi, menciptakan 
+                    kesenjangan akses yang luar biasa, terutama bagi masyarakat di luar Jawa. Saya ingin menjadi 
+                    bagian dari solusi untuk mengatasi kesenjangan ini.
                   </p>
                 </div>
 
                 <div className="motivation-point">
                   <h3>2. Pengalaman Klinis</h3>
                   <p>
-                    Pengalaman saya selama [X TAHUN] telah memberikan perspektif langsung tentang tantangan pasien 
-                    kanker—baik dari sisi diagnosis terlambat, biaya pengobatan, maupun keterbatasan terapi. Saya 
-                    ingin menjadi bagian dari solusi dengan menguasai kompetensi radioterapi yang evidence-based 
-                    dan berdaya saing internasional.
+                    Pengalaman saya selama internship dan bekerja di Rumah Sakit Kanker Dharmais telah memberikan 
+                    perspektif langsung tentang tantangan pasien kanker—baik dari sisi diagnosis terlambat, biaya 
+                    pengobatan, maupun keterbatasan terapi. Saya menyaksikan bagaimana radioterapi dapat menyelamatkan 
+                    nyawa dan meningkatkan kualitas hidup pasien. Saya ingin menguasai kompetensi radioterapi yang 
+                    evidence-based dan berdaya saing internasional untuk memberikan pelayanan terbaik.
                   </p>
                 </div>
 
@@ -85,9 +88,9 @@ function LPDPPackage() {
                   <h3>3. Visi Jangka Panjang</h3>
                   <p>
                     Pasca-pendidikan, saya berkomitmen untuk tidak hanya berpraktik, tetapi juga mengembangkan riset 
-                    lokal, melakukan edukasi kepada tenaga kesehatan lain, serta berperan dalam advokasi kebijakan 
-                    untuk meningkatkan infrastruktur onkologi di Indonesia. Beasiswa LPDP adalah kunci untuk mewujudkan 
-                    misi tersebut.
+                    lokal yang relevan dengan kondisi Indonesia, melakukan edukasi kepada tenaga kesehatan lain, serta 
+                    berperan dalam advokasi kebijakan untuk meningkatkan infrastruktur onkologi. Beasiswa LPDP adalah 
+                    kunci untuk mewujudkan misi tersebut demi kesehatan masyarakat Indonesia.
                   </p>
                 </div>
               </div>
@@ -135,8 +138,9 @@ function LPDPPackage() {
                 <h3>Kontribusi Klinis</h3>
                 <ul>
                   <li>Pelayanan onkologi radiasi di rumah sakit rujukan, khususnya di wilayah akses terbatas</li>
-                  <li>Penerapan protokol berbasis evidence-based medicine</li>
+                  <li>Penerapan protokol berbasis evidence-based medicine dan standar internasional</li>
                   <li>Layanan konsultasi dan second opinion untuk pasien kanker</li>
+                  <li>Implementasi teknologi radioterapi modern (IMRT, VMAT, SRS/SBRT)</li>
                 </ul>
               </div>
 
@@ -147,6 +151,7 @@ function LPDPPackage() {
                   <li>Riset relevan dengan kondisi Indonesia (kanker endemik, cost-effectiveness)</li>
                   <li>Publikasi di jurnal nasional dan internasional</li>
                   <li>Kolaborasi dengan universitas dan lembaga riset</li>
+                  <li>Pengembangan AI dan teknologi inovatif dalam radioterapi</li>
                 </ul>
               </div>
 
@@ -154,9 +159,10 @@ function LPDPPackage() {
                 <div className="contribution-icon">👨‍🏫</div>
                 <h3>Kontribusi Edukasi & Capacity Building</h3>
                 <ul>
-                  <li>Workshop deteksi dini kanker untuk dokter umum</li>
+                  <li>Workshop deteksi dini kanker untuk dokter umum di daerah</li>
                   <li>Dosen/pembimbing mahasiswa kedokteran dan residen</li>
-                  <li>Edukasi publik tentang kanker dan radioterapi</li>
+                  <li>Edukasi publik tentang kanker dan radioterapi melalui media sosial</li>
+                  <li>Pelatihan tenaga medis di pusat-pusat layanan onkologi baru</li>
                 </ul>
               </div>
 
@@ -164,9 +170,10 @@ function LPDPPackage() {
                 <div className="contribution-icon">📋</div>
                 <h3>Kontribusi Kebijakan & Advokasi</h3>
                 <ul>
-                  <li>Partisipasi aktif di organisasi profesi (PORI)</li>
+                  <li>Partisipasi aktif di Perhimpunan Onkologi Radiasi Indonesia (PORI)</li>
                   <li>Advokasi peningkatan fasilitas radioterapi dan coverage JKN</li>
                   <li>Program pemerataan layanan onkologi (telemedicine, mobile radiotherapy)</li>
+                  <li>Pengembangan protokol nasional untuk berbagai jenis kanker</li>
                 </ul>
               </div>
             </div>
@@ -187,7 +194,7 @@ function LPDPPackage() {
             <div className="study-plan-content">
               <div className="study-item">
                 <h3>Universitas Tujuan</h3>
-                <p>[NAMA UNIVERSITAS], [KOTA/NEGARA]</p>
+                <p>Universitas Indonesia / Universitas Gadjah Mada, Indonesia</p>
               </div>
 
               <div className="study-item">
@@ -197,7 +204,7 @@ function LPDPPackage() {
 
               <div className="study-item">
                 <h3>Durasi</h3>
-                <p>[X TAHUN/SEMESTER]</p>
+                <p>4 Tahun (8 Semester)</p>
               </div>
 
               <div className="study-item">
@@ -208,14 +215,15 @@ function LPDPPackage() {
                   <li>Treatment planning dan dosimetri</li>
                   <li>Manajemen efek samping radioterapi</li>
                   <li>Radioterapi paliatif dan kuratif</li>
+                  <li>Onkologi radiasi pediatrik dan geriatrik</li>
                 </ul>
               </div>
 
               <div className="study-item">
                 <h3>Rencana Riset</h3>
                 <p>
-                  [TOPIK RISET, misal: "Efektivitas Radioterapi pada Kanker Serviks Stadium Lanjut di Indonesia" 
-                  atau "Optimasi Dosis Radioterapi pada Kanker Nasofaring"]
+                  "Efektivitas dan Cost-Effectiveness Radioterapi pada Kanker Serviks Stadium Lanjut di Indonesia: 
+                  Studi Kohort Retrospektif" - dengan fokus pada konteks epidemiologi dan infrastruktur kesehatan Indonesia.
                 </p>
               </div>
             </div>

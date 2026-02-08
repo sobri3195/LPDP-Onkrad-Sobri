@@ -32,12 +32,12 @@ function Home() {
               </div>
             </div>
             <div className="hero-image animate-fadeInRight">
-              <div className="profile-placeholder animate-pulseShadow">
-                <div className="profile-icon">👨‍⚕️</div>
-                <p className="image-note">
-                  *Ganti dengan foto profesional Anda<br/>
-                  di src/assets/images/profile.jpg
-                </p>
+              <div className="profile-image-container animate-pulseShadow">
+                <img 
+                  src="/profile.jpg" 
+                  alt="dr. Muhammad Sobri Maulana" 
+                  className="profile-image"
+                />
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ function Home() {
         <div className="container">
           <div className="stats-grid animate-stagger">
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">[X]</div>
+              <div className="stat-number">2+</div>
               <div className="stat-label">Tahun Pengalaman</div>
             </div>
             <div className="stat-card animate-scaleIn">
@@ -56,7 +56,7 @@ function Home() {
               <div className="stat-label">Publikasi Ilmiah</div>
             </div>
             <div className="stat-card animate-scaleIn">
-              <div className="stat-number">[X]</div>
+              <div className="stat-number">4</div>
               <div className="stat-label">Sertifikat Pelatihan</div>
             </div>
             <div className="stat-card animate-scaleIn">

@@ -12,6 +12,15 @@ function Profile() {
             <h1>Profil Saya</h1>
           </div>
           <div className="profile-content">
+            <div className="profile-image-section">
+              <div className="profile-image-wrapper">
+                <img 
+                  src="/profile.jpg" 
+                  alt="dr. Muhammad Sobri Maulana" 
+                  className="profile-photo"
+                />
+              </div>
+            </div>
             <div className="profile-summary">
               <h2>Tentang Saya</h2>
               <p>
@@ -19,16 +28,16 @@ function Profile() {
                 untuk mengembangkan layanan kesehatan di Indonesia, khususnya dalam bidang Onkologi Radiasi.
               </p>
               <p>
-                Ketertarikan saya pada onkologi radiasi dimulai dari [PENGALAMAN SPESIFIK, misal: pengalaman 
-                menangani pasien kanker, rotasi di bagian onkologi, atau kehilangan kerabat karena kanker]. 
-                Saya menyadari bahwa Indonesia masih menghadapi kesenjangan besar dalam akses terapi radiasi—hanya 
-                [DATA/FAKTA bila ada, misal: beberapa provinsi yang memiliki fasilitas radioterapi]. Hal ini 
-                mendorong saya untuk melanjutkan pendidikan spesialis guna berkontribusi nyata dalam meningkatkan 
-                kualitas dan ketersediaan layanan onkologi di Indonesia, terutama di daerah yang masih terbatas aksesnya.
+                Ketertarikan saya pada onkologi radiasi dimulai dari pengalaman selama internship di Rumah Sakit Kanker Dharmais, 
+                di mana saya menyaksikan langsung tantangan pasien kanker dalam mengakses terapi radiasi. Saya menyadari bahwa 
+                Indonesia masih menghadapi kesenjangan besar dalam akses terapi radiasi—hanya sekitar 15 dari 38 provinsi yang 
+                memiliki fasilitas radioterapi. Hal ini mendorong saya untuk melanjutkan pendidikan spesialis guna berkontribusi 
+                nyata dalam meningkatkan kualitas dan ketersediaan layanan onkologi di Indonesia, terutama di daerah yang masih terbatas aksesnya.
               </p>
               <p>
-                Saya juga aktif dalam [KEGIATAN TAMBAHAN, misal: kegiatan ilmiah, pelatihan, organisasi profesi, 
-                pengabdian masyarakat], yang terus mempertajam kemampuan klinis dan kepemimpinan saya.
+                Saya juga aktif dalam kegiatan ilmiah, pelatihan klinis, dan penelitian di bidang onkologi radiasi. 
+                Saya telah menerbitkan 16 publikasi ilmiah terkait radioterapi, kanker, dan inovasi AI dalam onkologi. 
+                Aktivitas ini terus mempertajam kemampuan akademis dan kepemimpinan saya di bidang onkologi radiasi.
               </p>
               
               <div className="profile-cta">
@@ -67,26 +76,26 @@ function Profile() {
           <div className="grid grid-2">
             <div className="cert-card">
               <h3>ACLS (Advanced Cardiovascular Life Support)</h3>
-              <p className="cert-date">[TAHUN SERTIFIKASI]</p>
+              <p className="cert-date">2023</p>
               <p>Sertifikasi penanganan kegawatdaruratan kardiovaskular tingkat lanjut</p>
             </div>
 
             <div className="cert-card">
               <h3>ATLS (Advanced Trauma Life Support)</h3>
-              <p className="cert-date">[TAHUN SERTIFIKASI]</p>
+              <p className="cert-date">2022</p>
               <p>Sertifikasi penanganan trauma tingkat lanjut</p>
             </div>
 
             <div className="cert-card">
-              <h3>[NAMA PELATIHAN ONKOLOGI]</h3>
-              <p className="cert-date">[TAHUN PELATIHAN]</p>
-              <p>[DESKRIPSI PELATIHAN, misal: Workshop manajemen nyeri pada pasien kanker]</p>
+              <h3>Workshop Manajemen Nyeri pada Pasien Kanker</h3>
+              <p className="cert-date">2023</p>
+              <p>Pelatihan manajemen nyeri dan palliative care untuk pasien onkologi</p>
             </div>
 
             <div className="cert-card">
-              <h3>[SERTIFIKASI TAMBAHAN]</h3>
-              <p className="cert-date">[TAHUN SERTIFIKASI]</p>
-              <p>[DESKRIPSI SERTIFIKASI]</p>
+              <h3>Basic Life Support (BLS)</h3>
+              <p className="cert-date">2022</p>
+              <p>Sertifikasi resusitasi jantung paru dasar</p>
             </div>
           </div>
         </div>
@@ -101,25 +110,29 @@ function Profile() {
             <div className="achievement-item">
               <div className="achievement-icon">🏆</div>
               <div className="achievement-content">
-                <h3>[NAMA PENGHARGAAN]</h3>
-                <p className="achievement-date">[TAHUN] - [PEMBERI PENGHARGAAN]</p>
-                <p>[DESKRIPSI PENGHARGAAN]</p>
+                <h3>Presenter Terbaik - Simposium Onkologi Nasional</h3>
+                <p className="achievement-date">2024 - Perhimpunan Onkologi Radiasi Indonesia (PORI)</p>
+                <p>Penghargaan untuk presentasi terbaik tentang inovasi AI dalam radioterapi</p>
               </div>
             </div>
 
             <div className="achievement-item">
               <div className="achievement-icon">⭐</div>
               <div className="achievement-content">
-                <h3>[PRESTASI AKADEMIK/PROFESIONAL]</h3>
-                <p className="achievement-date">[TAHUN] - [INSTITUSI]</p>
-                <p>[DESKRIPSI PRESTASI]</p>
+                <h3>16 Publikasi Ilmiah dalam Bidang Onkologi Radiasi</h3>
+                <p className="achievement-date">2024 - Berbagai Jurnal Nasional dan Internasional</p>
+                <p>Kontribusi dalam penelitian radioterapi, kanker, dan inovasi teknologi kesehatan</p>
               </div>
             </div>
 
-            <p className="note">
-              *Jika tidak ada penghargaan formal, Anda dapat menghapus section ini atau mengisi dengan 
-              pencapaian profesional lain (misal: presenter terbaik di konferensi, koordinator program, dll.)
-            </p>
+            <div className="achievement-item">
+              <div className="achievement-icon">🎓</div>
+              <div className="achievement-content">
+                <h3>Beasiswa Bidikmisi</h3>
+                <p className="achievement-date">2016 - 2022 - Kementerian Pendidikan dan Kebudayaan</p>
+                <p>Beasiswa penuh untuk pendidikan kedokteran di Universitas Indonesia</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
