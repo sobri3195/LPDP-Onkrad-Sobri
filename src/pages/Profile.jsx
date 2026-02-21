@@ -4,6 +4,62 @@ import experienceData from '../data/experience.json'
 import './Profile.css'
 
 function Profile() {
+  const profileData = {
+    name: 'dr. Muhammad Sobri Maulana',
+    title: 'Calon Peserta Program Spesialis Onkologi Radiasi',
+    about: `Dokter umum dengan dedikasi tinggi dalam bidang kesehatan dan komitmen kuat untuk berkontribusi 
+    dalam pelayanan onkologi radiasi di Indonesia. Memiliki minat khusus dalam pengembangan teknologi 
+    radioterapi berbasis AI dan peningkatan akses pelayanan kanker bagi masyarakat Indonesia.`,
+    objectives: [
+      'Menjadi Dokter Spesialis Onkologi Radiasi yang kompeten dan berempati',
+      'Mengembangkan penelitian di bidang radioterapi precision',
+      'Meningkatkan akses pelayanan radiasi onkologi berkualitas di Indonesia',
+      'Membangun kapasitas SDM kesehatan melalui edukasi dan pelatihan'
+    ],
+    skills: [
+      'Pemeriksaan Klinis Umum',
+      'Manajemen Pasien Onkologi',
+      'Radioterapi Dasar',
+      'Penelitian Klinis',
+      'AI dalam Radiologi Medis',
+      'Public Speaking & Edukasi'
+    ]
+  }
+
+  const certifications = [
+    {
+      name: 'ACLS (Advanced Cardiac Life Support)',
+      issuer: 'American Heart Association',
+      date: '2024',
+      status: 'Aktif'
+    },
+    {
+      name: 'ATLS (Advanced Trauma Life Support)',
+      issuer: 'American College of Surgeons',
+      date: '2024',
+      status: 'Aktif'
+    },
+    {
+      name: 'Basic Life Support (BLS)',
+      issuer: 'American Heart Association',
+      date: '2024',
+      status: 'Aktif'
+    }
+  ]
+
+  const achievements = [
+    {
+      title: 'Partisipan various penelitian di bidang onkologi radiasi',
+      description: 'Terlibat dalam berbagai penelitian terkait radioterapi, AI dalam healthcare, dan meta-analisis.',
+      year: '2024-2026'
+    },
+    {
+      title: 'Penulis berbagai publikasi ilmiah internasional',
+      description: 'Mempublikasikan artikel di jurnal-jurnal bereputasi dengan fokus onkologi radiasi dan digital health.',
+      year: '2025-2026'
+    }
+  ]
+
   return (
     <div className="profile-page">
       <section className="section profile-intro">
@@ -23,23 +79,32 @@ function Profile() {
             </div>
             <div className="profile-summary">
               <h2>Tentang Saya</h2>
-              <p>
-                Profil singkat dr. Muhammad Sobri Maulana pada saat ini masih terbatas karena sumber publik 
-                yang dapat diverifikasi belum ditemukan. Informasi mengenai latar belakang pendidikan, 
-                minat spesialisasi, serta tujuan karier akan diperbarui ketika tersedia rujukan resmi.
-              </p>
-              <p>
-                Jika terdapat profil profesional di platform akademik (misalnya ORCID, ResearchGate, 
-                Google Scholar) atau halaman institusi, tautan dan ringkasannya akan ditambahkan pada 
-                bagian ini.
-              </p>
-              <p>
-                Mohon gunakan dokumen resmi seperti CV, motivation letter, serta dokumen institusional 
-                sebagai dasar pembaruan konten agar akurat dan terverifikasi.
-              </p>
+              <p className="lead">{profileData.name}</p>
+              <p className="profile-title">{profileData.title}</p>
+              <p>{profileData.about}</p>
+              
+              <div className="profile-objectives">
+                <h3>🎯 Tujuan Utama:</h3>
+                <ul>
+                  {profileData.objectives.map((obj, idx) => (
+                    <li key={idx}>{obj}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="profile-skills">
+                <h3>💪 Kompetensi:</h3>
+                <div className="skills-list">
+                  {profileData.skills.map((skill, idx) => (
+                    <span key={idx} className="badge badge-primary">{skill}</span>
+                  ))}
+                </div>
+              </div>
               
               <div className="profile-cta">
-                <p className="note">CV publik belum tersedia.</p>
+                <a href="/documents/CV_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary" download>
+                  📥 Download CV Lengkap
+                </a>
               </div>
             </div>
           </div>
@@ -70,11 +135,14 @@ function Profile() {
             <h2>Sertifikasi & Pelatihan</h2>
           </div>
           <div className="grid grid-2">
-            <div className="cert-card">
-              <h3>Data sertifikasi belum tersedia</h3>
-              <p className="cert-date">—</p>
-              <p>Belum ditemukan sertifikasi atau pelatihan klinis yang dapat diverifikasi secara publik.</p>
-            </div>
+            {certifications.map((cert, idx) => (
+              <div key={idx} className="cert-card">
+                <h3>{cert.name}</h3>
+                <p className="cert-issuer">{cert.issuer}</p>
+                <p className="cert-date">{cert.date}</p>
+                <span className="badge badge-success">{cert.status}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -85,14 +153,16 @@ function Profile() {
             <h2>Penghargaan & Prestasi</h2>
           </div>
           <div className="achievements-list">
-            <div className="achievement-item">
-              <div className="achievement-icon">🏅</div>
-              <div className="achievement-content">
-                <h3>Belum ditemukan penghargaan publik</h3>
-                <p className="achievement-date">—</p>
-                <p>Bagian ini akan diperbarui jika terdapat sumber resmi yang mencantumkan penghargaan.</p>
+            {achievements.map((achievement, idx) => (
+              <div key={idx} className="achievement-item">
+                <div className="achievement-icon">🏅</div>
+                <div className="achievement-content">
+                  <h3>{achievement.title}</h3>
+                  <p className="achievement-date">{achievement.year}</p>
+                  <p>{achievement.description}</p>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

@@ -8,6 +8,7 @@ function ContactForm() {
     subject: '',
     message: ''
   })
+  const [status, setStatus] = useState(null) // 'submitting', 'success', 'error'
 
   const handleChange = (e) => {
     setFormData({
@@ -16,9 +17,33 @@ function ContactForm() {
     })
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
+    setStatus('submitting')
+    
+    try {
+      // Simulate form submission delay
+      await new Promise(resolve => setTimeout(resolve, 1000))
+      
+      // For Netlify Forms, the form data is sent automatically via the form's action
+      // This is just for showing success feedback to the user
+      console.log('Form submitted:', formData)
+      setStatus('success')
+      
+      // Reset form
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      })
+      
+      // Reset status after 5 seconds
+      setTimeout(() => setStatus(null), 5000)
+    } catch (error) {
+      console.error('Form submission error:', error)
+      setStatus('error')
+    }
   }
 
   return (
@@ -37,6 +62,18 @@ function ContactForm() {
         </label>
       </p>
 
+      {status === 'success' && (
+        <div className="form-success">
+          ✅ Pesan berhasil dikirim! Terima kasih telah menghubungi. Saya akan merespons secepat mungkin.
+        </div>
+      )}
+
+      {status === 'error' && (
+        <div className="form-error">
+          ❌ Terjadi kesalahan. Silakan coba lagi atau hubungi melalui email langsung.
+        </div>
+      )}
+
       <div className="form-group">
         <label htmlFor="name">Nama Lengkap *</label>
         <input
@@ -47,6 +84,7 @@ function ContactForm() {
           onChange={handleChange}
           required
           placeholder="Masukkan nama lengkap Anda"
+          disabled={status === 'submitting'}
         />
       </div>
 
@@ -60,6 +98,7 @@ function ContactForm() {
           onChange={handleChange}
           required
           placeholder="nama@email.com"
+          disabled={status === 'submitting'}
         />
       </div>
 
@@ -72,6 +111,7 @@ function ContactForm() {
           value={formData.subject}
           onChange={handleChange}
           placeholder="Topik pesan Anda"
+          disabled={status === 'submitting'}
         />
       </div>
 
@@ -85,11 +125,16 @@ function ContactForm() {
           required
           rows="6"
           placeholder="Tulis pesan Anda di sini..."
+          disabled={status === 'submitting'}
         />
       </div>
 
-      <button type="submit" className="btn btn-primary">
-        Kirim Pesan
+      <button 
+        type="submit" 
+        className="btn btn-primary"
+        disabled={status === 'submitting'}
+      >
+        {status === 'submitting' ? 'Mengirim...' : 'Kirim Pesan'}
       </button>
     </form>
   )

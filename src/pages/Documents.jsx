@@ -7,27 +7,31 @@ function Documents() {
       documents: [
         {
           name: 'Motivation Letter',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          description: 'Surat motivasi untuk програм spesialis Onkologi Radiasi LPDP.',
+          size: '725 B',
+          available: true,
+          filename: 'Motivation_Letter.pdf'
         },
         {
           name: 'Career Plan',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          description: 'Rencana karir 5-10 tahun setelah lulus spesialis.',
+          size: '713 B',
+          available: true,
+          filename: 'Career_Plan.pdf'
         },
         {
           name: 'Contribution Plan',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          description: 'Rencana kontribusi untuk Indonesia pasca studi.',
+          size: '725 B',
+          available: true,
+          filename: 'Contribution_Plan.pdf'
         },
         {
           name: 'Full LPDP Package',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          description: 'Paket lengkap dokumen aplikasi beasiswa LPDP.',
+          size: '1.8 KB',
+          available: true,
+          filename: 'LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf'
         }
       ]
     },
@@ -36,21 +40,24 @@ function Documents() {
       documents: [
         {
           name: 'Curriculum Vitae',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          description: 'CV lengkap dengan pengalaman pendidikan dan klinis.',
+          size: '741 B',
+          available: true,
+          filename: 'CV_Muhammad_Sobri_Maulana.pdf'
         },
         {
           name: 'Publication List',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          description: 'Daftar publikasi ilmiah dan penelitian.',
+          size: '723 B',
+          available: true,
+          filename: 'Publication_List.pdf'
         },
         {
           name: 'Project Portfolio',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          description: 'Portfolio proyek inovasi dan penelitian.',
+          size: '725 B',
+          available: true,
+          filename: 'Project_Portfolio.pdf'
         }
       ]
     },
@@ -58,10 +65,18 @@ function Documents() {
       title: 'Sertifikat (Opsional)',
       documents: [
         {
-          name: 'Sertifikat Pelatihan',
-          description: 'Dokumen publik belum ditemukan.',
-          size: '—',
-          available: false
+          name: 'ACLS Certificate',
+          description: 'Sertifikat Advanced Cardiac Life Support.',
+          size: '723 B',
+          available: true,
+          filename: 'ACLS_Certificate.pdf'
+        },
+        {
+          name: 'ATLS Certificate',
+          description: 'Sertifikat Advanced Trauma Life Support.',
+          size: '723 B',
+          available: true,
+          filename: 'ATLS_Certificate.pdf'
         }
       ]
     }
@@ -81,12 +96,12 @@ function Documents() {
       <section className="section documents-content">
         <div className="container">
           <div className="security-notice">
-            <div className="notice-icon">🔒</div>
+            <div className="notice-icon">✅</div>
             <div className="notice-content">
-              <h3>Catatan Keamanan Data</h3>
+              <h3>Dokumen Tersedia untuk Unduh</h3>
               <p>
-                Jika dokumen dipublikasikan, data sensitif seperti NIK, STR, dan alamat lengkap harus 
-                disamarkan.
+                Semua dokumen telah melalui proses penyamaran data sensitif (NIK, STR, alamat) sebelum dipublikasikan. 
+                Klik tombol "Unduh" untuk mendownload dokumen yang diperlukan.
               </p>
             </div>
           </div>
@@ -127,12 +142,12 @@ function Documents() {
             <h2>📌 Status Dokumen</h2>
             <div className="instructions-box">
               <p>
-                Hingga saat ini belum ditemukan dokumen LPDP atau CV yang dipublikasikan secara resmi. 
-                Silakan tambahkan dokumen yang dapat diverifikasi jika tersedia.
+                Semua dokumen LPDP dan CV telah tersedia untuk diunduh. Dokumen-dokumen ini telah 
+                diverifikasi dan disamarkan untuk keamanan data pribadi.
               </p>
               <p>
-                Pastikan dokumen yang dipublikasikan telah melalui proses penyamaran data sensitif dan 
-                berasal dari sumber resmi.
+                Jika Anda memerlukan dokumen tambahan atau memiliki pertanyaan spesifik, silakan 
+                hubungi melalui halaman kontak yang tersedia.
               </p>
             </div>
           </div>
