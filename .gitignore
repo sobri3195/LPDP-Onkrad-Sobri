@@ -35,3 +35,6 @@ build
 
 # Netlify
 .netlify
+
+# Temporary generation scripts
+generateCareerPlan.js
