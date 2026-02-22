@@ -16,6 +16,18 @@ function Publications() {
         </div>
       </section>
 
+      <section className="section download-section-top">
+        <div className="container">
+          <div className="download-box-top">
+            <h2>📄 Daftar Publikasi Lengkap</h2>
+            <p>Unduh daftar publikasi lengkap dalam format PDF</p>
+            <a href="/documents/Publication_List.pdf" className="btn btn-primary" download>
+              📥 Unduh Daftar Publikasi
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="section publications-stats">
         <div className="container">
           <div className="stats-grid">

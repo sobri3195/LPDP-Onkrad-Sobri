@@ -19,6 +19,18 @@ function Projects() {
         </div>
       </section>
 
+      <section className="section download-section-top">
+        <div className="container">
+          <div className="download-box-top">
+            <h2>📂 Portfolio Proyek Lengkap</h2>
+            <p>Unduh portfolio proyek dan inovasi lengkap dalam format PDF</p>
+            <a href="/documents/Project_Portfolio.pdf" className="btn btn-primary" download>
+              📥 Unduh Portfolio Proyek
+            </a>
+          </div>
+        </div>
+      </section>
+
       {hasProjects && (
         <section className="section projects-stats">
           <div className="container">

@@ -13,6 +13,48 @@
   font-size: 1.1rem;
 }
 
+.quick-download-section {
+  background: var(--bg-light);
+  padding: 2rem 0;
+}
+
+.download-all-box {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.download-all-box h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.download-all-box p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+}
+
+.download-all-box .btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+.section-header-with-download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.section-header-with-download h2 {
+  margin-bottom: 0;
+}
+
 .content-box {
   background: white;
   padding: 2.5rem;
@@ -208,6 +250,27 @@
 
   .content-box h2 {
     font-size: 1.5rem;
+  }
+
+  .quick-download-section {
+    padding: 1.5rem 0;
+  }
+
+  .download-all-box {
+    padding: 1.5rem;
+  }
+
+  .download-all-box h2 {
+    font-size: 1.25rem;
+  }
+
+  .section-header-with-download {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-header-with-download .btn {
+    width: 100%;
   }
 
   .contribution-grid {

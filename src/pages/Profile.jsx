@@ -31,13 +31,15 @@ function Profile() {
       name: 'ACLS (Advanced Cardiac Life Support)',
       issuer: 'American Heart Association',
       date: '2024',
-      status: 'Aktif'
+      status: 'Aktif',
+      filename: 'ACLS_Certificate.pdf'
     },
     {
       name: 'ATLS (Advanced Trauma Life Support)',
       issuer: 'American College of Surgeons',
       date: '2024',
-      status: 'Aktif'
+      status: 'Aktif',
+      filename: 'ATLS_Certificate.pdf'
     },
     {
       name: 'Basic Life Support (BLS)',
@@ -111,6 +113,26 @@ function Profile() {
         </div>
       </section>
 
+      <section className="section download-section-top">
+        <div className="container">
+          <div className="download-box-top">
+            <h2>📄 Dokumen Profil</h2>
+            <p>Unduh dokumen terkait profil lengkap</p>
+            <div className="download-buttons">
+              <a href="/documents/CV_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary" download>
+                📥 Unduh CV
+              </a>
+              <a href="/documents/Publication_List.pdf" className="btn btn-secondary" download>
+                📚 Daftar Publikasi
+              </a>
+              <a href="/documents/Project_Portfolio.pdf" className="btn btn-secondary" download>
+                📂 Portfolio Proyek
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section education-section">
         <div className="container">
           <div className="section-title">
@@ -140,7 +162,14 @@ function Profile() {
                 <h3>{cert.name}</h3>
                 <p className="cert-issuer">{cert.issuer}</p>
                 <p className="cert-date">{cert.date}</p>
-                <span className="badge badge-success">{cert.status}</span>
+                <div className="cert-footer">
+                  <span className="badge badge-success">{cert.status}</span>
+                  {cert.filename && (
+                    <a href={`/documents/${cert.filename}`} className="btn btn-sm" download>
+                      📥 Unduh
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>

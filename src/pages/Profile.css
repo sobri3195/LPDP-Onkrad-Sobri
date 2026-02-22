@@ -54,6 +54,59 @@
   text-align: center;
 }
 
+.download-section-top {
+  background: var(--bg-light);
+  padding: 2rem 0;
+}
+
+.download-box-top {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.download-box-top h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.download-box-top p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.download-box-top .download-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.download-box-top .btn-primary {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.download-box-top .btn-primary:hover {
+  background-color: #f0f9ff;
+  transform: translateY(-2px);
+}
+
+.download-box-top .btn-secondary {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.download-box-top .btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
 .education-section,
 .experience-section {
   background: white;
@@ -86,6 +139,28 @@
   font-weight: 600;
   font-size: 0.9rem;
   margin-bottom: 0.75rem;
+}
+
+.cert-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.cert-footer .btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.cert-footer .btn-sm:hover {
+  background-color: var(--secondary-color);
 }
 
 .achievements-section {
@@ -149,6 +224,26 @@
 
   .profile-summary {
     padding: 1.5rem;
+  }
+
+  .download-section-top {
+    padding: 1.5rem 0;
+  }
+
+  .download-box-top {
+    padding: 1.5rem;
+  }
+
+  .download-box-top h2 {
+    font-size: 1.25rem;
+  }
+
+  .download-box-top .download-buttons {
+    flex-direction: column;
+  }
+
+  .download-box-top .btn {
+    width: 100%;
   }
 
   .achievement-item {
