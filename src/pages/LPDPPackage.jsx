@@ -71,10 +71,27 @@ function LPDPPackage() {
         </div>
       </section>
 
+      <section className="section quick-download-section">
+        <div className="container">
+          <div className="download-all-box">
+            <h2>📦 Unduh Semua Dokumen</h2>
+            <p>Akses lengkap semua dokumen LPDP dalam satu file</p>
+            <a href="/documents/LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary btn-lg" download>
+              📥 Download Full Package
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="section motivation-section">
         <div className="container">
           <div className="content-box">
-            <h2>💡 Motivation Letter</h2>
+            <div className="section-header-with-download">
+              <h2>💡 Motivation Letter</h2>
+              <a href="/documents/Motivation_Letter.pdf" className="btn btn-primary" download>
+                📥 Unduh PDF
+              </a>
+            </div>
             <div className="motivation-content">
               <p className="lead">
                 Motivasi utama saya untuk melanjutkan pendidikan spesialis Onkologi Radiasi adalah keinginan kuat 
@@ -97,11 +114,6 @@ function LPDPPackage() {
                 </ul>
               </div>
             </div>
-            <div className="content-actions">
-              <a href="/documents/Motivation_Letter.pdf" className="btn btn-primary" download>
-                📥 Unduh Motivation Letter
-              </a>
-            </div>
           </div>
         </div>
       </section>
@@ -109,17 +121,17 @@ function LPDPPackage() {
       <section className="section career-plan-section">
         <div className="container">
           <div className="content-box">
-            <h2>🎯 Career Plan (5-10 Tahun)</h2>
+            <div className="section-header-with-download">
+              <h2>🎯 Career Plan (5-10 Tahun)</h2>
+              <a href="/documents/Career_Plan.pdf" className="btn btn-primary" download>
+                📥 Unduh PDF
+              </a>
+            </div>
             <p className="section-description">
               Rencana karir terstruktur untuk 10 tahun ke depan, mencakup pendidikan spesialis, 
               praktik klinis, pengembangan kompetensi, hingga kontribusi akademik dan pelayanan masyarakat.
             </p>
             <Timeline items={careerPlanData} />
-          </div>
-          <div className="content-actions">
-            <a href="/documents/Career_Plan.pdf" className="btn btn-primary" download>
-              📥 Unduh Career Plan
-            </a>
           </div>
         </div>
       </section>
@@ -127,7 +139,12 @@ function LPDPPackage() {
       <section className="section contribution-section">
         <div className="container">
           <div className="content-box">
-            <h2>🇮🇩 Contribution Plan</h2>
+            <div className="section-header-with-download">
+              <h2>🇮🇩 Contribution Plan</h2>
+              <a href="/documents/Contribution_Plan.pdf" className="btn btn-primary" download>
+                📥 Unduh PDF
+              </a>
+            </div>
             <p className="section-description">
               Rencana kontribusi konkret untuk Indonesia pasca studi, meliputi pelayanan kesehatan, 
               edukasi masyarakat, penelitian, dan pengembangan kapasitas SDM kesehatan.
@@ -178,11 +195,6 @@ function LPDPPackage() {
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="content-actions">
-            <a href="/documents/Contribution_Plan.pdf" className="btn btn-primary" download>
-              📥 Unduh Contribution Plan
-            </a>
           </div>
         </div>
       </section>

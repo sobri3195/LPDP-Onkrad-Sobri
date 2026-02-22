@@ -13,6 +13,31 @@
   font-size: 1.1rem;
 }
 
+.download-section-top {
+  background: var(--bg-light);
+  padding: 2rem 0;
+}
+
+.download-box-top {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.download-box-top h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.download-box-top p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
 .projects-list {
   background: var(--bg-light);
 }
@@ -139,6 +164,18 @@
 }
 
 @media (max-width: 768px) {
+  .download-section-top {
+    padding: 1.5rem 0;
+  }
+
+  .download-box-top {
+    padding: 1.5rem;
+  }
+
+  .download-box-top h2 {
+    font-size: 1.25rem;
+  }
+
   .volunteer-header {
     flex-direction: column;
     align-items: flex-start;

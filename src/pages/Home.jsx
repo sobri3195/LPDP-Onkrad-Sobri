@@ -43,6 +43,32 @@ function Home() {
         </div>
       </section>
 
+      <section className="section quick-download">
+        <div className="container">
+          <div className="download-banner">
+            <h2>📥 Unduh Dokumen LPDP</h2>
+            <p>Akses langsung semua dokumen penting untuk aplikasi beasiswa LPDP</p>
+            <div className="download-buttons">
+              <a href="/documents/LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary" download>
+                📦 Full Package
+              </a>
+              <a href="/documents/Motivation_Letter.pdf" className="btn btn-secondary" download>
+                💡 Motivation Letter
+              </a>
+              <a href="/documents/Career_Plan.pdf" className="btn btn-secondary" download>
+                🎯 Career Plan
+              </a>
+              <a href="/documents/Contribution_Plan.pdf" className="btn btn-secondary" download>
+                🇮🇩 Contribution Plan
+              </a>
+              <a href="/documents/CV_Muhammad_Sobri_Maulana.pdf" className="btn btn-secondary" download>
+                📄 Curriculum Vitae
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section quick-stats">
         <div className="container">
           <div className="stats-grid animate-stagger">
@@ -79,9 +105,14 @@ function Home() {
                 Motivasi kuat untuk berkontribusi dalam peningkatan akses dan kualitas pelayanan 
                 onkologi radiasi di Indonesia, khususnya di wilayah yang masih terbatas fasilitasnya.
               </p>
-              <Link to="/lpdp-package" className="highlight-link">
-                Baca Selengkapnya →
-              </Link>
+              <div className="highlight-actions">
+                <a href="/documents/Motivation_Letter.pdf" className="btn btn-primary" download>
+                  📥 Unduh PDF
+                </a>
+                <Link to="/lpdp-package" className="highlight-link">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
             </div>
 
             <div className="highlight-card">
@@ -91,9 +122,14 @@ function Home() {
                 Rencana karir terstruktur untuk 5-10 tahun ke depan, mencakup pendidikan spesialis, 
                 praktik klinis, pengembangan kompetensi, hingga kontribusi akademik dan pelayanan masyarakat.
               </p>
-              <Link to="/lpdp-package" className="highlight-link">
-                Lihat Timeline →
-              </Link>
+              <div className="highlight-actions">
+                <a href="/documents/Career_Plan.pdf" className="btn btn-primary" download>
+                  📥 Unduh PDF
+                </a>
+                <Link to="/lpdp-package" className="highlight-link">
+                  Lihat Timeline →
+                </Link>
+              </div>
             </div>
 
             <div className="highlight-card">
@@ -103,9 +139,14 @@ function Home() {
                 Rencana kontribusi konkret untuk Indonesia pasca studi, meliputi pelayanan kesehatan, 
                 edukasi masyarakat, penelitian, dan pengembangan kapasitas SDM kesehatan.
               </p>
-              <Link to="/lpdp-package" className="highlight-link">
-                Lihat Rencana →
-              </Link>
+              <div className="highlight-actions">
+                <a href="/documents/Contribution_Plan.pdf" className="btn btn-primary" download>
+                  📥 Unduh PDF
+                </a>
+                <Link to="/lpdp-package" className="highlight-link">
+                  Lihat Rencana →
+                </Link>
+              </div>
             </div>
           </div>
         </div>

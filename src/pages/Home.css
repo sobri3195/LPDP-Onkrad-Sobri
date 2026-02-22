@@ -87,8 +87,65 @@
   padding: 0 1rem;
 }
 
-.quick-stats {
+.quick-download {
   background-color: var(--bg-light);
+  padding: 2rem 0;
+}
+
+.download-banner {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.download-banner h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.download-banner p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.download-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.download-buttons .btn {
+  flex-shrink: 0;
+}
+
+.download-buttons .btn-primary {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.download-buttons .btn-primary:hover {
+  background-color: #f0f9ff;
+  transform: translateY(-2px);
+}
+
+.download-buttons .btn-secondary {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.download-buttons .btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.quick-stats {
+  background-color: white;
   padding: 3rem 0;
 }
 
@@ -153,6 +210,18 @@
   font-weight: 500;
   display: inline-block;
   margin-top: 0.5rem;
+}
+
+.highlight-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.highlight-actions .btn {
+  width: 100%;
+  text-align: center;
 }
 
 .value-propositions {
@@ -283,6 +352,26 @@
 
   .profile-icon {
     font-size: 4rem;
+  }
+
+  .quick-download {
+    padding: 1.5rem 0;
+  }
+
+  .download-banner {
+    padding: 1.5rem;
+  }
+
+  .download-banner h2 {
+    font-size: 1.25rem;
+  }
+
+  .download-buttons {
+    flex-direction: column;
+  }
+
+  .download-buttons .btn {
+    width: 100%;
   }
 
   .quick-stats {
