@@ -93,6 +93,55 @@ function LPDPPackage() {
               </a>
             </div>
             <div className="motivation-content">
+              <div className="essay-structure">
+                <h3>📝 Struktur Essay LPDP</h3>
+
+                <div className="essay-item">
+                  <h4>1) Intro / Hook</h4>
+                  <p>
+                    Setiap kali bertemu pasien kanker yang harus menunggu lama untuk mendapatkan radioterapi,
+                    saya melihat bukan hanya diagnosis medis, tetapi juga cerita keluarga yang tertunda harapannya.
+                    Pengalaman ini membentuk keyakinan saya bahwa kebutuhan terhadap dokter spesialis onkologi
+                    radiasi bukan lagi isu masa depan, melainkan kebutuhan mendesak hari ini.
+                  </p>
+                </div>
+
+                <div className="essay-item">
+                  <h4>2) Problem Statement</h4>
+                  <p>
+                    Beban kanker di Indonesia terus meningkat, namun distribusi fasilitas radioterapi dan dokter
+                    spesialis onkologi radiasi belum merata. Pasien dari luar kota besar sering menghadapi waktu
+                    tunggu panjang, biaya tidak langsung yang tinggi, serta risiko keterlambatan terapi. Sebagai
+                    dokter umum, saya menyaksikan bahwa kesenjangan ini berdampak pada keterlambatan diagnosis,
+                    kualitas hidup pasien, dan luaran klinis yang seharusnya dapat ditingkatkan.
+                  </p>
+                </div>
+
+                <div className="essay-item">
+                  <h4>3) Motivational Statement</h4>
+                  <p>
+                    Saya, Muhammad Sobri Maulana, berkomitmen menempuh pendidikan Spesialis Onkologi Radiasi agar
+                    dapat menghadirkan pelayanan kanker yang lebih tepat, aman, dan berkeadilan. Motivasi saya
+                    bertumpu pada tiga hal: tanggung jawab profesional sebagai dokter, kebutuhan riil sistem
+                    kesehatan Indonesia, dan visi jangka panjang untuk berkontribusi pada penguatan layanan
+                    onkologi berbasis bukti. Dukungan LPDP akan memungkinkan saya belajar secara optimal dan kembali
+                    mengabdi untuk memperluas akses radioterapi berkualitas.
+                  </p>
+                </div>
+
+                <div className="essay-item">
+                  <h4>4) Rencana Studi</h4>
+                  <p>
+                    Rencana studi saya mencakup penguasaan kompetensi inti onkologi radiasi: radiasi biologi,
+                    fisika radiasi, perencanaan terapi, dan manajemen kasus multidisiplin. Saya menargetkan
+                    pendalaman teknik modern seperti IMRT, VMAT, SBRT, serta brakiterapi, disertai riset klinis
+                    yang relevan untuk populasi Indonesia. Setelah lulus sebagai SpOnkRad, saya akan kembali untuk
+                    mengembangkan layanan klinis, mendorong budaya riset, dan memperkuat kapasitas SDM agar
+                    pelayanan kanker lebih merata dan berkelanjutan.
+                  </p>
+                </div>
+              </div>
+
               <p className="lead">
                 Motivasi utama saya untuk melanjutkan pendidikan spesialis Onkologi Radiasi adalah keinginan kuat 
                 untuk meningkatkan akses dan kualitas pelayanan kanker di Indonesia, khususnya bagi pasien di wilayah 
