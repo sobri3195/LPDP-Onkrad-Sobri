@@ -30,6 +30,36 @@
     "link": null
   },
   {
+    "title": "Onkorad-Sub Website: Platform Spesialis Onkologi Radiasi",
+    "category": "health",
+    "period": "Implemented",
+    "description": "Pengembangan website Onkorad-Sub untuk spesialis onkologi radiasi dengan dashboard layanan profesional, pencarian fitur klinis, serta integrasi Admin Panel Perhitungan Klinis untuk mempercepat evaluasi parameter terapi secara terstruktur.",
+    "tags": [
+      "Website",
+      "Onkologi Radiasi",
+      "Clinical Workflow",
+      "Specialist Platform",
+      "Admin Panel"
+    ],
+    "icon": "🖥️",
+    "link": null
+  },
+  {
+    "title": "Onkorad-Sub App: Admin Panel Perhitungan Klinis (50 Kalkulator)",
+    "category": "health",
+    "period": "Implemented",
+    "description": "Pengembangan aplikasi Onkorad-Sub dengan 50 kalkulator klinis dalam 5 kategori aktif (Dosis Dasar, Volume & Geometri, Koreksi & Faktor, Radiobiologi, serta Brachytherapy & Advanced) mencakup BED, EQD2, TCP/NTCP, DVH, IMRT Optimization, evaluasi dose-constraint, hingga koreksi waktu terapi untuk membantu pengambilan keputusan klinis yang konsisten.",
+    "tags": [
+      "Mobile App",
+      "Clinical Calculator",
+      "Radiobiology",
+      "Brachytherapy",
+      "Treatment Planning"
+    ],
+    "icon": "🧮",
+    "link": null
+  },
+  {
     "title": "AutoContour-One: AI Auto-segmentation Target dan OAR untuk Mempercepat Proses Konturing",
     "category": "innovation",
     "period": "Research Concept",
