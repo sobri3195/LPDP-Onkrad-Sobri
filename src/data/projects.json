@@ -1,10 +1,46 @@
 [
   {
+    "title": "OnkoSob Web: Platform Pendamping Pasien & Keluarga",
+    "category": "health",
+    "period": "Implemented",
+    "description": "Pengembangan website layanan pasien onkologi radiasi Indonesia (OnkoSob) dengan fitur edukasi tervalidasi tenaga medis, jadwal layanan, panduan persiapan radioterapi, FAQ, pengumuman aktif, dan kanal kontak untuk konsultasi awal pasien serta keluarga.",
+    "tags": [
+      "Website",
+      "Patient Education",
+      "Oncology",
+      "Radiotherapy",
+      "Digital Health"
+    ],
+    "icon": "🌐",
+    "link": null
+  },
+  {
+    "title": "OnkoSob App: Monitoring Persiapan, Efek Samping, dan Dukungan Keluarga",
+    "category": "health",
+    "period": "Implemented",
+    "description": "Pengembangan aplikasi pendamping pasien dengan alur perjalanan terapi yang jelas (registrasi, konsultasi awal, simulasi, sesi radioterapi, hingga monitoring pasca terapi), pengingat persiapan kunjungan, topik efek samping dan nutrisi, serta orientasi layanan untuk meningkatkan ketenangan pasien.",
+    "tags": [
+      "Mobile App",
+      "Patient Journey",
+      "Side Effect Monitoring",
+      "Nutrition",
+      "Caregiver Support"
+    ],
+    "icon": "📱",
+    "link": null
+  },
+  {
     "title": "AutoContour-One: AI Auto-segmentation Target dan OAR untuk Mempercepat Proses Konturing",
     "category": "innovation",
     "period": "Research Concept",
     "description": "AI-based auto-contouring untuk target volume (GTV/CTV/PTV) dan organ at risk (OAR) pada pasien kanker kepala-leher/prostat/paru yang menjalani IMRT/VMAT. Membandingkan waktu konturing, variabilitas antar-penilai, kebutuhan koreksi/revisi, serta dampak terhadap metrik DVH pada rencana akhir.",
-    "tags": ["AI", "Auto-contouring", "Radiotherapy", "OAR", "DVH"],
+    "tags": [
+      "AI",
+      "Auto-contouring",
+      "Radiotherapy",
+      "OAR",
+      "DVH"
+    ],
     "icon": "🎯",
     "link": null
   },
@@ -13,7 +49,12 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "AI untuk mendeteksi perubahan anatomi/posisi jaringan dari CBCT harian dan memicu indikasi replanning adaptif. Evaluasi frekuensi replanning yang tepat waktu, coverage target (D95), overdosis OAR, serta toksisitas akut/subakut.",
-    "tags": ["AI", "CBCT", "Adaptive Radiotherapy", "Image Guidance"],
+    "tags": [
+      "AI",
+      "CBCT",
+      "Adaptive Radiotherapy",
+      "Image Guidance"
+    ],
     "icon": "📊",
     "link": null
   },
@@ -22,7 +63,12 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "Model AI yang mengintegrasikan foto intraoral serial (smartphone) dan parameter dosis (dose map/DVH) untuk memprediksi mukositis grade ≥3 pada pasien radioterapi kepala-leher. Mengukur kebutuhan feeding tube, interupsi radioterapi, dan kualitas hidup.",
-    "tags": ["AI", "Mucositis", "Head-Neck Cancer", "Digital Health"],
+    "tags": [
+      "AI",
+      "Mucositis",
+      "Head-Neck Cancer",
+      "Digital Health"
+    ],
     "icon": "📷",
     "link": null
   },
@@ -31,7 +77,13 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "AI radiomics berbasis CT dengan integrasi dose-volume (V20, MLD) untuk prediksi pneumonitis grade ≥2 pada pasien NSCLC. Menilai performa model (AUROC/kalibrasi), kebutuhan rawat inap, serta perubahan perencanaan/strategi mitigasi.",
-    "tags": ["AI", "Radiomics", "Pneumonitis", "NSCLC", "Prediction"],
+    "tags": [
+      "AI",
+      "Radiomics",
+      "Pneumonitis",
+      "NSCLC",
+      "Prediction"
+    ],
     "icon": "🫁",
     "link": null
   },
@@ -40,7 +92,12 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "AI plan generation/knowledge-based planning untuk menghasilkan rencana awal dan optimasi VMAT multi-site (H&N, prostat, pelvis, toraks). Membandingkan kualitas rencana (CI/HI), sparing OAR (DVH endpoints), waktu planning, dan jumlah iterasi revisi.",
-    "tags": ["AI", "VMAT", "Treatment Planning", "Knowledge-Based Planning"],
+    "tags": [
+      "AI",
+      "VMAT",
+      "Treatment Planning",
+      "Knowledge-Based Planning"
+    ],
     "icon": "⚙️",
     "link": null
   },
@@ -49,7 +106,12 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "AI untuk identifikasi translasi/rotasi dan rekomendasi koreksi setup secara real-time dari portal imaging dan CBCT. Mengukur residual setup error setelah koreksi, kebutuhan repeat imaging, waktu di mesin, dan insiden near-miss terkait setup.",
-    "tags": ["AI", "IGRT", "Setup Verification", "Quality Assurance"],
+    "tags": [
+      "AI",
+      "IGRT",
+      "Setup Verification",
+      "Quality Assurance"
+    ],
     "icon": "🎯",
     "link": null
   },
@@ -58,7 +120,12 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "LLM yang memeriksa konsistensi antar dokumen radioterapi (simulasi, kontur, resep dosis, rencana, delivery record) untuk seluruh kasus terutama dengan laterality/site spesifik. Mengukur jumlah error/near-miss terdeteksi, waktu QA, escape rate, dan beban kerja tim.",
-    "tags": ["LLM", "Quality Assurance", "Radiotherapy", "Documentation"],
+    "tags": [
+      "LLM",
+      "Quality Assurance",
+      "Radiotherapy",
+      "Documentation"
+    ],
     "icon": "📝",
     "link": null
   },
@@ -67,7 +134,13 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "AI radiomics MRI dengan parameter dosis hippocampus untuk prediksi cognitive decline pada pasien metastasis otak kandidat WBRT. Evaluasi skor kognitif 3-12 bulan, kualitas hidup, serta dampak terhadap keputusan strategi hippocampal sparing.",
-    "tags": ["AI", "MRI Radiomics", "Hippocampus", "WBRT", "Cognitive Function"],
+    "tags": [
+      "AI",
+      "MRI Radiomics",
+      "Hippocampus",
+      "WBRT",
+      "Cognitive Function"
+    ],
     "icon": "🧠",
     "link": null
   },
@@ -76,7 +149,12 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "Model AI yang mengestimasi risiko progression-while-waiting untuk prioritas penjadwalan radioterapi pada pasien onkologi. Membandingkan waktu tunggu pada kelompok high-risk, outcome klinis (stage migration/response), serta metrik fairness antar kelompok.",
-    "tags": ["AI", "Radiotherapy Scheduling", "Oncology", "Fairness"],
+    "tags": [
+      "AI",
+      "Radiotherapy Scheduling",
+      "Oncology",
+      "Fairness"
+    ],
     "icon": "⏱️",
     "link": null
   },
@@ -85,7 +163,13 @@
     "category": "innovation",
     "period": "Research Concept",
     "description": "AI yang menggabungkan fungsi hati (ALBI/Child-Pugh, lab) dan heterogenitas distribusi dosis untuk prediksi RILD pada pasien SBRT hati (HCC/metastasis). Evaluasi kejadian RILD, dekompensasi hati, overall survival, dan rekomendasi mitigasi.",
-    "tags": ["AI", "SBRT", "Liver Cancer", "RILD", "Prediction"],
+    "tags": [
+      "AI",
+      "SBRT",
+      "Liver Cancer",
+      "RILD",
+      "Prediction"
+    ],
     "icon": "🫀",
     "link": null
   }
