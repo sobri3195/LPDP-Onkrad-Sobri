@@ -50,6 +50,31 @@ function Projects() {
 
       <section className="section projects-list">
         <div className="container">
+          <h2>🌐 Website & Aplikasi Layanan Pasien</h2>
+          <p className="section-description">
+            Inisiatif digital untuk mendampingi pasien dan keluarga melalui edukasi,
+            orientasi layanan, serta pemantauan perjalanan terapi onkologi radiasi.
+          </p>
+          <div className="grid grid-2">
+            {healthProjects.map((project, index) => (
+              <Card
+                key={`health-${index}`}
+                title={project.title}
+                subtitle={project.period}
+                description={project.description}
+                tags={project.tags}
+                icon={project.icon}
+                link={project.link}
+                linkText={project.link ? "Lihat Detail" : "Implementasi"}
+              />
+            ))}
+          </div>
+          {healthProjects.length === 0 && (
+            <p className="note">
+              Belum ada proyek kesehatan yang ditampilkan.
+            </p>
+          )}
+
           <h2>💡 Inovasi & Teknologi AI</h2>
           <p className="section-description">
             Pengembangan teknologi inovatif berbasis Artificial Intelligence untuk meningkatkan 
