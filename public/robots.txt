@@ -1,0 +1,14 @@
+# robots.txt for Muhammad Sobri Maulana LPDP Portfolio
+
+User-agent: *
+Allow: /
+
+# Disallow certain paths if needed
+# Disallow: /private/
+# Disallow: /admin/
+
+# Sitemap
+Sitemap: https://muhammadsobri.netlify.app/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

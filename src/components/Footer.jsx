@@ -56,6 +56,13 @@ function Footer() {
               <li><a href="https://nyawer.co/MuhammadSobriMaulana" target="_blank" rel="noopener noreferrer">Nyawer</a></li>
             </ul>
           </div>
+
+          <div className="footer-section">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="/privacy-policy">Kebijakan Privasi</a></li>
+            </ul>
+          </div>
         </div>
 
         <div className="footer-bottom">
