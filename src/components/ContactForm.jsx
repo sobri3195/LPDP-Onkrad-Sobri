@@ -1,6 +1,12 @@
 import { useState } from 'react'
 import './ContactForm.css'
 
+
+const encodeFormData = (data) =>
+  Object.entries(data)
+    .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+    .join('&')
+
 function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
@@ -11,6 +17,7 @@ function ContactForm() {
   const [errors, setErrors] = useState({})
   const [touched, setTouched] = useState({})
   const [status, setStatus] = useState(null) // 'submitting', 'success', 'error'
+  const [statusMessage, setStatusMessage] = useState('')
 
   const validateForm = () => {
     const newErrors = {}
@@ -125,13 +132,23 @@ function ContactForm() {
     setStatus('submitting')
 
     try {
-      // Simulate form submission delay
-      await new Promise(resolve => setTimeout(resolve, 1000))
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: encodeFormData({
+          'form-name': 'contact',
+          ...formData
+        })
+      })
 
-      // For Netlify Forms, the form data is sent automatically via the form's action
-      // This is just for showing success feedback to the user
-      console.log('Form submitted:', formData)
+      if (!response.ok) {
+        throw new Error('Gagal mengirim form ke server')
+      }
+
       setStatus('success')
+      setStatusMessage('✅ Pesan berhasil dikirim! Terima kasih telah menghubungi. Saya akan merespons secepat mungkin.')
 
       // Reset form
       setFormData({
@@ -144,10 +161,14 @@ function ContactForm() {
       setTouched({})
 
       // Reset status after 5 seconds
-      setTimeout(() => setStatus(null), 5000)
+      setTimeout(() => {
+        setStatus(null)
+        setStatusMessage('')
+      }, 5000)
     } catch (error) {
       console.error('Form submission error:', error)
       setStatus('error')
+      setStatusMessage('❌ Terjadi kesalahan. Silakan coba lagi atau hubungi melalui email langsung.')
     }
   }
 
@@ -168,14 +189,14 @@ function ContactForm() {
       </p>
 
       {status === 'success' && (
-        <div className="form-success">
-          ✅ Pesan berhasil dikirim! Terima kasih telah menghubungi. Saya akan merespons secepat mungkin.
+        <div className="form-success" role="status" aria-live="polite">
+          {statusMessage}
         </div>
       )}
 
       {status === 'error' && (
-        <div className="form-error">
-          ❌ Terjadi kesalahan. Silakan coba lagi atau hubungi melalui email langsung.
+        <div className="form-error" role="alert" aria-live="assertive">
+          {statusMessage}
         </div>
       )}
 
