@@ -1,10 +1,34 @@
+import { useMemo, useState } from 'react'
 import Card from '../components/Card'
 import projectsData from '../data/projects.json'
 import './Projects.css'
 
 function Projects() {
-  const healthProjects = projectsData.filter(project => project.category === 'health')
-  const innovationProjects = projectsData.filter(project => project.category === 'innovation')
+  const [searchTerm, setSearchTerm] = useState('')
+
+  const filteredProjects = useMemo(() => {
+    const normalizedTerm = searchTerm.trim().toLowerCase()
+
+    if (!normalizedTerm) {
+      return projectsData
+    }
+
+    return projectsData.filter((project) => {
+      const searchableFields = [
+        project.title,
+        project.description,
+        project.period,
+        ...(project.tags || [])
+      ]
+
+      return searchableFields
+        .filter(Boolean)
+        .some(field => field.toLowerCase().includes(normalizedTerm))
+    })
+  }, [searchTerm])
+
+  const healthProjects = filteredProjects.filter(project => project.category === 'health')
+  const innovationProjects = filteredProjects.filter(project => project.category === 'innovation')
 
   const hasProjects = healthProjects.length > 0 || innovationProjects.length > 0
 
@@ -50,6 +74,37 @@ function Projects() {
 
       <section className="section projects-list">
         <div className="container">
+          <div className="projects-toolbar">
+            <label htmlFor="project-search" className="projects-search-label">
+              Cari proyek berdasarkan judul, periode, deskripsi, atau tag
+            </label>
+            <div className="projects-search-input-wrapper">
+              <input
+                id="project-search"
+                type="search"
+                className="projects-search-input"
+                value={searchTerm}
+                onChange={(event) => setSearchTerm(event.target.value)}
+                placeholder="Contoh: radioterapi, AI, edukasi"
+                aria-describedby="projects-search-result"
+              />
+              {searchTerm && (
+                <button
+                  type="button"
+                  className="projects-search-clear"
+                  onClick={() => setSearchTerm('')}
+                  aria-label="Hapus kata kunci pencarian"
+                >
+                  ×
+                </button>
+              )}
+            </div>
+            <p id="projects-search-result" className="projects-search-result" role="status" aria-live="polite">
+              Menampilkan {healthProjects.length + innovationProjects.length} proyek
+              {searchTerm ? ` untuk kata kunci “${searchTerm}”` : ''}.
+            </p>
+          </div>
+
           <h2>🌐 Website & Aplikasi Layanan Pasien</h2>
           <p className="section-description">
             Inisiatif digital untuk mendampingi pasien dan keluarga melalui edukasi,
