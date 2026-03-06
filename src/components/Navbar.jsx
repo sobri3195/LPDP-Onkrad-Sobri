@@ -2,6 +2,8 @@ import { Link, useLocation } from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react'
 import './Navbar.css'
 import Logo from './Logo'
+import SearchBar from './SearchBar'
+import ThemeToggle from './ThemeToggle'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -76,8 +78,8 @@ function Navbar() {
       aria-label="Navigasi utama"
     >
       <div className="container navbar-container">
-        <Link 
-          to="/" 
+        <Link
+          to="/"
           className="navbar-brand animate-fadeInDown"
           aria-label="Muhammad Sobri Maulana - Halaman utama"
         >
@@ -88,18 +90,22 @@ function Navbar() {
           </div>
         </Link>
 
-        <button
-          ref={toggleRef}
-          className={`navbar-toggle ${isMenuOpen ? 'open' : ''}`}
-          onClick={handleMenuToggle}
-          aria-expanded={isMenuOpen}
-          aria-controls="navbar-menu"
-          aria-label={isMenuOpen ? 'Tutup menu navigasi' : 'Buka menu navigasi'}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <div className="navbar-actions">
+          <SearchBar />
+          <ThemeToggle />
+          <button
+            ref={toggleRef}
+            className={`navbar-toggle ${isMenuOpen ? 'open' : ''}`}
+            onClick={handleMenuToggle}
+            aria-expanded={isMenuOpen}
+            aria-controls="navbar-menu"
+            aria-label={isMenuOpen ? 'Tutup menu navigasi' : 'Buka menu navigasi'}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
 
         <ul
           ref={menuRef}

@@ -4,6 +4,10 @@ import ErrorBoundary from './components/ErrorBoundary'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
+import ScrollProgress from './components/ScrollProgress'
+import ThemeToggle from './components/ThemeToggle'
+import SearchBar from './components/SearchBar'
+import Breadcrumb from './components/Breadcrumb'
 import RouteMeta from './components/RouteMeta'
 import Home from './pages/Home'
 import Profile from './pages/Profile'
@@ -34,6 +38,7 @@ function App() {
     <Router>
       <ErrorBoundary>
         <div className="app">
+          <ScrollProgress />
           <a href="#main-content" className="skip-to-content">
             Lewati ke konten utama
           </a>
@@ -41,6 +46,7 @@ function App() {
           <main id="main-content" className="main-content">
             <ScrollToTop />
             <RouteMeta />
+            <Breadcrumb />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/profile" element={<Profile />} />
@@ -55,6 +61,7 @@ function App() {
           </main>
           <Footer />
           <BackToTop />
+          <ThemeToggle />
         </div>
       </ErrorBoundary>
     </Router>
