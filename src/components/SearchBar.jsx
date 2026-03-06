@@ -6,6 +6,7 @@ function SearchBar() {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState([])
+  const [activeIndex, setActiveIndex] = useState(-1)
   const navigate = useNavigate()
   const searchInputRef = useRef(null)
 
@@ -16,7 +17,8 @@ function SearchBar() {
     { path: '/publications', label: 'Publikasi & Riset', keywords: ['publikasi', 'riset', 'research', 'publication', 'jurnal', 'paper'] },
     { path: '/projects', label: 'Proyek & Inovasi', keywords: ['proyek', 'project', 'inovasi', 'innovation', 'kalkulator', 'ai'] },
     { path: '/documents', label: 'Dokumen', keywords: ['dokumen', 'document', 'pdf', 'download', 'cv', 'motivation letter'] },
-    { path: '/contact', label: 'Kontak', keywords: ['kontak', 'contact', 'email', 'hubungi'] }
+    { path: '/contact', label: 'Kontak', keywords: ['kontak', 'contact', 'email', 'hubungi'] },
+    { path: '/privacy-policy', label: 'Kebijakan Privasi', keywords: ['privacy', 'privasi', 'kebijakan', 'policy', 'perlindungan data'] }
   ]
 
   useEffect(() => {
@@ -39,11 +41,16 @@ function SearchBar() {
     }
 
     document.body.style.overflow = ''
+
+    return () => {
+      document.body.style.overflow = ''
+    }
   }, [isSearchOpen])
 
   useEffect(() => {
     if (searchQuery.trim() === '') {
       setSearchResults([])
+      setActiveIndex(-1)
       return
     }
 
@@ -55,27 +62,51 @@ function SearchBar() {
     })
 
     setSearchResults(results)
+    setActiveIndex(results.length > 0 ? 0 : -1)
   }, [searchQuery])
 
   const handleResultClick = (path) => {
     navigate(path)
     setIsSearchOpen(false)
     setSearchQuery('')
+    setActiveIndex(-1)
   }
-
-  const handleKeyDown = (e) => {
-    if (e.key === 'Escape') {
-      setIsSearchOpen(false)
-      setSearchQuery('')
-    }
-  }
-
-  const openSearch = () => setIsSearchOpen(true)
 
   const closeSearch = () => {
     setIsSearchOpen(false)
     setSearchQuery('')
+    setActiveIndex(-1)
   }
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Escape') {
+      closeSearch()
+      return
+    }
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      if (searchResults.length > 0) {
+        setActiveIndex((prev) => (prev + 1) % searchResults.length)
+      }
+      return
+    }
+
+    if (e.key === 'ArrowUp') {
+      e.preventDefault()
+      if (searchResults.length > 0) {
+        setActiveIndex((prev) => (prev <= 0 ? searchResults.length - 1 : prev - 1))
+      }
+      return
+    }
+
+    if (e.key === 'Enter' && activeIndex >= 0 && searchResults[activeIndex]) {
+      e.preventDefault()
+      handleResultClick(searchResults[activeIndex].path)
+    }
+  }
+
+  const openSearch = () => setIsSearchOpen(true)
 
   return (
     <div className="search-container">
@@ -89,7 +120,7 @@ function SearchBar() {
       </button>
 
       {isSearchOpen && (
-        <div className="search-modal" onClick={closeSearch}>
+        <div className="search-modal" onClick={closeSearch} role="dialog" aria-modal="true" aria-label="Pencarian portofolio">
           <div className="search-content" onClick={(e) => e.stopPropagation()}>
             <div className="search-header">
               <h3>Cari di Portofolio</h3>
@@ -117,11 +148,11 @@ function SearchBar() {
 
             {searchResults.length > 0 && (
               <ul className="search-results">
-                {searchResults.map((result) => (
+                {searchResults.map((result, index) => (
                   <li key={result.path} className="search-result-item">
                     <button
                       onClick={() => handleResultClick(result.path)}
-                      className="search-result-button"
+                      className={`search-result-button ${index === activeIndex ? 'active' : ''}`}
                     >
                       <span className="result-icon">📄</span>
                       <div className="result-content">
