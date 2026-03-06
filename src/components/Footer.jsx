@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+import Newsletter from './Newsletter'
 import './Footer.css'
 
 function Footer() {
@@ -5,6 +7,7 @@ function Footer() {
 
   return (
     <footer className="footer">
+      <Newsletter />
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
@@ -17,13 +20,13 @@ function Footer() {
           <div className="footer-section">
             <h4>Navigasi</h4>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/profile">Profil</a></li>
-              <li><a href="/lpdp-package">LPDP Package</a></li>
-              <li><a href="/publications">Publikasi & Riset</a></li>
-              <li><a href="/projects">Proyek & Inovasi</a></li>
-              <li><a href="/documents">Dokumen</a></li>
-              <li><a href="/contact">Kontak</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/profile">Profil</Link></li>
+              <li><Link to="/lpdp-package">LPDP Package</Link></li>
+              <li><Link to="/publications">Publikasi & Riset</Link></li>
+              <li><Link to="/projects">Proyek & Inovasi</Link></li>
+              <li><Link to="/documents">Dokumen</Link></li>
+              <li><Link to="/contact">Kontak</Link></li>
             </ul>
           </div>
 
@@ -60,7 +63,7 @@ function Footer() {
           <div className="footer-section">
             <h4>Legal</h4>
             <ul>
-              <li><a href="/privacy-policy">Kebijakan Privasi</a></li>
+              <li><Link to="/privacy-policy">Kebijakan Privasi</Link></li>
             </ul>
           </div>
         </div>
@@ -77,3 +80,4 @@ function Footer() {
 }
 
 export default Footer
+
