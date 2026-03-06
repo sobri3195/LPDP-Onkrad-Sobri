@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './SearchBar.css'
 
@@ -7,6 +7,7 @@ function SearchBar() {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState([])
   const navigate = useNavigate()
+  const searchInputRef = useRef(null)
 
   const pages = [
     { path: '/', label: 'Home', keywords: ['home', 'beranda', 'utama'] },
@@ -17,6 +18,28 @@ function SearchBar() {
     { path: '/documents', label: 'Dokumen', keywords: ['dokumen', 'document', 'pdf', 'download', 'cv', 'motivation letter'] },
     { path: '/contact', label: 'Kontak', keywords: ['kontak', 'contact', 'email', 'hubungi'] }
   ]
+
+  useEffect(() => {
+    const handleShortcut = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault()
+        setIsSearchOpen(true)
+      }
+    }
+
+    document.addEventListener('keydown', handleShortcut)
+    return () => document.removeEventListener('keydown', handleShortcut)
+  }, [])
+
+  useEffect(() => {
+    if (isSearchOpen) {
+      searchInputRef.current?.focus()
+      document.body.style.overflow = 'hidden'
+      return
+    }
+
+    document.body.style.overflow = ''
+  }, [isSearchOpen])
 
   useEffect(() => {
     if (searchQuery.trim() === '') {
@@ -47,24 +70,32 @@ function SearchBar() {
     }
   }
 
+  const openSearch = () => setIsSearchOpen(true)
+
+  const closeSearch = () => {
+    setIsSearchOpen(false)
+    setSearchQuery('')
+  }
+
   return (
     <div className="search-container">
       <button
         className="search-toggle"
-        onClick={() => setIsSearchOpen(true)}
-        aria-label="Buka pencarian"
+        onClick={openSearch}
+        aria-label="Buka pencarian (Ctrl+K)"
+        title="Buka pencarian (Ctrl+K)"
       >
         🔍
       </button>
 
       {isSearchOpen && (
-        <div className="search-modal" onClick={() => setIsSearchOpen(false)}>
+        <div className="search-modal" onClick={closeSearch}>
           <div className="search-content" onClick={(e) => e.stopPropagation()}>
             <div className="search-header">
               <h3>Cari di Portofolio</h3>
               <button
                 className="search-close"
-                onClick={() => setIsSearchOpen(false)}
+                onClick={closeSearch}
                 aria-label="Tutup pencarian"
               >
                 ✕
@@ -78,7 +109,7 @@ function SearchBar() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onKeyDown={handleKeyDown}
-                autoFocus
+                ref={searchInputRef}
                 aria-label="Ketik untuk mencari"
               />
               <span className="search-icon">🔍</span>

@@ -5,8 +5,6 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
 import ScrollProgress from './components/ScrollProgress'
-import ThemeToggle from './components/ThemeToggle'
-import SearchBar from './components/SearchBar'
 import Breadcrumb from './components/Breadcrumb'
 import RouteMeta from './components/RouteMeta'
 import Home from './pages/Home'
@@ -61,7 +59,6 @@ function App() {
           </main>
           <Footer />
           <BackToTop />
-          <ThemeToggle />
         </div>
       </ErrorBoundary>
     </Router>
