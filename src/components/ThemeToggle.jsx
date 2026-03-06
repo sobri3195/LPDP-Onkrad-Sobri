@@ -6,21 +6,29 @@ function ThemeToggle() {
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme')
-    if (savedTheme === 'dark') {
-      setIsDark(true)
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const shouldUseDark = savedTheme ? savedTheme === 'dark' : prefersDark
+
+    setIsDark(shouldUseDark)
+    if (shouldUseDark) {
       document.documentElement.setAttribute('data-theme', 'dark')
+    } else {
+      document.documentElement.removeAttribute('data-theme')
     }
   }, [])
 
   const toggleTheme = () => {
-    setIsDark(!isDark)
-    if (!isDark) {
+    const nextIsDark = !isDark
+    setIsDark(nextIsDark)
+
+    if (nextIsDark) {
       document.documentElement.setAttribute('data-theme', 'dark')
       localStorage.setItem('theme', 'dark')
-    } else {
-      document.documentElement.removeAttribute('data-theme')
-      localStorage.setItem('theme', 'light')
+      return
     }
+
+    document.documentElement.removeAttribute('data-theme')
+    localStorage.setItem('theme', 'light')
   }
 
   return (
@@ -28,6 +36,8 @@ function ThemeToggle() {
       className="theme-toggle"
       onClick={toggleTheme}
       aria-label={isDark ? 'Ganti ke mode terang' : 'Ganti ke mode gelap'}
+      aria-pressed={isDark}
+      title={isDark ? 'Mode gelap aktif' : 'Mode terang aktif'}
     >
       <div className="theme-toggle-track">
         <div className={`theme-toggle-thumb ${isDark ? 'dark' : 'light'}`}>
