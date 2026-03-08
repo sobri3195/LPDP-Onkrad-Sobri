@@ -3,6 +3,19 @@ import Card from '../components/Card'
 import projectsData from '../data/projects.json'
 import './Projects.css'
 
+const additionalPortfolioCategories = [
+  'Penelitian Klinis',
+  'Clinical Decision Support Tools',
+  'Quality Improvement Program',
+  'Health Education Media',
+  'Patient Safety Initiatives',
+  'Data & Registry Development',
+  'Training for Health Professionals',
+  'Community Cancer Prevention',
+  'Healthcare Operations & Workflow',
+  'Collaborative Academic Projects'
+]
+
 function Projects() {
   const [searchTerm, setSearchTerm] = useState('')
 
@@ -159,6 +172,19 @@ function Projects() {
 
       <section className="section innovation-section">
         <div className="container">
+          <h2>🗂️ Kategori Tambahan Portfolio</h2>
+          <p className="section-description">
+            Area kontribusi strategis untuk pengembangan layanan onkologi, peningkatan kualitas klinis,
+            dan kolaborasi akademik lintas disiplin.
+          </p>
+          <div className="additional-categories-grid">
+            {additionalPortfolioCategories.map((category) => (
+              <div key={category} className="additional-category-card">
+                <h3>{category}</h3>
+              </div>
+            ))}
+          </div>
+
           <h2>🔬 Fokus Riset AI dalam Radioterapi</h2>
           <div className="research-focus-grid">
             <div className="focus-card">
