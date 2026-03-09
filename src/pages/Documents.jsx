@@ -1,3 +1,4 @@
+import { downloadPdfByFilename } from '../utils/pdfDownload'
 import './Documents.css'
 
 function Documents() {
@@ -82,6 +83,13 @@ function Documents() {
     }
   ]
 
+  const handleDocumentDownload = (event, filename) => {
+    const handled = downloadPdfByFilename(filename)
+    if (handled) {
+      event.preventDefault()
+    }
+  }
+
   return (
     <div className="documents-page">
       <section className="section documents-intro">
@@ -126,6 +134,7 @@ function Documents() {
                         href={`/documents/${doc.filename}`} 
                         className="btn btn-primary"
                         download
+                        onClick={(event) => handleDocumentDownload(event, doc.filename)}
                       >
                         Unduh
                       </a>
