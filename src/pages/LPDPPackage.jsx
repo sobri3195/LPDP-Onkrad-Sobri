@@ -99,10 +99,12 @@ function LPDPPackage() {
                 <div className="essay-item">
                   <h4>1) Intro / Hook</h4>
                   <p>
-                    Setiap kali bertemu pasien kanker yang harus menunggu lama untuk mendapatkan radioterapi,
-                    saya melihat bukan hanya diagnosis medis, tetapi juga cerita keluarga yang tertunda harapannya.
-                    Pengalaman ini membentuk keyakinan saya bahwa kebutuhan terhadap dokter spesialis onkologi
-                    radiasi bukan lagi isu masa depan, melainkan kebutuhan mendesak hari ini.
+                    Bagi saya, kanker bukan hanya isu klinis, tetapi pengalaman keluarga yang membekas. Papa saya,
+                    Saiful Deru Amaludin, meninggal karena kanker, dan ibu mertua saya juga berpulang akibat
+                    kanker serviks. Kehilangan ini membuat saya memahami bahwa di balik setiap diagnosis kanker,
+                    ada keluarga yang berjuang menjaga harapan. Karena itu, setiap kali bertemu pasien yang harus
+                    menunggu radioterapi, saya semakin yakin bahwa kebutuhan dokter spesialis onkologi radiasi
+                    adalah kebutuhan mendesak hari ini.
                   </p>
                 </div>
 
@@ -122,10 +124,10 @@ function LPDPPackage() {
                   <p>
                     Saya, Muhammad Sobri Maulana, berkomitmen menempuh pendidikan Spesialis Onkologi Radiasi agar
                     dapat menghadirkan pelayanan kanker yang lebih tepat, aman, dan berkeadilan. Motivasi saya
-                    bertumpu pada tiga hal: tanggung jawab profesional sebagai dokter, kebutuhan riil sistem
-                    kesehatan Indonesia, dan visi jangka panjang untuk berkontribusi pada penguatan layanan
-                    onkologi berbasis bukti. Dukungan LPDP akan memungkinkan saya belajar secara optimal dan kembali
-                    mengabdi untuk memperluas akses radioterapi berkualitas.
+                    bertumpu pada tiga hal: pengalaman pribadi kehilangan anggota keluarga karena kanker,
+                    tanggung jawab profesional sebagai dokter, dan kebutuhan riil sistem kesehatan Indonesia.
+                    Dukungan LPDP akan memungkinkan saya belajar secara optimal dan kembali mengabdi untuk
+                    memperluas akses radioterapi berkualitas bagi pasien dan keluarga yang sedang berjuang.
                   </p>
                 </div>
 
@@ -143,9 +145,9 @@ function LPDPPackage() {
               </div>
 
               <p className="lead">
-                Motivasi utama saya untuk melanjutkan pendidikan spesialis Onkologi Radiasi adalah keinginan kuat 
-                untuk meningkatkan akses dan kualitas pelayanan kanker di Indonesia, khususnya bagi pasien di wilayah 
-                yang masih terbatas mendapatkan fasilitas radiasi onkologi.
+                Motivasi utama saya untuk melanjutkan pendidikan spesialis Onkologi Radiasi lahir dari pengalaman
+                pribadi kehilangan Papa saya, Saiful Deru Amaludin, akibat kanker dan ibu mertua saya akibat
+                kanker serviks, serta tekad untuk meningkatkan akses dan kualitas pelayanan kanker di Indonesia.
               </p>
               <p>
                 Sebagai dokter umum, saya telah menyaksikan langsung bagaimana keterbatasan fasilitas dan tenaga 
