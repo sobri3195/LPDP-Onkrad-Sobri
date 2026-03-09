@@ -1,4 +1,5 @@
 import Timeline from '../components/Timeline'
+import { downloadPdfByFilename } from '../utils/pdfDownload'
 import './LPDPPackage.css'
 
 function LPDPPackage() {
@@ -60,6 +61,14 @@ function LPDPPackage() {
     }
   ]
 
+  const handlePdfDownload = (event, filename) => {
+    event.preventDefault()
+    const handled = downloadPdfByFilename(filename)
+    if (!handled) {
+      window.location.href = `/documents/${filename}`
+    }
+  }
+
   return (
     <div className="lpdp-page">
       <section className="section lpdp-intro">
@@ -76,7 +85,7 @@ function LPDPPackage() {
           <div className="download-all-box">
             <h2>📦 Unduh Semua Dokumen</h2>
             <p>Akses lengkap semua dokumen LPDP dalam satu file</p>
-            <a href="/documents/LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary btn-lg" download>
+            <a href="/documents/LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary btn-lg" download onClick={(event) => handlePdfDownload(event, 'LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf')}>
               📥 Download Full Package
             </a>
           </div>
@@ -88,7 +97,7 @@ function LPDPPackage() {
           <div className="content-box">
             <div className="section-header-with-download">
               <h2>💡 Motivation Letter</h2>
-              <a href="/documents/Motivation_Letter.pdf" className="btn btn-primary" download>
+              <a href="/documents/Motivation_Letter.pdf" className="btn btn-primary" download onClick={(event) => handlePdfDownload(event, 'Motivation_Letter.pdf')}>
                 📥 Unduh PDF
               </a>
             </div>
@@ -174,7 +183,7 @@ function LPDPPackage() {
           <div className="content-box">
             <div className="section-header-with-download">
               <h2>🎯 Career Plan (5-10 Tahun)</h2>
-              <a href="/documents/Career_Plan.pdf" className="btn btn-primary" download>
+              <a href="/documents/Career_Plan.pdf" className="btn btn-primary" download onClick={(event) => handlePdfDownload(event, 'Career_Plan.pdf')}>
                 📥 Unduh PDF
               </a>
             </div>
@@ -192,7 +201,7 @@ function LPDPPackage() {
           <div className="content-box">
             <div className="section-header-with-download">
               <h2>🇮🇩 Contribution Plan</h2>
-              <a href="/documents/Contribution_Plan.pdf" className="btn btn-primary" download>
+              <a href="/documents/Contribution_Plan.pdf" className="btn btn-primary" download onClick={(event) => handlePdfDownload(event, 'Contribution_Plan.pdf')}>
                 📥 Unduh PDF
               </a>
             </div>
@@ -295,7 +304,7 @@ function LPDPPackage() {
           <div className="download-box">
             <h2>📦 Download Full Package</h2>
             <p>Unduh semua dokumen LPDP dalam satu file:</p>
-            <a href="/documents/LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary" download>
+            <a href="/documents/LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf" className="btn btn-primary" download onClick={(event) => handlePdfDownload(event, 'LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf')}>
               📥 Download Full Package
             </a>
           </div>
