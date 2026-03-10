@@ -4,31 +4,45 @@ import './ThemeToggle.css'
 function ThemeToggle() {
   const [isDark, setIsDark] = useState(false)
 
+  const applyTheme = (nextIsDark) => {
+    document.documentElement.setAttribute('data-theme', nextIsDark ? 'dark' : 'light')
+
+    const themeColor = document.querySelector('meta[name="theme-color"]')
+    if (themeColor) {
+      themeColor.setAttribute('content', nextIsDark ? '#111827' : '#1e3a8a')
+    }
+  }
+
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme')
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    const shouldUseDark = savedTheme ? savedTheme === 'dark' : prefersDark
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    const shouldUseDark = savedTheme ? savedTheme === 'dark' : mediaQuery.matches
 
     setIsDark(shouldUseDark)
-    if (shouldUseDark) {
-      document.documentElement.setAttribute('data-theme', 'dark')
-    } else {
-      document.documentElement.removeAttribute('data-theme')
+    applyTheme(shouldUseDark)
+
+    const handleThemeChange = (event) => {
+      const manualTheme = localStorage.getItem('theme')
+      if (manualTheme) {
+        return
+      }
+
+      setIsDark(event.matches)
+      applyTheme(event.matches)
+    }
+
+    mediaQuery.addEventListener('change', handleThemeChange)
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleThemeChange)
     }
   }, [])
 
   const toggleTheme = () => {
     const nextIsDark = !isDark
     setIsDark(nextIsDark)
-
-    if (nextIsDark) {
-      document.documentElement.setAttribute('data-theme', 'dark')
-      localStorage.setItem('theme', 'dark')
-      return
-    }
-
-    document.documentElement.removeAttribute('data-theme')
-    localStorage.setItem('theme', 'light')
+    applyTheme(nextIsDark)
+    localStorage.setItem('theme', nextIsDark ? 'dark' : 'light')
   }
 
   return (

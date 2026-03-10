@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 import './SearchBar.css'
 
 function SearchBar() {
@@ -8,6 +8,7 @@ function SearchBar() {
   const [searchResults, setSearchResults] = useState([])
   const [activeIndex, setActiveIndex] = useState(-1)
   const navigate = useNavigate()
+  const location = useLocation()
   const searchInputRef = useRef(null)
 
   const pages = [
@@ -47,6 +48,12 @@ function SearchBar() {
     }
   }, [isSearchOpen])
 
+  const closeSearch = () => {
+    setIsSearchOpen(false)
+    setSearchQuery('')
+    setActiveIndex(-1)
+  }
+
   useEffect(() => {
     if (searchQuery.trim() === '') {
       setSearchResults([])
@@ -65,14 +72,15 @@ function SearchBar() {
     setActiveIndex(results.length > 0 ? 0 : -1)
   }, [searchQuery])
 
+
+  useEffect(() => {
+    if (isSearchOpen) {
+      closeSearch()
+    }
+  }, [location.pathname])
+
   const handleResultClick = (path) => {
     navigate(path)
-    setIsSearchOpen(false)
-    setSearchQuery('')
-    setActiveIndex(-1)
-  }
-
-  const closeSearch = () => {
     setIsSearchOpen(false)
     setSearchQuery('')
     setActiveIndex(-1)
@@ -136,6 +144,10 @@ function SearchBar() {
               <input
                 type="text"
                 className="search-input"
+                role="combobox"
+                aria-autocomplete="list"
+                aria-expanded={searchResults.length > 0}
+                aria-controls="search-results-list"
                 placeholder="Cari halaman, konten, atau dokumen..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -147,12 +159,14 @@ function SearchBar() {
             </div>
 
             {searchResults.length > 0 && (
-              <ul className="search-results">
+              <ul id="search-results-list" className="search-results" role="listbox">
                 {searchResults.map((result, index) => (
                   <li key={result.path} className="search-result-item">
                     <button
                       onClick={() => handleResultClick(result.path)}
                       className={`search-result-button ${index === activeIndex ? 'active' : ''}`}
+                      role="option"
+                      aria-selected={index === activeIndex}
                     >
                       <span className="result-icon">📄</span>
                       <div className="result-content">
