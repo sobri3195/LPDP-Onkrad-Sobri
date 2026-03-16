@@ -3,7 +3,8 @@ const SECTION_SELECTORS = {
   career: '.career-plan-section',
   contribution: '.contribution-section',
   study: '.study-plan-section',
-  lpdpFull: '.lpdp-page'
+  lpdpFull: '.lpdp-page',
+  produktools: '.products-one-page-section'
 }
 
 const FALLBACK_CONTENT = {
@@ -11,14 +12,16 @@ const FALLBACK_CONTENT = {
   career: `Career Plan 5-10 Tahun\n\nTahun 1-2: Pendidikan spesialis dengan fokus kompetensi inti radiasi onkologi.\nTahun 3-4: Pendalaman sub-spesialis dan modalitas terapi modern.\nTahun 5: Residensi senior dan riset klinis.\nTahun 6-7: Lulus dan praktik awal sebagai SpOnkRad.\nTahun 8-10: Pengembangan karir, riset, edukasi, dan kontribusi nasional.`,
   contribution: `Contribution Plan\n\nKontribusi klinis, akademis, edukasi, dan kebijakan untuk memperkuat layanan onkologi radiasi di Indonesia.\n\nFokus kontribusi:\n- Pelayanan klinis berkualitas\n- Riset epidemiologi dan protokol lokal\n- Pelatihan SDM kesehatan\n- Advokasi kebijakan layanan kanker`,
   study: `Study Plan\n\nProgram: Spesialis Onkologi Radiasi (SpOnkRad)\nDurasi: 5-6 tahun\nFokus: Radiasi biologi, fisika radiasi, IMRT, VMAT, SBRT, SRS, brakiterapi, riset klinis.`,
-  lpdpFull: `LPDP Full Package\n\nDokumen ini berisi ringkasan Motivation Letter, Career Plan, Contribution Plan, dan Study Plan untuk aplikasi LPDP.`
+  lpdpFull: `LPDP Full Package\n\nDokumen ini berisi ringkasan Motivation Letter, Career Plan, Contribution Plan, dan Study Plan untuk aplikasi LPDP.`,
+  produktools: `Produk Sobri RadOnc (1 Halaman)\n\n- Sobri RadOnc Calc\n- Sobri RadOnc Quiz\n- Sobri RadOnc Cards\n- Sobri RadOnc Atlas\n- Sobri RadOnc Terms\n- Sobri RadOnc Notes\n- Sobri RadOnc Guide\n- Sobri RadOnc OAR`
 }
 
 const FILE_TO_SECTION = {
   'Motivation_Letter.pdf': 'motivation',
   'Career_Plan.pdf': 'career',
   'Contribution_Plan.pdf': 'contribution',
-  'LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf': 'lpdpFull'
+  'LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf': 'lpdpFull',
+  'Sobri_RadOnc_Products_One_Page.pdf': 'produktools'
 }
 
 function normalizeText(text) {

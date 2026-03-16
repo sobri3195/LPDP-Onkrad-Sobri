@@ -62,6 +62,20 @@ function Documents() {
         }
       ]
     },
+
+    {
+      title: 'Produk Sobri RadOnc',
+      documents: [
+        {
+          name: 'Sobri RadOnc Products (1 Halaman)',
+          description: 'Ringkasan 8 produk Sobri RadOnc dalam satu halaman PDF.',
+          size: '1 Page',
+          available: true,
+          filename: 'Sobri_RadOnc_Products_One_Page.pdf'
+        }
+      ]
+    },
+
     {
       title: 'Sertifikat (Opsional)',
       documents: [
@@ -146,6 +160,32 @@ function Documents() {
               </div>
             </div>
           ))}
+
+
+          <div className="document-instructions products-one-page-section">
+            <h2>🧩 Produk Sobri RadOnc (1 Halaman)</h2>
+            <div className="instructions-box">
+              <p>Ringkasan produk yang disertakan dalam PDF:</p>
+              <ul>
+                <li>Sobri RadOnc Calc</li>
+                <li>Sobri RadOnc Quiz</li>
+                <li>Sobri RadOnc Cards</li>
+                <li>Sobri RadOnc Atlas</li>
+                <li>Sobri RadOnc Terms</li>
+                <li>Sobri RadOnc Notes</li>
+                <li>Sobri RadOnc Guide</li>
+                <li>Sobri RadOnc OAR</li>
+              </ul>
+              <a
+                href="/documents/Sobri_RadOnc_Products_One_Page.pdf"
+                className="btn btn-primary"
+                download
+                onClick={(event) => handleDocumentDownload(event, 'Sobri_RadOnc_Products_One_Page.pdf')}
+              >
+                Unduh PDF 1 Halaman
+              </a>
+            </div>
+          </div>
 
           <div className="document-instructions">
             <h2>📌 Status Dokumen</h2>
