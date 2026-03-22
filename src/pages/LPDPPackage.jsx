@@ -103,74 +103,90 @@ function LPDPPackage() {
             </div>
             <div className="motivation-content">
               <div className="essay-structure">
-                <h3>📝 Struktur Essay LPDP</h3>
+                <h3>📝 Motivation Letter — Versi Personal-Emosional</h3>
 
                 <div className="essay-item">
-                  <h4>1) Intro / Hook</h4>
+                  <h4>1) Pengalaman Hidup yang Membentuk Pilihan Saya</h4>
                   <p>
-                    Bagi saya, kanker bukan hanya isu klinis, tetapi pengalaman keluarga yang membekas. Papa saya,
-                    Saiful Deru Amaludin, meninggal karena kanker, dan ibu mertua saya juga berpulang akibat
-                    kanker serviks. Kehilangan ini membuat saya memahami bahwa di balik setiap diagnosis kanker,
-                    ada keluarga yang berjuang menjaga harapan. Karena itu, setiap kali bertemu pasien yang harus
-                    menunggu radioterapi, saya semakin yakin bahwa kebutuhan dokter spesialis onkologi radiasi
-                    adalah kebutuhan mendesak hari ini.
+                    Bagi saya, kanker bukan sekadar istilah medis yang saya pelajari di ruang kuliah atau saya temui
+                    di ruang pelayanan. Kanker adalah pengalaman hidup yang meninggalkan jejak emosional sangat dalam.
+                    Saya kehilangan Papa saya, Saiful Deru Amaludin, karena kanker. Saya juga menyaksikan ibu mertua
+                    saya berpulang akibat kanker serviks. Dua kehilangan ini membuat saya memahami bahwa di balik setiap
+                    diagnosis kanker, selalu ada keluarga yang cemas, menunggu, berharap, lalu berusaha tetap kuat di
+                    tengah ketidakpastian. Sejak itu, saya tidak lagi memandang kanker hanya sebagai penyakit yang harus
+                    diterapi, tetapi sebagai ujian besar yang mengguncang martabat, ketenangan, dan masa depan sebuah
+                    keluarga.
                   </p>
                 </div>
 
                 <div className="essay-item">
-                  <h4>2) Problem Statement</h4>
+                  <h4>2) Alasan Memilih Onkologi Radiasi</h4>
                   <p>
-                    Beban kanker di Indonesia terus meningkat, namun distribusi fasilitas radioterapi dan dokter
-                    spesialis onkologi radiasi belum merata. Pasien dari luar kota besar sering menghadapi waktu
-                    tunggu panjang, biaya tidak langsung yang tinggi, serta risiko keterlambatan terapi. Sebagai
-                    dokter umum, saya menyaksikan bahwa kesenjangan ini berdampak pada keterlambatan diagnosis,
-                    kualitas hidup pasien, dan luaran klinis yang seharusnya dapat ditingkatkan.
+                    Dari pengalaman tersebut, saya semakin yakin memilih Onkologi Radiasi sebagai jalan pengabdian saya.
+                    Saya melihat radioterapi sebagai bidang yang menuntut ketelitian ilmiah, presisi teknologi, dan rasa
+                    tanggung jawab yang sangat tinggi terhadap keselamatan pasien. Setiap keputusan mengenai dosis,
+                    fraksinasi, target terapi, dan perlindungan jaringan sehat memiliki dampak langsung terhadap peluang
+                    kesembuhan dan kualitas hidup pasien. Di sisi lain, Indonesia masih menghadapi beban kanker yang terus
+                    meningkat, sementara distribusi fasilitas radioterapi dan tenaga spesialis belum merata. Kondisi ini
+                    membuat banyak pasien datang terlambat, menunggu terlalu lama, atau menjalani terapi dengan beban
+                    sosial dan ekonomi yang tidak ringan. Karena itu, bagi saya, memilih Onkologi Radiasi bukan hanya
+                    keputusan akademik, melainkan keputusan moral untuk hadir di titik pelayanan yang sangat menentukan.
                   </p>
                 </div>
 
                 <div className="essay-item">
-                  <h4>3) Motivational Statement</h4>
+                  <h4>3) Keterhubungan Medis, Teknologi, dan Kemanusiaan</h4>
                   <p>
-                    Saya, Muhammad Sobri Maulana, berkomitmen menempuh pendidikan Spesialis Onkologi Radiasi agar
-                    dapat menghadirkan pelayanan kanker yang lebih tepat, aman, dan berkeadilan. Motivasi saya
-                    bertumpu pada tiga hal: pengalaman pribadi kehilangan anggota keluarga karena kanker,
-                    tanggung jawab profesional sebagai dokter, dan kebutuhan riil sistem kesehatan Indonesia.
-                    Dukungan LPDP akan memungkinkan saya belajar secara optimal dan kembali mengabdi untuk
-                    memperluas akses radioterapi berkualitas bagi pasien dan keluarga yang sedang berjuang.
+                    Ketertarikan saya pada bidang ini juga tumbuh dari keyakinan bahwa masa depan layanan kanker harus
+                    dibangun melalui kolaborasi antara ilmu kedokteran, teknologi, keselamatan pasien, dan inovasi sistem.
+                    Saya tertarik pada transformasi digital di layanan onkologi radiasi karena saya melihat banyak ruang
+                    yang dapat diperbaiki: edukasi pasien yang lebih mudah dipahami, alur layanan yang lebih jelas,
+                    pemantauan pasien yang lebih rapi, serta alat bantu klinis yang dapat meningkatkan konsistensi kerja.
+                    Saya ingin berkontribusi pada sistem yang tidak hanya membantu klinisi mengambil keputusan dengan lebih
+                    terstruktur, tetapi juga membantu pasien memahami terapi mereka dengan lebih tenang dan bermartabat.
+                    Bagi saya, pelayanan kanker yang baik tidak cukup hanya akurat secara klinis; ia juga harus manusiawi,
+                    komunikatif, dan mampu mengurangi kecemasan pasien sejak awal perjalanan terapi.
                   </p>
                 </div>
 
                 <div className="essay-item">
-                  <h4>4) Rencana Studi</h4>
+                  <h4>4) Bukti Komitmen Melalui Karya</h4>
                   <p>
-                    Rencana studi saya mencakup penguasaan kompetensi inti onkologi radiasi: radiasi biologi,
-                    fisika radiasi, perencanaan terapi, dan manajemen kasus multidisiplin. Saya menargetkan
-                    pendalaman teknik modern seperti IMRT, VMAT, SBRT, serta brakiterapi, disertai riset klinis
-                    yang relevan untuk populasi Indonesia. Setelah lulus sebagai SpOnkRad, saya akan kembali untuk
-                    mengembangkan layanan klinis, mendorong budaya riset, dan memperkuat kapasitas SDM agar
-                    pelayanan kanker lebih merata dan berkelanjutan.
+                    Komitmen tersebut sudah mulai saya wujudkan melalui karya-karya awal yang saya bangun. OnkoSob saya
+                    kembangkan sebagai platform frontend layanan onkologi radiasi yang berfungsi untuk edukasi pasien,
+                    panduan layanan, monitoring pasien anonim, dan dashboard admin demo. Saya juga mengembangkan Clinical
+                    Calculation Workspace, sebuah dashboard kalkulator klinis onkologi radiasi untuk simulasi,
+                    eksplorasi perhitungan, validasi input, histori, preset, serta efisiensi workflow. Walaupun masih
+                    berupa prototype, kedua karya ini menunjukkan cara saya bekerja: berangkat dari kebutuhan klinis,
+                    menerjemahkannya menjadi solusi digital, lalu menjadikannya jembatan antara kebutuhan medis dan
+                    teknologi. Bagi saya, karya-karya ini adalah pijakan awal menuju inovasi yang lebih besar untuk
+                    meningkatkan mutu layanan kanker di Indonesia.
                   </p>
                 </div>
               </div>
 
               <p className="lead">
-                Motivasi utama saya untuk melanjutkan pendidikan spesialis Onkologi Radiasi lahir dari pengalaman
-                pribadi kehilangan Papa saya, Saiful Deru Amaludin, akibat kanker dan ibu mertua saya akibat
-                kanker serviks, serta tekad untuk meningkatkan akses dan kualitas pelayanan kanker di Indonesia.
+                Saya memilih melanjutkan pendidikan Spesialis Onkologi Radiasi karena saya ingin mengubah pengalaman
+                kehilangan, keprihatinan, dan pengamatan klinis saya menjadi kontribusi yang nyata bagi bangsa.
               </p>
               <p>
-                Sebagai dokter umum, saya telah menyaksikan langsung bagaimana keterbatasan fasilitas dan tenaga 
-                spesialis onkologi radiasi mempengaruhi outcome pasien kanker di Indonesia. Dengan bekal pendidikan 
-                spesialis ini, saya bertekad untuk berkontribusi dalam penurunan beban penyakit kanker nasional melalui 
-                pelayanan klinis yang berkualitas, penelitian inovatif, dan pembangunan kapasitas tenaga kesehatan.
+                Saya ingin kembali setelah studi bukan hanya sebagai dokter spesialis, tetapi sebagai bagian dari SDM
+                nasional yang mampu memperkuat pelayanan kanker Indonesia melalui praktik klinis yang aman, inovasi
+                digital yang relevan, penguatan kapasitas tenaga kesehatan, dan pengembangan sistem yang membuat pasien
+                merasa lebih dipahami sepanjang proses terapinya.
+              </p>
+              <p>
+                Dukungan LPDP akan menjadi fondasi penting bagi saya untuk memperdalam kompetensi klinis dan akademik,
+                lalu mengembalikannya dalam bentuk dampak nyata: pelayanan onkologi radiasi yang lebih modern, lebih
+                berkeadilan, lebih terjangkau, dan lebih manusiawi bagi masyarakat Indonesia.
               </p>
               <div className="motivation-highlights">
                 <h3>🎯 Fokus Kontribusi:</h3>
                 <ul>
-                  <li>Meningkatkan akses pelayanan radiasi onkologi berkualitas</li>
-                  <li>Mengembangkan penelitian di bidang radioterapi precision</li>
+                  <li>Meningkatkan akses pelayanan radiasi onkologi yang aman, presisi, dan berkualitas</li>
+                  <li>Mengembangkan inovasi digital untuk edukasi pasien dan efisiensi workflow klinis</li>
                   <li>Membangun kapasitas SDM kesehatan di bidang onkologi radiasi</li>
-                  <li>Memberikan edukasi masyarakat tentang deteksi dini kanker</li>
+                  <li>Mendorong sistem layanan kanker yang lebih modern, adil, dan berpihak pada pasien</li>
                 </ul>
               </div>
             </div>

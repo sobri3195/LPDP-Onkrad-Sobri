@@ -8,7 +8,19 @@ const SECTION_SELECTORS = {
 }
 
 const FALLBACK_CONTENT = {
-  motivation: `Motivation Letter\n\nMotivasi utama saya untuk melanjutkan pendidikan spesialis Onkologi Radiasi adalah meningkatkan akses dan kualitas pelayanan kanker di Indonesia.\n\nFokus kontribusi:\n- Meningkatkan akses pelayanan radiasi onkologi berkualitas\n- Mengembangkan penelitian radioterapi precision\n- Membangun kapasitas SDM kesehatan onkologi radiasi\n- Mengedukasi masyarakat tentang deteksi dini kanker`,
+  motivation: `Motivation Letter
+
+Saya memilih melanjutkan pendidikan Spesialis Onkologi Radiasi karena pengalaman kehilangan orang terkasih akibat kanker membentuk komitmen saya untuk berkontribusi lebih nyata bagi pasien kanker di Indonesia.
+
+Saya melihat radioterapi sebagai bidang yang memadukan presisi ilmiah, keselamatan pasien, dan tanggung jawab kemanusiaan. Di tengah beban kanker yang terus meningkat dan keterbatasan layanan radioterapi di Indonesia, saya ingin mengambil peran dalam menghadirkan pelayanan yang lebih aman, modern, dan berkeadilan.
+
+Komitmen ini sudah mulai saya wujudkan melalui pengembangan OnkoSob sebagai platform edukasi pasien, panduan layanan, monitoring pasien anonim, dan dashboard admin demo, serta Clinical Calculation Workspace sebagai dashboard kalkulator klinis untuk simulasi, validasi input, histori, preset, dan efisiensi workflow. Meski masih berupa prototype, keduanya menunjukkan kesiapan saya membangun jembatan antara kebutuhan medis dan teknologi.
+
+Fokus kontribusi:
+- Meningkatkan akses pelayanan radiasi onkologi yang aman, presisi, dan berkualitas
+- Mengembangkan inovasi digital untuk edukasi pasien dan efisiensi workflow klinis
+- Membangun kapasitas SDM kesehatan di bidang onkologi radiasi
+- Mendorong sistem layanan kanker yang lebih modern, adil, dan berpihak pada pasien`,
   career: `Career Plan 5-10 Tahun\n\nTahun 1-2: Pendidikan spesialis dengan fokus kompetensi inti radiasi onkologi.\nTahun 3-4: Pendalaman sub-spesialis dan modalitas terapi modern.\nTahun 5: Residensi senior dan riset klinis.\nTahun 6-7: Lulus dan praktik awal sebagai SpOnkRad.\nTahun 8-10: Pengembangan karir, riset, edukasi, dan kontribusi nasional.`,
   contribution: `Contribution Plan\n\nKontribusi klinis, akademis, edukasi, dan kebijakan untuk memperkuat layanan onkologi radiasi di Indonesia.\n\nFokus kontribusi:\n- Pelayanan klinis berkualitas\n- Riset epidemiologi dan protokol lokal\n- Pelatihan SDM kesehatan\n- Advokasi kebijakan layanan kanker`,
   study: `Study Plan\n\nProgram: Spesialis Onkologi Radiasi (SpOnkRad)\nDurasi: 5-6 tahun\nFokus: Radiasi biologi, fisika radiasi, IMRT, VMAT, SBRT, SRS, brakiterapi, riset klinis.`,
