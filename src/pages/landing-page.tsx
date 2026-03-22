@@ -30,7 +30,7 @@ export function LandingPage() {
           <div className="stack-lg">
             <Badge variant="default" className="hero-badge">AI-powered radiation therapy planning support</Badge>
             <div className="stack-md">
-              <h1 className="hero-title">RadioCurate AI helps clinicians compare treatment plans with global evidence in real time.</h1>
+              <h1 className="hero-title">Portofolio LPDP helps clinicians compare treatment plans with global evidence in real time.</h1>
               <p className="hero-copy">Review plan quality, compare expected outcomes, and explain the reasoning behind radiotherapy choices with a modern decision-support workspace designed for oncology teams.</p>
             </div>
             <div className="button-row">
@@ -39,7 +39,7 @@ export function LandingPage() {
             </div>
             <div className="disclaimer-box">
               <p className="disclaimer-box__title">Important clinical context</p>
-              <p>RadioCurate AI is a clinical decision-support interface only. It is not a final diagnosis system and does not replace physician, physicist, or multidisciplinary review.</p>
+              <p>Portofolio LPDP is a clinical decision-support interface only. It is not a final diagnosis system and does not replace physician, physicist, or multidisciplinary review.</p>
             </div>
           </div>
           <div className="stack-md">
@@ -88,7 +88,7 @@ export function LandingPage() {
         <Card>
           <CardHeader>
             <CardTitle>Clinical safety framing</CardTitle>
-            <CardDescription>RadioCurate AI supports review, discussion, and documentation—not autonomous treatment decisions.</CardDescription>
+            <CardDescription>Portofolio LPDP supports review, discussion, and documentation—not autonomous treatment decisions.</CardDescription>
           </CardHeader>
           <CardContent className="two-col-grid">
             <div className="soft-panel"><p className="compact-title">Supportive role</p><p className="muted-text">AI insights highlight similarities, potential optimization areas, and communication support, but final judgment remains with qualified medical professionals.</p></div>
@@ -111,7 +111,7 @@ export function LandingPage() {
 
       <footer className="footer-panel">
         <div>
-          <p className="compact-title">RadioCurate AI</p>
+          <p className="compact-title">Portofolio LPDP</p>
           <p className="muted-text">Radiotherapy planning support with transparent AI assistance.</p>
         </div>
         <p className="muted-text">Not a replacement for physician judgment or institutional review.</p>

@@ -11,7 +11,7 @@ export function SidebarNav({ mobile = false }: { mobile?: boolean }) {
       <div className="sidebar__brand">
         <div className="sidebar__brand-icon"><HeartPulse size={24} /></div>
         <div>
-          <p className="sidebar__brand-title">RadioCurate AI</p>
+          <p className="sidebar__brand-title">Portofolio LPDP</p>
           <p className="sidebar__brand-subtitle">Radiotherapy planning support</p>
         </div>
       </div>
