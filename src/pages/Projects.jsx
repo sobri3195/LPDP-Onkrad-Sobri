@@ -118,10 +118,9 @@ function Projects() {
             </p>
           </div>
 
-          <h2>🌐 Website & Aplikasi Layanan Pasien</h2>
+          <h2>🌐 Produk Digital & Solusi Layanan</h2>
           <p className="section-description">
-            Inisiatif digital untuk mendampingi pasien dan keluarga melalui edukasi,
-            orientasi layanan, serta pemantauan perjalanan terapi onkologi radiasi.
+            Inisiatif digital yang mencakup layanan pasien, komunitas, rehabilitasi, pencegahan, penguatan profesional, dan integrasi sistem onkologi radiasi.
           </p>
           <div className="grid grid-2">
             {healthProjects.map((project, index) => (

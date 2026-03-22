@@ -314,5 +314,125 @@
     ],
     "icon": "🧩",
     "link": null
+  },
+  {
+    "title": "RadioCurate AI",
+    "category": "innovation",
+    "period": "Product Concept",
+    "description": "Platform AI untuk personalisasi rencana radioterapi dengan case matching engine, perbandingan treatment plan, prediksi outcome, visualisasi harapan berbasis data, dukungan keputusan dokter, clinical evidence library, dan tumor board summary generator.",
+    "tags": [
+      "AI",
+      "Radiotherapy Planning",
+      "Outcome Prediction",
+      "Clinical Decision Support",
+      "Evidence-Based Care"
+    ],
+    "icon": "📡",
+    "link": null
+  },
+  {
+    "title": "Gen-Rad Guardian",
+    "category": "health",
+    "period": "Product Concept",
+    "description": "Aplikasi manajemen risiko kanker untuk skrining dini dan pencegahan melalui profil risiko personal, pelacakan gaya hidup, monitoring paparan lingkungan, rekomendasi skrining, early warning notification, family risk mapping, edukasi preventif, dan arahan rujukan dokter.",
+    "tags": [
+      "Cancer Prevention",
+      "Risk Assessment",
+      "Screening",
+      "Lifestyle Tracking",
+      "Digital Health"
+    ],
+    "icon": "🛡️",
+    "link": null
+  },
+  {
+    "title": "Vital-Rad Rejuvenate",
+    "category": "health",
+    "period": "Product Concept",
+    "description": "Program rehabilitasi digital pasca-radioterapi untuk pemulihan energi, massa otot, dan kualitas hidup melalui recovery planner, panduan nutrisi anti-inflamasi, latihan ringan, monitoring fatigue, tracking berat badan dan massa otot, jurnal gejala, milestone motivasi, serta integrasi tele-rehab.",
+    "tags": [
+      "Rehabilitation",
+      "Post-Radiotherapy",
+      "Nutrition",
+      "Exercise",
+      "Telehealth"
+    ],
+    "icon": "🌱",
+    "link": null
+  },
+  {
+    "title": "Hero-Beam Companion",
+    "category": "health",
+    "period": "Product Concept",
+    "description": "Aplikasi pendamping orang tua pasien anak yang menjalani radioterapi dengan dose tracker ramah anak, panduan harian di rumah, tips perawatan efek samping, pengingat obat dan kunjungan, check-in mood dan kenyamanan, panduan tanda bahaya, modul persiapan prosedur, dan dukungan stres orang tua.",
+    "tags": [
+      "Pediatric Oncology",
+      "Caregiver Support",
+      "Radiotherapy",
+      "Medication Reminder",
+      "Family Education"
+    ],
+    "icon": "🦸",
+    "link": null
+  },
+  {
+    "title": "Linac Circle",
+    "category": "health",
+    "period": "Product Concept",
+    "description": "Komunitas digital untuk pasien dan survivor radioterapi dengan forum berbagi pengalaman, milestone terapi, grouping berbasis diagnosis, opsi anonim, feed dukungan sebaya, mentorship survivor, micro-content edukatif, dan moderasi ruang aman.",
+    "tags": [
+      "Community Platform",
+      "Patient Support",
+      "Survivorship",
+      "Peer Mentorship",
+      "Safe Space"
+    ],
+    "icon": "⭕",
+    "link": null
+  },
+  {
+    "title": "Rad-Expert Portfolio",
+    "category": "health",
+    "period": "Product Concept",
+    "description": "Platform branding profesional untuk dokter muda, residen, dan spesialis onkologi radiasi dengan case portfolio builder, visualisasi contouring, dukungan publikasi, academic CV generator, slide assistant, research tracker, personal branding page, dan arsip sertifikasi serta pelatihan.",
+    "tags": [
+      "Professional Portfolio",
+      "Academic Productivity",
+      "Radiation Oncology",
+      "Publication Support",
+      "Personal Branding"
+    ],
+    "icon": "📚",
+    "link": null
+  },
+  {
+    "title": "Contouring Assistant AI",
+    "category": "innovation",
+    "period": "Product Concept",
+    "description": "Modul AI untuk membantu contouring radioterapi melalui auto-segmentation, workspace koreksi manual, deteksi multi-struktur, version control contour, confidence score AI, integrasi DICOM, workflow review dan approval, serta analitik efisiensi waktu.",
+    "tags": [
+      "AI",
+      "Auto-Segmentation",
+      "Contouring",
+      "DICOM",
+      "Workflow Efficiency"
+    ],
+    "icon": "🧠",
+    "link": null
+  },
+  {
+    "title": "Oncology Extension",
+    "category": "health",
+    "period": "Product Concept",
+    "description": "Modul tambahan untuk SIMRS yang fokus pada layanan onkologi dengan registry pasien terstruktur, penjadwalan radioterapi, treatment timeline, koordinasi multidisiplin, manajemen consent dan dokumen, monitoring efek samping, outcome reporting, serta integrasi billing rumah sakit.",
+    "tags": [
+      "Hospital Information System",
+      "Oncology Registry",
+      "Radiotherapy Scheduling",
+      "Clinical Workflow",
+      "Outcome Reporting"
+    ],
+    "icon": "🏥",
+    "link": null
   }
 ]
