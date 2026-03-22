@@ -1,188 +1,65 @@
-# Website Portofolio LPDP - dr. Muhammad Sobri Maulana
+# RadioCurate AI
 
-Website portofolio profesional untuk aplikasi beasiswa LPDP Program Spesialis Onkologi Radiasi.
+RadioCurate AI is a modern web application for radiation therapy planning support. It presents AI-assisted plan comparison, explainable cohort matching, plan quality review, global case insights, and operational data management in a clean, medical-grade dashboard experience.
 
-## 👤 Author
+> **Clinical disclaimer:** RadioCurate AI is a clinical decision-support interface only. It is **not** a replacement for physician judgment, multidisciplinary review, physicist validation, quality assurance, or institutional treatment protocols.
 
-**dr. Muhammad Sobri Maulana**
-- **GitHub:** [sobri3195](https://github.com/sobri3195)
-- **Email:** [muhammadsobrimaulana31@gmail.com](mailto:muhammadsobrimaulana31@gmail.com)
-- **Website Utama:** [muhammadsobrimaulana.netlify.app](https://muhammadsobrimaulana.netlify.app)
-- **Website Alternatif:** [muhammad-sobri-maulana-kvr6a.sevalla.page](https://muhammad-sobri-maulana-kvr6a.sevalla.page/)
+## Tech Stack
 
-## 🔗 Sosial Media & Komunitas
+- React
+- Vite
+- TSX-based typed components
+- Custom reusable dashboard UI components inspired by shadcn/ui composition patterns
+- Local icon set aligned to lucide-style usage
+- React Router
 
-- **YouTube:** [@muhammadsobrimaulana6013](https://www.youtube.com/@muhammadsobrimaulana6013)
-- **Telegram:** [@winlin_exploit](https://t.me/winlin_exploit)
-- **TikTok:** [@dr.sobri](https://www.tiktok.com/@dr.sobri)
-- **Grup WhatsApp:** [Join Group](https://chat.whatsapp.com/B8nwRZOBMo64GjTwdXV8Bl)
+## Included Pages
 
-## 💰 Dukung Saya (Donasi)
+1. **Landing Page** — hero, features, trust & safety framing, footer
+2. **Dashboard** — overview stats, recent case reviews, alerts, quick actions
+3. **Patient Case Comparison** — patient summary, plan summary, similar cases, confidence, outcomes, explainability, hope visualization
+4. **Treatment Plan Analysis** — dose distribution, OAR metrics, quality score, optimization opportunities
+5. **Global Case Insights** — filters, trends, heatmap-style panels, similarity search UI
+6. **Explainability & Audit** — factor weights, confidence framing, audit trail, validation notes
+7. **Admin / Data Management** — dataset summary, ETL status, model versioning, access placeholders
 
-Jika Anda merasa terbantu dengan proyek ini, Anda dapat memberikan dukungan melalui:
-- **Lynk.id:** [lynk.id/muhsobrimaulana](https://lynk.id/muhsobrimaulana)
-- **Trakteer:** [trakteer.id/g9mkave5gauns962u07t](https://trakteer.id/g9mkave5gauns962u07t)
-- **Nyawer:** [nyawer.co/MuhammadSobriMaulana](https://nyawer.co/MuhammadSobriMaulana)
-- **Karyakarsa:** [karyakarsa.com/muhammadsobrimaulana](https://karyakarsa.com/muhammadsobrimaulana)
+## Product Notes
 
-## 🛒 Produk & Lainnya
+- Built with reusable dashboard primitives such as cards, badges, progress indicators, tabs, alerts, empty states, and loading-ready UI patterns.
+- Uses mock clinical data only for demonstration.
+- Organized for maintainability and ready to deploy to Vercel.
+- Responsive across desktop and tablet-sized layouts.
 
-- **Gumroad:** [maulanasobri.gumroad.com](https://maulanasobri.gumroad.com/)
-- **Toko Online Sobri:** [pegasus-shop.netlify.app](https://pegasus-shop.netlify.app)
-
----
-
-## 🚀 Teknologi
-
-- **Framework:** React 18
-- **Build Tool:** Vite
-- **Routing:** React Router DOM v7
-- **Styling:** CSS (Custom)
-- **Deployment:** Netlify
-
-## 📋 Fitur
-
-- ✅ Responsive design (mobile-first)
-- ✅ Multi-page dengan React Router
-- ✅ Download PDF documents
-- ✅ Contact form dengan Netlify Forms
-- ✅ SEO optimized
-- ✅ Accessibility compliant
-
-## 🛠️ Development
-
-### Prerequisites
-
-- Node.js 18+
-- npm atau yarn
-
-### Installation
+## Local Development
 
 ```bash
-# Install dependencies
 npm install
-
-# Run development server
 npm run dev
-
-# Build for production
 npm run build
-
-# Preview production build
 npm run preview
 ```
 
-## 📁 Struktur Folder
+## Deployment
 
-```
+This project is ready for deployment on **Vercel**:
+
+1. Import the repository into Vercel.
+2. Vercel should detect the Vite configuration automatically.
+3. Use the default build command: `npm run build`.
+4. Use the default output directory: `dist`.
+
+## Folder Structure
+
+```text
 src/
-├── assets/          # Gambar dan aset statis
-├── components/      # Komponen reusable
-├── data/            # File JSON untuk konten
-├── pages/           # Halaman-halaman website
-├── App.jsx          # Root component
-├── main.jsx         # Entry point
-└── index.css        # Global styles
-
-public/
-├── documents/       # File PDF untuk download
-└── _redirects       # Netlify redirects
+  components/
+    layout/
+    shared/
+    ui/
+  data/
+  lib/
+  pages/
+  App.tsx
+  index.css
+  main.tsx
 ```
-
-## 📝 Cara Mengisi Konten
-
-### 1. Data JSON
-
-Edit file di folder `src/data/`:
-- `education.json` - Data pendidikan
-- `experience.json` - Pengalaman kerja
-- `publications.json` - Publikasi ilmiah
-- `projects.json` - Proyek dan inovasi
-
-### 2. Dokumen PDF
-
-Letakkan file PDF di folder `public/documents/`:
-- `CV_Muhammad_Sobri_Maulana.pdf`
-- `Motivation_Letter.pdf`
-- `Career_Plan.pdf`
-- `Contribution_Plan.pdf`
-- `LPDP_Full_Package_Muhammad_Sobri_Maulana.pdf`
-- dll.
-
-### 3. Foto Profil
-
-Ganti placeholder dengan foto profesional Anda:
-- Letakkan foto di `src/assets/images/profile.jpg`
-- Edit komponen Hero di `src/pages/Home.jsx`
-
-### 4. Informasi Kontak
-
-Edit di:
-- `src/components/Footer.jsx`
-- `src/pages/Contact.jsx`
-
-## 🌐 Deploy ke Netlify
-
-### Opsi 1: Netlify CLI
-
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Login
-netlify login
-
-# Deploy
-netlify deploy --prod
-```
-
-### Opsi 2: GitHub Integration
-
-1. Push code ke GitHub
-2. Buka [Netlify](https://netlify.com)
-3. Import repository
-4. Netlify akan auto-detect Vite settings
-5. Deploy!
-
-### Opsi 3: Drag & Drop
-
-1. Build project: `npm run build`
-2. Drag folder `dist` ke Netlify drop zone
-
-## ✅ Checklist Sebelum Deploy
-
-### Konten
-- [ ] Nama lengkap dan gelar benar di semua halaman
-- [ ] Data pendidikan dan pengalaman akurat
-- [ ] Publikasi lengkap dengan DOI
-- [ ] Tidak ada placeholder yang terlewat
-
-### Data Sensitif
-- [ ] Hapus/samarkan NIK, STR, nomor identitas
-- [ ] Alamat lengkap tidak ditampilkan
-- [ ] Nomor telepon pribadi tidak di-public
-
-### Performa
-- [ ] Gambar teroptimasi (WebP, < 500KB)
-- [ ] PDF terkompresi (< 5MB per file)
-- [ ] Lighthouse score > 90
-
-### SEO
-- [ ] Meta title di setiap halaman
-- [ ] Meta description relevan
-- [ ] Alt text untuk gambar
-
-### Dokumen PDF
-- [ ] Semua file PDF tersedia di `public/documents/`
-- [ ] Nama file konsisten dan deskriptif
-- [ ] File dapat dibuka dan dibaca
-
-### Domain
-- [ ] Custom domain/subdomain di Netlify (opsional)
-- [ ] SSL/HTTPS aktif
-
----
-
-**© 2025 dr. Muhammad Sobri Maulana. All rights reserved.**
-
-Website ini dibuat untuk keperluan aplikasi beasiswa LPDP.
