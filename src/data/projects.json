@@ -1,5 +1,20 @@
 [
   {
+    "title": "Gen-Rad Guardian: AI-Powered Cancer Risk Management Platform",
+    "category": "innovation",
+    "period": "Product Demo 2026",
+    "description": "Platform preventif untuk analisis risiko kanker berbasis pola hidup, paparan lingkungan, riwayat keluarga, dan perilaku kesehatan. Menyediakan dashboard risiko, rekomendasi skrining suportif, explainability, edukasi personal, dan population insights dengan disclaimer klinis yang jelas.",
+    "tags": [
+      "AI",
+      "Cancer Risk Management",
+      "Screening Support",
+      "Explainable AI",
+      "Health-tech MVP"
+    ],
+    "icon": "🛡️",
+    "link": "/projects/gen-rad-guardian"
+  },
+  {
     "title": "OnkoSob Web: Platform Pendamping Pasien & Keluarga",
     "category": "health",
     "period": "Implemented",

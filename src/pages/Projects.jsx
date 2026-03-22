@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import Card from '../components/Card'
 import projectsData from '../data/projects.json'
 import './Projects.css'
+import { GenRadShowcaseTeaser } from '../gen-rad/pages'
 
 const additionalPortfolioCategories = [
   'Penelitian Klinis',
@@ -87,6 +88,7 @@ function Projects() {
 
       <section className="section projects-list">
         <div className="container">
+          <GenRadShowcaseTeaser />
           <div className="projects-toolbar">
             <label htmlFor="project-search" className="projects-search-label">
               Cari proyek berdasarkan judul, periode, deskripsi, atau tag

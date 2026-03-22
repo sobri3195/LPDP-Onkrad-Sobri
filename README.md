@@ -1,6 +1,6 @@
 # Website Portofolio LPDP - dr. Muhammad Sobri Maulana
 
-Website portofolio profesional untuk aplikasi beasiswa LPDP Program Spesialis Onkologi Radiasi.
+Website portofolio profesional untuk aplikasi beasiswa LPDP Program Spesialis Onkologi Radiasi, kini dilengkapi showcase produk **Gen-Rad Guardian** sebagai karya health-tech preventif berbasis AI.
 
 ## 👤 Author
 
@@ -29,25 +29,55 @@ Jika Anda merasa terbantu dengan proyek ini, Anda dapat memberikan dukungan mela
 
 - **Gumroad:** [maulanasobri.gumroad.com](https://maulanasobri.gumroad.com/)
 - **Toko Online Sobri:** [pegasus-shop.netlify.app](https://pegasus-shop.netlify.app)
+- **Gen-Rad Guardian Demo:** `/projects/gen-rad-guardian`
 
 ---
 
 ## 🚀 Teknologi
 
-- **Framework:** React 18
-- **Build Tool:** Vite
-- **Routing:** React Router DOM v7
-- **Styling:** CSS (Custom)
-- **Deployment:** Netlify
+- **Framework:** React 18 + Vite
+- **Routing:** React Router DOM
+- **Styling:** Custom CSS dengan design system khusus Gen-Rad Guardian
+- **Build Target:** Static deployment friendly (Netlify / Vercel)
+- **Product Demo:** Preventive oncology risk management dashboard
+
+## 🧪 Gen-Rad Guardian
+
+Gen-Rad Guardian adalah modern health-tech showcase untuk manajemen risiko kanker preventif dengan halaman berikut:
+
+- Landing page produk.
+- Risk Assessment Dashboard.
+- Personal Risk Profile.
+- Screening Recommendation.
+- Trend & Monitoring.
+- Education & Prevention.
+- Explainability & Audit.
+- Admin / Population Insights.
+
+### Safety Disclaimer
+
+Gen-Rad Guardian **bukan** sistem diagnosis, **bukan** pengganti dokter, dan **bukan** mesin rekomendasi terapi definitif. Semua output ditampilkan sebagai dukungan preventif, edukatif, dan prioritisasi skrining yang tetap memerlukan validasi klinis profesional.
+
+### Struktur Tambahan
+
+```bash
+src/gen-rad/
+├── components/        # App shell, cards, tabs, alerts, skeletons
+├── data.ts            # Mock datasets untuk user, risk factors, screening, cohort
+├── GenRadRouter.tsx   # Product routes
+├── pages.tsx          # Semua halaman utama produk
+└── styles.css         # Health-tech design system khusus produk
+```
 
 ## 📋 Fitur
 
-- ✅ Responsive design (mobile-first)
+- ✅ Responsive design (desktop & tablet friendly)
 - ✅ Multi-page dengan React Router
 - ✅ Download PDF documents
 - ✅ Contact form dengan Netlify Forms
 - ✅ SEO optimized
-- ✅ Accessibility compliant
+- ✅ Accessibility conscious layout
+- ✅ Dashboard health-tech product showcase di dalam portfolio
 
 ## 🛠️ Development
 
@@ -74,19 +104,20 @@ npm run preview
 
 ## 📁 Struktur Folder
 
-```
+```bash
 src/
-├── assets/          # Gambar dan aset statis
-├── components/      # Komponen reusable
-├── data/            # File JSON untuk konten
-├── pages/           # Halaman-halaman website
-├── App.jsx          # Root component
-├── main.jsx         # Entry point
-└── index.css        # Global styles
+├── assets/            # Gambar dan aset statis
+├── components/        # Komponen reusable portfolio
+├── data/              # File JSON untuk konten portfolio
+├── gen-rad/           # Product demo Gen-Rad Guardian
+├── pages/             # Halaman-halaman website
+├── App.jsx            # Root component dan route wiring
+├── main.jsx           # Entry point
+└── index.css          # Global styles
 
 public/
-├── documents/       # File PDF untuk download
-└── _redirects       # Netlify redirects
+├── documents/         # File PDF untuk download
+└── _redirects         # Netlify redirects
 ```
 
 ## 📝 Cara Mengisi Konten
@@ -121,33 +152,23 @@ Edit di:
 - `src/components/Footer.jsx`
 - `src/pages/Contact.jsx`
 
-## 🌐 Deploy ke Netlify
+## 🌐 Deploy
 
-### Opsi 1: Netlify CLI
+### Vercel
 
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
+1. Push repository ke GitHub.
+2. Import project ke [Vercel](https://vercel.com).
+3. Framework preset akan terdeteksi sebagai **Vite**.
+4. Gunakan perintah build default `npm run build`.
+5. Output directory: `dist`.
 
-# Login
-netlify login
+### Netlify
 
-# Deploy
-netlify deploy --prod
-```
-
-### Opsi 2: GitHub Integration
-
-1. Push code ke GitHub
-2. Buka [Netlify](https://netlify.com)
-3. Import repository
-4. Netlify akan auto-detect Vite settings
-5. Deploy!
-
-### Opsi 3: Drag & Drop
-
-1. Build project: `npm run build`
-2. Drag folder `dist` ke Netlify drop zone
+1. Push code ke GitHub.
+2. Buka [Netlify](https://netlify.com).
+3. Import repository.
+4. Netlify akan auto-detect Vite settings.
+5. Deploy.
 
 ## ✅ Checklist Sebelum Deploy
 
@@ -156,6 +177,7 @@ netlify deploy --prod
 - [ ] Data pendidikan dan pengalaman akurat
 - [ ] Publikasi lengkap dengan DOI
 - [ ] Tidak ada placeholder yang terlewat
+- [ ] Disclaimer Gen-Rad Guardian tetap tampil jelas
 
 ### Data Sensitif
 - [ ] Hapus/samarkan NIK, STR, nomor identitas
@@ -178,11 +200,11 @@ netlify deploy --prod
 - [ ] File dapat dibuka dan dibaca
 
 ### Domain
-- [ ] Custom domain/subdomain di Netlify (opsional)
+- [ ] Custom domain/subdomain di Netlify atau Vercel (opsional)
 - [ ] SSL/HTTPS aktif
 
 ---
 
-**© 2025 dr. Muhammad Sobri Maulana. All rights reserved.**
+**© 2026 dr. Muhammad Sobri Maulana. All rights reserved.**
 
-Website ini dibuat untuk keperluan aplikasi beasiswa LPDP.
+Website ini dibuat untuk keperluan aplikasi beasiswa LPDP dan showcase karya produk kesehatan digital.

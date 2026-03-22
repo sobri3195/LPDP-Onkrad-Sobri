@@ -33,6 +33,47 @@ const ROUTE_META = {
     description:
       'Rangkaian proyek profesional dan inisiatif berdampak yang mendukung pelayanan kesehatan serta pengembangan keilmuan onkologi radiasi.'
   },
+
+  '/projects/gen-rad-guardian': {
+    title: 'Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Landing page Gen-Rad Guardian, platform AI preventif untuk manajemen risiko kanker, edukasi skrining dini, dan explainability.'
+  },
+  '/projects/gen-rad-guardian/dashboard': {
+    title: 'Dashboard Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Dashboard risiko Gen-Rad Guardian dengan risk score, alert preventif, faktor risiko aktif, dan riwayat asesmen.'
+  },
+  '/projects/gen-rad-guardian/profile': {
+    title: 'Risk Profile Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Profil risiko personal Gen-Rad Guardian dengan breakdown gaya hidup, paparan lingkungan, dan riwayat keluarga.'
+  },
+  '/projects/gen-rad-guardian/recommendations': {
+    title: 'Screening Recommendation Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Rekomendasi skrining suportif Gen-Rad Guardian dengan disclaimer validasi klinis yang jelas.'
+  },
+  '/projects/gen-rad-guardian/monitoring': {
+    title: 'Monitoring Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Trend dan monitoring Gen-Rad Guardian untuk pemantauan skor risiko, perilaku, dan milestone preventif.'
+  },
+  '/projects/gen-rad-guardian/education': {
+    title: 'Education Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Halaman edukasi dan pencegahan Gen-Rad Guardian berisi checklist, FAQ, dan myth vs fact.'
+  },
+  '/projects/gen-rad-guardian/explainability': {
+    title: 'Explainability Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Transparansi model dan audit trail Gen-Rad Guardian untuk mendukung penggunaan AI yang aman.'
+  },
+  '/projects/gen-rad-guardian/admin': {
+    title: 'Population Insights Gen-Rad Guardian | Karya Sobri',
+    description:
+      'Admin dan population insights Gen-Rad Guardian untuk distribusi risiko, kohort, dan kesehatan dataset.'
+  },
   '/documents': {
     title: 'Dokumen | Portofolio LPDP Muhammad Sobri Maulana',
     description:

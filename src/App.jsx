@@ -16,6 +16,8 @@ import Documents from './pages/Documents'
 import Contact from './pages/Contact'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import NotFound from './pages/NotFound'
+import GenRadRouter from './gen-rad/GenRadRouter'
+import './gen-rad/styles.css'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -27,6 +29,42 @@ function ScrollToTop() {
   return null
 }
 
+function AppLayout() {
+  const location = useLocation()
+  const isGenRad = location.pathname.startsWith('/projects/gen-rad-guardian')
+
+  return (
+    <ErrorBoundary>
+      <div className={`app ${isGenRad ? 'gr-theme' : ''}`}>
+        <ScrollProgress />
+        <a href="#main-content" className="skip-to-content">
+          Lewati ke konten utama
+        </a>
+        {!isGenRad && <Navbar />}
+        <main id="main-content" className={`main-content ${isGenRad ? 'main-content-product' : ''}`}>
+          <ScrollToTop />
+          <RouteMeta />
+          {!isGenRad && <Breadcrumb />}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/lpdp-package" element={<LPDPPackage />} />
+            <Route path="/publications" element={<Publications />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/gen-rad-guardian/*" element={<GenRadRouter />} />
+            <Route path="/documents" element={<Documents />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        {!isGenRad && <Footer />}
+        {!isGenRad && <BackToTop />}
+      </div>
+    </ErrorBoundary>
+  )
+}
+
 function App() {
   useEffect(() => {
     document.documentElement.style.scrollBehavior = 'smooth'
@@ -34,33 +72,7 @@ function App() {
 
   return (
     <Router>
-      <ErrorBoundary>
-        <div className="app">
-          <ScrollProgress />
-          <a href="#main-content" className="skip-to-content">
-            Lewati ke konten utama
-          </a>
-          <Navbar />
-          <main id="main-content" className="main-content">
-            <ScrollToTop />
-            <RouteMeta />
-            <Breadcrumb />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/lpdp-package" element={<LPDPPackage />} />
-              <Route path="/publications" element={<Publications />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/documents" element={<Documents />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
-          <BackToTop />
-        </div>
-      </ErrorBoundary>
+      <AppLayout />
     </Router>
   )
 }

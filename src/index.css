@@ -766,3 +766,11 @@ dd {
   }
 }
 
+
+.main-content-product {
+  margin-top: 0;
+}
+
+.main-content-product .scroll-progress {
+  display: none;
+}
