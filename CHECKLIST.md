@@ -4,6 +4,29 @@ Gunakan checklist ini untuk memastikan website Anda siap dan profesional sebelum
 
 ---
 
+## ✅ CHECKLIST KHUSUS UNTUK SOBRI
+
+### Identitas & Profil
+- [ ] Nama lengkap: **Muhammad Sobri Maulana** konsisten di semua halaman
+- [ ] Gelar akademik ditulis dengan format yang benar
+- [ ] Foto profil terbaru, formal, dan resolusi baik
+- [ ] Ringkasan profil menekankan komitmen kontribusi untuk Indonesia
+
+### Dokumen & Link Penting
+- [ ] `CV_Muhammad_Sobri_Maulana.pdf` versi terbaru dan final
+- [ ] `Motivation_Letter.pdf` final tanpa typo
+- [ ] `Career_Plan.pdf` relevan dengan target studi
+- [ ] `Contribution_Plan.pdf` jelas, spesifik, dan measurable
+- [ ] Link LinkedIn valid dan up-to-date
+- [ ] ORCID/Google Scholar (jika ada) aktif dan dapat diakses
+
+### Kesiapan Submit
+- [ ] Semua dokumen sudah diunggah dan dapat diunduh
+- [ ] Konten website sudah direview minimal 1 orang
+- [ ] Screenshot halaman utama sudah diambil sebagai backup
+
+---
+
 ## 📝 KONTEN
 
 ### Informasi Dasar
