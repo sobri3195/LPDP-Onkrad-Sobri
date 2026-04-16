@@ -316,6 +316,21 @@
     "link": null
   },
   {
+    "title": "Portofolio Sobri: Harvard Hackathon Juara 2 (Deteksi Kanker)",
+    "category": "innovation",
+    "period": "Achievement",
+    "description": "Portofolio proyek Sobri yang meraih Juara 2 pada Harvard Hackathon dengan solusi deteksi kanker berbasis AI untuk membantu identifikasi dini, prioritisasi pemeriksaan lanjutan, dan peningkatan akurasi skrining klinis.",
+    "tags": [
+      "Harvard Hackathon",
+      "Juara 2",
+      "AI",
+      "Cancer Detection",
+      "Portfolio"
+    ],
+    "icon": "🥈",
+    "link": null
+  },
+  {
     "title": "RadioCurate AI",
     "category": "innovation",
     "period": "Product Concept",
