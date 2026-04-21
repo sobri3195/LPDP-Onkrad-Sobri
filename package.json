@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo \"Lint belum dikonfigurasi: pasang ESLint saat akses registry tersedia\"",
+    "test": "echo \"Test suite belum dikonfigurasi\"",
+    "ci:check": "npm run typecheck && npm run build"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -70,7 +70,7 @@ function Documents() {
           name: 'Sobri RadOnc Products (1 Halaman)',
           description: 'Ringkasan 8 produk Sobri RadOnc dalam satu halaman PDF.',
           size: '1 Page',
-          available: true,
+          available: false,
           filename: 'Sobri_RadOnc_Products_One_Page.pdf'
         }
       ]
@@ -176,14 +176,9 @@ function Documents() {
                 <li>Sobri RadOnc Guide</li>
                 <li>Sobri RadOnc OAR</li>
               </ul>
-              <a
-                href="/documents/Sobri_RadOnc_Products_One_Page.pdf"
-                className="btn btn-primary"
-                download
-                onClick={(event) => handleDocumentDownload(event, 'Sobri_RadOnc_Products_One_Page.pdf')}
-              >
-                Unduh PDF 1 Halaman
-              </a>
+              <span className="btn btn-outline" aria-disabled="true">
+                PDF 1 Halaman belum tersedia
+              </span>
             </div>
           </div>
 
