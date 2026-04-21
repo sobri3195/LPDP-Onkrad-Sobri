@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import { downloadPdfByFilename } from '../utils/pdfDownload'
 import './Documents.css'
 
 function Documents() {
+  const [searchQuery, setSearchQuery] = useState('')
+
   const documentCategories = [
     {
       title: 'Dokumen LPDP',
@@ -97,6 +100,23 @@ function Documents() {
     }
   ]
 
+  const filteredCategories = (() => {
+    const query = searchQuery.trim().toLowerCase()
+    if (!query) {
+      return documentCategories
+    }
+
+    return documentCategories
+      .map((category) => ({
+        ...category,
+        documents: category.documents.filter((doc) => {
+          const haystack = `${doc.name} ${doc.description} ${doc.filename}`.toLowerCase()
+          return haystack.includes(query)
+        })
+      }))
+      .filter((category) => category.documents.length > 0)
+  })()
+
   const handleDocumentDownload = (event, filename) => {
     const handled = downloadPdfByFilename(filename)
     if (handled) {
@@ -128,7 +148,18 @@ function Documents() {
             </div>
           </div>
 
-          {documentCategories.map((category, idx) => (
+          <div className="documents-search">
+            <label htmlFor="document-search">Cari dokumen</label>
+            <input
+              id="document-search"
+              type="search"
+              placeholder="Contoh: CV, motivation, sertifikat..."
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
+            />
+          </div>
+
+          {filteredCategories.length > 0 ? filteredCategories.map((category, idx) => (
             <div key={idx} className="document-category">
               <h2>{category.title}</h2>
               <div className="documents-grid">
@@ -159,7 +190,11 @@ function Documents() {
                 ))}
               </div>
             </div>
-          ))}
+          )) : (
+            <div className="document-empty-state">
+              <p>Tidak ada dokumen yang cocok dengan pencarian "{searchQuery}".</p>
+            </div>
+          )}
 
 
           <div className="document-instructions products-one-page-section">
