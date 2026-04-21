@@ -42,6 +42,32 @@
   color: var(--text-dark);
 }
 
+.documents-search {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.documents-search label {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.documents-search input {
+  border: 1px solid rgba(30, 58, 138, 0.25);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.documents-search input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.12);
+}
+
 .document-category {
   margin-bottom: 3rem;
 }
@@ -114,6 +140,14 @@
 .document-card .btn {
   flex-shrink: 0;
   padding: 0.5rem 1.25rem;
+}
+
+.document-empty-state {
+  background: white;
+  border-radius: 8px;
+  padding: 1.25rem;
+  color: var(--text-gray);
+  border: 1px dashed rgba(30, 58, 138, 0.25);
 }
 
 .document-instructions {

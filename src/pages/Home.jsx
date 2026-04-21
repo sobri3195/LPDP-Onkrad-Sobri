@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import ParticleBackground from '../components/ParticleBackground'
 import SocialShare from '../components/SocialShare'
 import './Home.css'
 
 function Home() {
+  const [imageError, setImageError] = useState(false)
+
   useEffect(() => {
     const observerOptions = {
       threshold: 0.1,
@@ -75,10 +77,20 @@ function Home() {
             <div className="hero-image animate-fadeInRight">
               <div className="profile-image-container animate-pulseShadow">
                 <div className="profile-glow"></div>
-                <div className="profile-placeholder">
-                  <div className="profile-icon">👨‍⚕️</div>
-                  <div className="image-note">Foto Profil</div>
-                </div>
+                {imageError ? (
+                  <div className="profile-placeholder">
+                    <div className="profile-icon">👨‍⚕️</div>
+                    <div className="image-note">Foto Profil</div>
+                  </div>
+                ) : (
+                  <img
+                    src="/profile.jpg"
+                    alt="Foto profil dr. Muhammad Sobri Maulana"
+                    className="profile-image"
+                    loading="eager"
+                    onError={() => setImageError(true)}
+                  />
+                )}
               </div>
               <div className="floating-card card-1 animate-fadeInUp">
                 <div className="floating-icon">🎯</div>
